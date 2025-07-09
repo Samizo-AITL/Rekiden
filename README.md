@@ -21,24 +21,30 @@
 ## 📂 ディレクトリ構成
 ```
 Rekiden/
-├─ README.md                    ← 本ファイル
+├─ README.md
 ├─ docs/
-│  └─ game_spec.md              ← ゲームルール・能力値定義・進行方式
+│  ├─ game_spec.md              ← ゲームルール・能力値定義・進行方式
+│  └─ how_to_play.md           ← はじめての方向けガイド
 ├─ scenarios/
-│  ├─ sengoku/                  ← 🏯 戦国時代シナリオ（全7時代）
-│  │  ├─ README.md              ← 戦国シナリオ概要
-│  │  ├─ periods/               ← 時代別テンプレート（例：1560_桶狭間.md）
-│  │  ├─ busho_stats.md         ← 武将能力値一覧（統率・武力など）
-│  │  ├─ province_data.md       ← 各勢力の領地・人口・兵力・資金など
-│  │  └─ diplomacy_matrix.md    ← 同盟・敵対関係の表
-│  └─ bakumatsu/               ← 🎌 幕末シナリオ（準備中）
+│  ├─ sengoku/
+│  │  ├─ README.md
+│  │  ├─ periods/
+│  │  │  ├─ 1555_sangoku_alliance.md
+│  │  │  ├─ 1560_okehazama.md
+│  │  │  ├─ 1561_kawanakajima.md
+│  │  │  ├─ 1575_nagashino.md
+│  │  │  ├─ 1582-1_honnoji.md
+│  │  │  ├─ 1582-2_chugoku_ogaeshi.md
+│  │  │  └─ 1590_odawara_if.md
+│  │  ├─ busho_stats.md         ← 武将能力値一覧
+│  │  ├─ province_data.md       ← 勢力・領地・経済情報
+│  │  └─ diplomacy_matrix.md    ← 同盟・敵対関係表
+│  └─ bakumatsu/                ← 幕末（準備中）
 │     └─ README.md
 ├─ templates/
-│  └─ scenario_template.md      ← シナリオ共通テンプレート（Yes/No選択式）
+│  └─ scenario_template.md      ← Yes/No形式テンプレート
 ├─ play_logs/
-│  └─ okehazama_oda_user001.md ← 実プレイ例・セーブデータ
-
-
+│  └─ okehazama_oda_user001.md ← 実プレイ例（旧バージョン）
 ```
 ---
 
@@ -53,21 +59,40 @@ Rekiden/
 
 ## 🤖 ChatGPTでのプレイスタイル
 
-Rekiden は、ChatGPT（GPT-4 以降）をパートナーとしてプレイする**対話型歴史シミュレーション**です。
+Rekiden は、ChatGPT（GPT-4以降）をパートナーとしてプレイする  
+**対話型歴史シミュレーション**です。
 
-- シナリオファイル（Markdown）をChatGPTに貼り付けるだけで、プレイが始まります。
-- プレイヤーは「◯◯家を選択」「第1ターンは①を選択」などを入力するだけ。
-- GPTが戦況判断・分岐・イベントを自動で進行・描写してくれます。
+- 各 `.md` ファイル（シナリオ）をChatGPTに貼り付けるだけでゲーム開始
+- プレイヤーは「◯◯家を選択」「第1ターンは①を選択」などを入力
+- GPTがその結果を自動生成し、次の選択へと導きます
 
-> 🧠 GPTが“ゲームマスター”となり、あなたの選択に応じて歴史のifを柔軟に展開します。
+> 🧠 GPTがゲームマスターとなり、歴史の「if」展開を描写・管理してくれます
 
 ---
 
 ## 📘 遊び方ガイド（はじめての方へ）
 
-ChatGPTでの実際のプレイ手順や、コピー＆ペースト方法を知りたい方は以下をご覧ください：
+ChatGPTでのプレイ手順、貼り付け方法などは以下をご覧ください：
 
 ▶︎ [遊び方ガイド（how_to_play.md）](./docs/how_to_play.md)
+
+---
+
+## 🎮 ゲームを始める（シナリオ一覧）
+
+以下のリンクから、各時代のシナリオをChatGPTに貼り付けて開始できます：
+
+| 年号     | タイトル                  | シナリオリンク                                                   |
+|----------|---------------------------|------------------------------------------------------------------|
+| 1555年   | 三国同盟                  | [1555_sangoku_alliance.md](./scenarios/sengoku/periods/1555_sangoku_alliance.md) |
+| 1560年   | 桶狭間の戦い              | [1560_okehazama.md](./scenarios/sengoku/periods/1560_okehazama.md)               |
+| 1561年   | 川中島の戦い              | [1561_kawanakajima.md](./scenarios/sengoku/periods/1561_kawanakajima.md)         |
+| 1575年   | 長篠の戦い                | [1575_nagashino.md](./scenarios/sengoku/periods/1575_nagashino.md)               |
+| 1582年① | 本能寺の変                | [1582-1_honnoji.md](./scenarios/sengoku/periods/1582-1_honnoji.md)               |
+| 1582年② | 中国大返し                | [1582-2_chugoku_ogaeshi.md](./scenarios/sengoku/periods/1582-2_chugoku_ogaeshi.md) |
+| 1590年   | 小田原征伐（if展開）     | [1590_odawara_if.md](./scenarios/sengoku/periods/1590_odawara_if.md)             |
+| 1600年   | 関ヶ原の戦い（準備中）   | 🔧 準備中                                                          |
+| 1614年   | 大坂の陣（準備中）       | 🔧 準備中                                                          |
 
 ---
 
@@ -85,24 +110,19 @@ ChatGPTでの実際のプレイ手順や、コピー＆ペースト方法を知�
 
 ## 📘 実際のプレイ例
 
+以下は旧バージョン形式の実プレイログです：
+
 - [桶狭間の戦い（織田信長）ログ例](play_logs/okehazama_oda_user001.md)
-- Markdown形式＋ChatGPT連携により、**誰でも再現プレイが可能**です。
+
+※ 新バージョンのChatGPTテンプレート対応ログは順次追加予定です
 
 ---
 
-## 🚀 利用方法（予定）
+## 🚀 今後の展開
 
-- ChatGPTなどLLMと連携して、対話形式で進行可能
-- Markdownシナリオを人間同士でもプレイ可能（ゲームブック風）
-- JSON形式に変換して外部UIへの展開も視野（ツール準備中）
-
----
-
-## 🛠 今後の展開
-
-- ✅ 戦国シナリオ（全7時代）完成
+- ✅ 戦国時代シナリオ（全7時代）実装完了
 - 🔜 幕末シナリオ（西郷隆盛・勝海舟・徳川慶喜など）
-- 🔜 GUI対応（Webベースでの表示・操作）
+- 🔜 GUI対応（Webベースの表示・操作）
 - 🔜 ステータス保存機能（Markdown/JSON）
 
 ---
@@ -121,5 +141,3 @@ MIT License © 2025 Shinichi Samizo
 [GitHub](https://github.com/Samizo-AITL) / [Email](mailto:shin3t72@gmail.com)
 
 ---
-
-
