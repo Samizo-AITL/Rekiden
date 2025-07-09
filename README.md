@@ -84,13 +84,13 @@ ChatGPTでのプレイ手順、貼り付け方法などは以下をご覧くだ�
 
 | 年号     | タイトル                  | シナリオリンク                                                   |
 |----------|---------------------------|------------------------------------------------------------------|
-| 1555年   | 三国同盟                  | [1555_sangoku_alliance.md](./scenarios/sengoku/periods/1555_sangoku_alliance.md) |
-| 1560年   | 桶狭間の戦い              | [1560_okehazama.md](./scenarios/sengoku/periods/1560_okehazama.md)               |
-| 1561年   | 川中島の戦い              | [1561_kawanakajima.md](./scenarios/sengoku/periods/1561_kawanakajima.md)         |
-| 1575年   | 長篠の戦い                | [1575_nagashino.md](./scenarios/sengoku/periods/1575_nagashino.md)               |
-| 1582年① | 本能寺の変                | [1582-1_honnoji.md](./scenarios/sengoku/periods/1582-1_honnoji.md)               |
-| 1582年② | 中国大返し                | [1582-2_chugoku_ogaeshi.md](./scenarios/sengoku/periods/1582-2_chugoku_ogaeshi.md) |
-| 1590年   | 小田原征伐（if展開）     | [1590_odawara_if.md](./scenarios/sengoku/periods/1590_odawara_if.md)             |
+| 1555年   | 三国同盟                  | [1555_sangoku_alliance.md](./sengoku/periods/1555_sangoku_alliance.md) |
+| 1560年   | 桶狭間の戦い              | [1560_okehazama.md](./sengoku/periods/1560_okehazama.md)               |
+| 1561年   | 川中島の戦い              | [1561_kawanakajima.md](./sengoku/periods/1561_kawanakajima.md)         |
+| 1575年   | 長篠の戦い                | [1575_nagashino.md](./sengoku/periods/1575_nagashino.md)               |
+| 1582年① | 本能寺の変                | [1582-1_honnoji.md](./sengoku/periods/1582-1_honnoji.md)               |
+| 1582年② | 中国大返し                | [1582-2_chugoku_ogaeshi.md](./sengoku/periods/1582-2_chugoku_ogaeshi.md) |
+| 1590年   | 小田原征伐（if展開）     | [1590_odawara_if.md](./sengoku/periods/1590_odawara_if.md)             |
 | 1600年   | 関ヶ原の戦い（準備中）   | 🔧 準備中                                                          |
 | 1614年   | 大坂の陣（準備中）       | 🔧 準備中                                                          |
 
