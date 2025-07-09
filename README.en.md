@@ -20,7 +20,7 @@ Rekiden is not just a game. It's an **educational, interactive, and expandable f
 
 ## 📂 Directory Structure
 
-
+```
 Rekiden/
 ├─ README.md                 ← Japanese version
 ├─ README.en.md              ← English version (this file)
@@ -38,7 +38,7 @@ Rekiden/
 │  └─ scenario_template.md   ← Scenario format with choices
 ├─ play_logs/
 │  └─ okehazama_oda_user001.md ← Example play log
-
+```
 
 ---
 
