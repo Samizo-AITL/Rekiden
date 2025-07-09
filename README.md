@@ -45,6 +45,7 @@ Rekiden/
 │  └─ scenario_template.md      ← Yes/No形式テンプレート
 ├─ play_logs/
 │  └─ okehazama_oda_user001.md ← 実プレイ例（旧バージョン）
+
 ```
 ---
 
