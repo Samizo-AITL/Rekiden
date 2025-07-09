@@ -74,7 +74,7 @@ Rekiden is designed to be played interactively with ChatGPT (GPT-4 or later):
 
 ## 📘 How to Start
 
-▶︎ See the [Getting Started Guide (how_to_play.md)](./docs/how_to_play_en.md)
+▶︎ See the [Getting Started Guide (how_to_play_en.md)](./docs/how_to_play_en.md)
 
 ---
 
