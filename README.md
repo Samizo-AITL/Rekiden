@@ -109,11 +109,13 @@ ChatGPTでのプレイ手順、貼り付け方法などは以下をご覧くだ�
 
 ## 📘 実際のプレイ例
 
-以下は旧バージョン形式の実プレイログです：
+以下は新バージョン形式のChatGPTテンプレート対応ログです：
 
-- [桶狭間の戦い（織田信長）ログ例](play_logs/okehazama_oda_user001.md)
+- [川中島の戦い（上杉謙信）ログ例](templates/1561_kawanakajima_user001.md)
+- [義の天下 ― 天地人より起つ（上杉景勝）ログ例](templates/1600_uesugi_if_user001.md)
+- [大坂の陣（豊臣秀頼）ログ例](templates/1614_osaka_campaign_user001.md)
 
-※ 新バージョンのChatGPTテンプレート対応ログは順次追加予定です
+テンプレート形式のサンプルは `Rekiden/templates/` に保存されています。
 
 ---
 
