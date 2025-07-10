@@ -18,6 +18,15 @@ This is more than a game. Rekiden is an educational and interactive framework fo
 
 ---
 
+## 🏯 What is the Sengoku Period?
+
+New to Japanese history?  
+See our short introduction to understand the **chaotic and fascinating era** of warlords, alliances, betrayals, and ambition.
+
+▶︎ [Intro to the Sengoku Period (sengoku_intro_en.md)](./docs/sengoku_intro_en.md)
+
+---
+
 ## 📂 Directory Structure
 
 ```
