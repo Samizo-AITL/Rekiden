@@ -78,6 +78,17 @@ Rekiden is designed to be played interactively with ChatGPT (GPT-4 or later):
 
 ---
 
+## 📜 Available Scenarios
+
+| Year   | Title                                  | File (English version)              |
+|--------|----------------------------------------|-------------------------------------|
+| 1555   | Three-Way Alliance (Sangoku)           | *(Not yet translated)*              |
+| 1561   | Battle of Kawanakajima                 | `1561_kawanakajima_en.md`           |
+| 1575   | Battle of Nagashino                    | *(Not yet translated)*              |
+| 1582   | The Great Return from Chūgoku          | *(Not yet translated)*              |
+| 1600   | Battle of Sekigahara                   | *(Not yet translated)*              |
+| 1600   | Righteous Rule – Rise of Tenchijin (If)| `1600_uesugi_if_en.md`              |
+| 1614   | Siege of Osaka                         | `1614_osaka_campaign_en.md`         |
 ## 📚 Available Scenarios
 
 | Year    | Title                           | File (English version)                                           |
