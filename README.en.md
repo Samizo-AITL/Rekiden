@@ -105,7 +105,9 @@ Rekiden is designed to be played interactively with ChatGPT (GPT-4 or later):
 | Educational Context    | Explains historical background and consequences    |
 
 ---
+## 📘 Example Play Log
 
+- [Battle of Kawanakajima – Uesugi Kenshin (Template Log)](templates/1561_kawanakajima_template_en.md)
 ## 📘 Example Play Log
 
 - [Battle of Okehazama – Oda Nobunaga (Legacy Format)](play_logs/okehazama_oda_user001.md)
