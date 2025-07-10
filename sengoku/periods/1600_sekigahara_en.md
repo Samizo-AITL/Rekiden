@@ -99,6 +99,7 @@ Replace the sample values with your own.
 
 ### 🏯 Sekigahara Campaign (Your Chosen Faction) Template
 
+```
 📝 Play Log: Battle of Sekigahara — The Clash That Divided the Realm (Your Faction Name)
 
 🎮 Player Info
@@ -118,5 +119,6 @@ Replace the sample values with your own.
 	•	March to Sekigahara for battle preparation
 	•	Send envoys to allies to delay conflict
 	•	Conduct espionage targeting Kobayakawa or Mōri movements
+```
 
 ---
