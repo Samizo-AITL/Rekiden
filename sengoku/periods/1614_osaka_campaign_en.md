@@ -91,6 +91,7 @@ Copy and paste the following template into ChatGPT to begin.
 
 ### 🟥 Toyotomi Clan (Toyotomi Hideyori) Template
 
+```
 📝 Play Log: Siege of Osaka — The Last Battle of the Toyotomi (Toyotomi Hideyori)
 
 🎮 Player Info
@@ -115,6 +116,6 @@ Copy and paste the following template into ChatGPT to begin.
 	•	Fortify Defense (hold southern line)
 	•	Disrupt & Raid (flanking and night attacks)
 	•	Assassination Attempt (target Ieyasu’s HQ with Yukimura)
-
+```
 
 ---
