@@ -89,6 +89,7 @@ Copy the following template and paste it into ChatGPT to begin.
 
 ### 🟧 Hashiba Army (Hashiba Hideyoshi) Template
 
+```
 📝 Play Log: The Great Return from Chūgoku (Hashiba Hideyoshi)
 
 🎮 Player Info
@@ -108,6 +109,7 @@ Copy the following template and paste it into ChatGPT to begin.
 	•	A: Begin forced march toward Kyoto
 	•	B: Hold siege and evaluate political landscape
 	•	C: Dispatch Kanbei as advance scout and prepare two-phase march
+```
 
  ---
 
