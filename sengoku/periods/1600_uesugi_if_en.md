@@ -124,7 +124,7 @@ Copy and paste the following template into ChatGPT to begin:
 
 ### 🟥 Uesugi Clan (Uesugi Kagekatsu) Template
 
-
+```
 📝 Play Log: Righteous Rule — Rise of Heaven, Earth, and Man (Uesugi Kagekatsu)
 
 🎮 Player Info
@@ -150,6 +150,6 @@ Copy and paste the following template into ChatGPT to begin:
 	•	Protect merchants (Gold +500, covert ops +2)
 	•	Strengthen military (Defense +10%, Morale +5)
 	•	Recruit loyal retainers (chance to acquire new officers)
-
+```
 
 ---
