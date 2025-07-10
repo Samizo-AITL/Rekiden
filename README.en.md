@@ -23,7 +23,7 @@ This is more than a game. Rekiden is an educational and interactive framework fo
 ```
 Rekiden/
 ├─ README.md                   ← Japanese top page
-├─ README.en.md                ← English top page ← このファイルに上記表を記述
+├─ README.en.md                ← English top page 
 ├─ docs/
 │  └─ game_spec.md             ← Game rules and structure
 ├─ sengoku/
