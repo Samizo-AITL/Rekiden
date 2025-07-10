@@ -1,79 +1,93 @@
 # 🏯 Intro to the Sengoku Period – Japan’s Age of Warring States
 
 Welcome to the Sengoku Period (戦国時代) – Japan’s “Age of Warring States.”  
-If you’re new to Japanese history, this short guide will help you understand the people, conflicts, and culture behind **Rekiden**.
+If you’re new to Japanese history, this guide will help you understand the people, conflicts, and shifting powers behind **Rekiden**.
 
 ---
 
 ## ⏳ What Was the Sengoku Period?
 
-- **Timeframe**: Roughly 1467 – 1615 (approx. 150 years)
-- **Meaning**: “Sengoku” literally means “warring states”
-- **What Happened**:
-  - The central government collapsed
-  - Powerful local lords (*daimyo*) began fighting for territory and influence
-  - Japan fell into constant civil war, betrayal, and shifting alliances
-  - Eventually unified by three great figures (see below)
+- **Timeframe**: 1467 – 1615 (about 150 years)
+- **Meaning**: "Sengoku" = Warring States — Japan fell into civil war
+- **Background**:
+  - Central authority collapsed (Ashikaga shogunate weakened)
+  - Regional lords (*daimyo*) rose to power and fought for dominance
+  - Frequent betrayals, shifting alliances, and deadly battles
+  - Ultimately unified by the Three Great Unifiers
 
 ---
 
 ## 👑 The Three Great Unifiers
 
-| Name | Role | Notable Traits |
-|------|------|----------------|
-| **Oda Nobunaga** | Ruthless innovator | Introduced firearms, crushed Buddhist armies |
-| **Toyotomi Hideyoshi** | Charismatic strategist | Unified Japan through diplomacy and war |
-| **Tokugawa Ieyasu** | Patient tactician | Founded the Tokugawa shogunate, ruled Japan for 260 years |
+| Name | Role | Known For |
+|------|------|-----------|
+| **Oda Nobunaga** | Ruthless revolutionary | Crushed Buddhist armies, used firearms, defeated Imagawa |
+| **Toyotomi Hideyoshi** | Strategic genius | Rose from peasant to ruler, carried out unification |
+| **Tokugawa Ieyasu** | Patient tactician | Won the Battle of Sekigahara and established the shogunate |
 
-These men feature heavily in Rekiden’s scenarios — as allies, rivals, or you!
+These figures play major roles in many Rekiden scenarios — as leaders, allies, or enemies.
 
 ---
 
-## ⚔️ Key Themes in Sengoku Strategy
+## ⚔️ Core Themes in Sengoku Strategy
 
 | Theme | Description |
 |-------|-------------|
-| **Loyalty and Betrayal** | Samurai changed sides often — trust was rare |
-| **Military Innovation** | Muskets, cavalry, siege tactics were evolving rapidly |
-| **Clan Politics** | Power was held by families (e.g., Takeda, Uesugi, Mori) |
-| **Territorial Expansion** | Lords fought to control provinces, castles, and rice production |
-
-Understanding these themes helps you make better decisions during gameplay.
+| **Betrayal** | Alliances were fragile; trust was rare |
+| **Military Innovation** | Guns (tanegashima), pike formations, siege tactics |
+| **Clans and Castles** | Power came from territory, rice production, and strongholds |
+| **Upstarts vs Elites** | Low-born men like Hideyoshi rose to rule through cunning |
 
 ---
 
-## 🧭 Where Does Rekiden Fit In?
+## 📅 Power Shifts Across Time and Region
 
-Rekiden lets you step into this chaotic era as one of the great warlords.
+The following table summarizes the major daimyo and powers **by region and by year**, including **key historical events** that define each era.
 
-- Choose your clan and lead your people through diplomacy or conquest
-- Use AI (ChatGPT) to simulate events, react to decisions, and rewrite history
-- Play historically accurate scenarios or explore *what-if* alternate timelines
+### 🗺️ Sengoku Power Map (Region × Year × Key Events)
 
-No prior knowledge is required — ChatGPT will act as your **guide, narrator, and opponent**.
+| Region       | **1560**<br>⚔️ *Battle of Okehazama*<br>Oda defeats Imagawa | **1582**<br>🔥 *Honnoji Incident*<br>Nobunaga assassinated | **1600**<br>⚔️ *Battle of Sekigahara*<br>Tokugawa rises | **1614**<br>🏯 *Siege of Osaka begins*<br>Final clash: Tokugawa vs Toyotomi |
+|--------------|-------------------------------------------------------------|------------------------------------------------------------|-----------------------------------------------|------------------------------------------------------------|
+| **Tohoku**   | Date Harumune (minor)                                       | Date Masamune (rising)                                      | Date Masamune (East Army)                    | Date Masamune (loyal Tokugawa vassal)                       |
+| **Hokuriku** | Uesugi Kenshin                                              | Uesugi Kagekatsu                                            | Uesugi Kagekatsu (West Army)                 | Uesugi under Tokugawa control                              |
+| **Kanto**    | Hojo Ujiyasu (dominant)                                     | Hojo Ujimasa                                                | Tokugawa Ieyasu (Kanto ruler)                | Tokugawa Hidetada (shogun in Edo)                           |
+| **Shin'etsu**| Takeda Shingen                                              | Takeda clan destroyed → Oda territory                       | Tokugawa or Uesugi controlled                | Direct Tokugawa control                                    |
+| **Tokai**    | Imagawa vs Oda                                              | Oda Nobunaga dominates                                      | Tokugawa Ieyasu (power base)                 | Tokugawa + hereditary vassals                              |
+| **Kinki**    | Miyoshi clan / Ashikaga shogunate (declining)              | Akechi → Toyotomi (after Honnoji & Yamazaki battle)         | Ishida Mitsunari (West) / Toyotomi Hideyori  | Toyotomi Hideyori (Osaka Castle) vs Tokugawa               |
+| **Chugoku**  | Mori Motonari                                               | Mori Terumoto                                               | Mori Terumoto (West Army commander)          | Mori (reduced power, under Tokugawa watch)                 |
+| **Shikoku**  | Chosokabe Motochika (rising)                                | Chosokabe unifies Shikoku                                   | Chosokabe Morichika (West Army)              | Chosokabe (joins Osaka side → executed)                    |
+| **Kyushu**   | Fragmented: Otomo / Shimazu / Ryuzoji                        | Shimazu conquers most of Kyushu                             | Shimazu Yoshihiro (West Army)                | Shimazu Tadatsune (submits to Tokugawa)                    |
 
 ---
 
-## 🗺️ Suggested Map (Optional Visual)
+## 🧭 How Does Rekiden Use This?
 
-*A visual map of Sengoku-era Japan with key clans and castles*  
-(You can add a custom image or ASCII-style map here)
+Rekiden lets you:
+
+- **Choose an era** (e.g., 1582) and a region (e.g., Chugoku)
+- **Play as a historical daimyo**, facing real conditions and rival factions
+- **Rewrite history** through your decisions, with ChatGPT dynamically narrating outcomes
+
+Each scenario in Rekiden is rooted in this shifting political landscape — and your choices may change the future.
 
 ---
 
-## 📘 Want to Go Deeper?
+## 🗂️ Recommended Scenarios by Year
 
-Try these scenarios in **Rekiden** after reading this:
-
-- 🔥 [Battle of Kawanakajima – 1561](../sengoku/periods/1561_kawanakajima_en.md)
-- ⚡ [The Great Return from Chūgoku – 1582](../sengoku/periods/1582-2_chugoku_ogaeshi_en.md)
-- 🧠 [Righteous Rule – Rise of Tenchijin (Uesugi IF) – 1600](../sengoku/periods/1600_uesugi_if_en.md)
+| Year | Scenario | File |
+|------|----------|------|
+| 1560 | Battle of Okehazama (Oda vs Imagawa) | *(Coming soon)* |
+| 1582 | The Great Return from Chūgoku (Hideyoshi vs Akechi) | [1582-2_chugoku_ogaeshi_en.md](../sengoku/periods/1582-2_chugoku_ogaeshi_en.md) |
+| 1600 | Rise of Tenchijin – Uesugi IF | [1600_uesugi_if_en.md](../sengoku/periods/1600_uesugi_if_en.md) |
+| 1614 | Siege of Osaka | [1614_osaka_campaign_en.md](../sengoku/periods/1614_osaka_campaign_en.md) |
 
 ---
 
 ## 👋 Final Note
 
-You don’t need to be a history expert.  
-Just bring your curiosity — and let ChatGPT guide you through one of the most dramatic periods in Japanese history.
+You don't need to be a history expert to enjoy **Rekiden**.  
+Just choose a time and place — and let AI guide you through Japan's most turbulent age.
 
-**The fate of Japan is in your hands. Will you conquer... or be conquered?**
+Will you restore peace? Seize power? Or fall in the chaos?
+
+> **History is written by your choices.**
