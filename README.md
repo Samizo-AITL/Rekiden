@@ -86,11 +86,9 @@ ChatGPTでのプレイ手順、貼り付け方法などは以下をご覧くだ�
 | 年号     | タイトル                          | シナリオリンク                                                   |
 |----------|-----------------------------------|------------------------------------------------------------------|
 | 1555年   | 三国同盟                          | [1555_sangoku_alliance.md](./sengoku/periods/1555_sangoku_alliance.md) |
-| 1560年   | 桶狭間の戦い（※除外）            | 除外対象                                                        |
 | 1561年   | 川中島の戦い                      | [1561_kawanakajima.md](./sengoku/periods/1561_kawanakajima.md)         |
 | 1575年   | 長篠の戦い                        | [1575_nagashino.md](./sengoku/periods/1575_nagashino.md)               |
-| 1582年① | 本能寺の変（※除外）              | 除外対象                                                        |
-| 1582年② | 中国大返し                        | [1582-2_chugoku_ogaeshi.md](./sengoku/periods/1582-2_chugoku_ogaeshi.md) |
+| 1582年　　| 中国大返し                        | [1582-2_chugoku_ogaeshi.md](./sengoku/periods/1582-2_chugoku_ogaeshi.md) |
 | 1600年   | 義の天下 ― 天地人より起つ（if）   | [1600_uesugi_if.md](./sengoku/periods/1600_uesugi_if.md)             |
 | 1600年   | 関ヶ原の戦い                      | [1600_sekigahara.md](./sengoku/periods/1600_sekigahara.md)             |
 | 1614年   | 大坂の陣（真田丸委任システム）    | [1614_osaka_campaign.md](./sengoku/periods/1614_osaka_campaign.md)     |
