@@ -57,6 +57,7 @@ Choose one of the factions below and paste the following template into ChatGPT t
 
 ### 🟥 Takeda Clan (Takeda Shingen) Template
 
+```
 📝 Play Log: Battle of Kawanakajima (Takeda Shingen)
 
 🎮 Player Info
@@ -75,11 +76,13 @@ Choose one of the factions below and paste the following template into ChatGPT t
 🎯 Initial Choices
 	•	Execute the Kakuyoku (Woodpecker) Strategy to strike the enemy’s main camp
 	•	Fortify and prepare for a drawn-out battle
+```
 
  ---
 
 ### 🟦 Uesugi Clan (Uesugi Kenshin) Template
 
+```
 📝 Play Log: Battle of Kawanakajima (Uesugi Kenshin)
 
 🎮 Player Info
@@ -98,6 +101,7 @@ Choose one of the factions below and paste the following template into ChatGPT t
 🎯 Initial Choices
 	•	Launch an all-out assault using the Kuruma-gakari formation
 	•	Shift formations to induce a mobile and flexible engagement
+```
 
  ---
 
