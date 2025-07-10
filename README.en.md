@@ -22,27 +22,26 @@ This is more than a game. Rekiden is an educational and interactive framework fo
 
 ```
 Rekiden/
-├─ README.md                   ← Japanese version
-├─ README.en.md                ← English version (this file)
+├─ README.md                   ← Japanese top page
+├─ README.en.md                ← English top page ← このファイルに上記表を記述
 ├─ docs/
-│  └─ game_spec.md             ← Rules, stats, turn structure
-├─ scenarios/
-│  ├─ sengoku/
-│  │  ├─ README.md
-│  │  ├─ periods/
-│  │  │  ├─ 1555_sangoku_alliance.md
-│  │  │  ├─ 1560_okehazama.md
-│  │  │  ├─ 1561_kawanakajima.md
-│  │  │  ├─ 1561_kawanakajima_en.md   ← ← NEW
-│  │  │  ├─ 1575_nagashino.md
-│  │  │  ├─ 1582-1_honnoji.md
-│  │  │  ├─ 1582-2_chugoku_ogaeshi.md
-│  │  │  └─ 1590_odawara_if.md
-│  │  ├─ busho_stats.md
-│  │  ├─ province_data.md
-│  │  └─ diplomacy_matrix.md
-│  └─ bakumatsu/
-│     └─ README.md
+│  └─ game_spec.md             ← Game rules and structure
+├─ sengoku/
+│  ├─ README.md                ← Sengoku overview
+│  ├─ periods/
+│  │  ├─ 1555_sangoku_alliance.md
+│  │  ├─ 1560_okehazama.md
+│  │  ├─ 1561_kawanakajima.md
+│  │  ├─ 1561_kawanakajima_en.md   ← ✅ 英語版
+│  │  ├─ 1575_nagashino.md
+│  │  ├─ 1582-1_honnoji.md
+│  │  ├─ 1582-2_chugoku_ogaeshi.md
+│  │  ├─ 1590_odawara_if.md
+│  │  ├─ 1600_uesugi_if_en.md      ← ✅ 英語版
+│  │  └─ 1614_osaka_campaign_en.md ← ✅ 英語版
+│  ├─ busho_stats.md
+│  ├─ province_data.md
+│  └─ diplomacy_matrix.md
 ├─ templates/
 │  └─ scenario_template.md
 ├─ play_logs/
