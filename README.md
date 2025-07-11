@@ -142,3 +142,7 @@ MIT License © 2025 Shinichi Samizo
 [GitHub](https://github.com/Samizo-AITL) / [Email](mailto:shin3t72@gmail.com)
 
 ---
+
+💬 [Rekidenのifルート議論はこちら → Discussions](https://github.com/Samizo-AITL/Rekiden/discussions)
+
+---
