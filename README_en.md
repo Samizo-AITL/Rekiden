@@ -113,6 +113,10 @@ Rekiden is designed to be played interactively with ChatGPT (GPT-4 or later):
 |------------------|--------------------------------------------------------|
 | Dawn of the Sphere (If) | [daitoa_kyouei_if_en.md](./ww2/daitoa_kyouei_if_en.md) |
 
+[russo_japanese_war_if_en.md](./1900s/russo_japanese_war_if_en.md)
+
+[daitoa_kyouei_if_en.md](./ww2/daitoa_kyouei_if_en.md)
+
 ---
 
 ## 🧠 GPT Benefits Summary
