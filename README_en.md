@@ -106,20 +106,12 @@ Rekiden is designed to be played interactively with ChatGPT (GPT-4 or later):
 ### ⚔️ Russo-Japanese War
 | Title | File |
 |------------------|--------------------------------------------------------|
-| Russo-Japanese Peace Route (If) | [russo_japanese_war_if_en.md](./1900s/russo_japanese_war_if_en.md) |
+| Russo-Japanese Peace Route (If) | [russo_japanese_war_if_en.md](./1900s) |
 
 ### 🌏 Greater East Asia Co-Prosperity
 | Title | File |
 |------------------|--------------------------------------------------------|
-| Dawn of the Sphere (If) | [daitoa_kyouei_if_en.md](./ww2/daitoa_kyouei_if_en.md) |
-
-[russo_japanese_war_if_en.md](./1900s/russo_japanese_war_if_en.md)
-
-[daitoa_kyouei_if_en.md](./ww2/daitoa_kyouei_if_en.md)
-
-[russo_japanese_war_if_en.md](https://github.com/Samizo-AITL/Rekiden/blob/main/1900s/russo_japanese_war_if_en.md)
-
-[daitoa_kyouei_if_en.md](https://github.com/Samizo-AITL/Rekiden/blob/main/ww2/daitoa_kyouei_if_en.md)
+| Dawn of the Sphere (If) | [daitoa_kyouei_if_en.md](./ww2) |
 
 ---
 
