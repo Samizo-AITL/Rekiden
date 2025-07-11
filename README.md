@@ -42,8 +42,8 @@ Rekidenの中核は**戦国時代**シナリオです。
 - **ジャンル**：歴史シミュレーション／ストラテジー（対話型）
 - **形式**：Markdownで管理されたターン制シナリオ（選択肢ベース）
 - **目的**：
-- 歴史的状況を再現し、異なる選択肢によって「ifの歴史」を体験できる教材／ゲームフレームワーク
-- 教育・戦略思考・物語生成を融合した実践型学習・創作支援ツール
+　- 歴史的状況を再現し、異なる選択肢によって「ifの歴史」を体験できる教材／ゲームフレームワーク
+　- 教育・戦略思考・物語生成を融合した実践型学習・創作支援ツール
 
 ---
 
@@ -94,7 +94,7 @@ MIT License © 2025 Shinichi Samizo
 
 ## 👤 制作・運営
 
-三溝 真一（Shinichi Samizo）
-半導体・制御系エンジニア、教育教材開発者
-GitHub: [Samizo-AITL](https://github.com/Samizo-AITL)
-Email: [shin3t72@gmail.com](mailto:shin3t72@gmail.com)
+- 三溝 真一（Shinichi Samizo）
+- 半導体・制御系エンジニア、教育教材開発者
+- GitHub: [Samizo-AITL](https://github.com/Samizo-AITL)
+- Email: [shin3t72@gmail.com](mailto:shin3t72@gmail.com)
