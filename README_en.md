@@ -101,17 +101,17 @@ Rekiden is designed to be played interactively with ChatGPT (GPT-4 or later):
 ### 🎌 Bakumatsu
 | Title | File |
 |------------------|--------------------------------------------------------|
-| Ryoma’s Path to Reform (If) | [ryoma_if_government.md](./bakumatsu/ryoma_if_government.md) |
+| Ryoma’s Path to Reform (If) | [ryoma_if_government.md](./bakumatsu/ryoma_if_government_en.md) |
 
 ### ⚔️ Russo-Japanese War
 | Title | File |
 |------------------|--------------------------------------------------------|
-| Russo-Japanese Peace Route (If) | [russo_japanese_war_if.md](./1900s/russo_japanese_war_if.md) |
+| Russo-Japanese Peace Route (If) | [russo_japanese_war_if.md](./1900s/russo_japanese_war_if_en.md) |
 
 ### 🌏 Greater East Asia Co-Prosperity
 | Title | File |
 |------------------|--------------------------------------------------------|
-| Dawn of the Sphere (If) | [daitoa_kyouei_if.md](./ww2/daitoa_kyouei_if.md) |
+| Dawn of the Sphere (If) | [daitoa_kyouei_if.md](./ww2/daitoa_kyouei_if_en.md) |
 
 ---
 
