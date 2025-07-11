@@ -14,12 +14,12 @@ Rekidenの中核は**戦国時代**シナリオです。
 
 | 年号 | タイトル | シナリオリンク |
 |----------|--------------------------|------------------------------------------------------------------|
-| 1555年 | 三国同盟 | `sengoku/periods/1555_sangoku_alliance.md` |
-| 1561年 | 川中島の戦い | `sengoku/periods/1561_kawanakajima.md` |
-| 1575年 | 長篠の戦い | `sengoku/periods/1575_nagashino.md` |
-| 1582年 | 本能寺と中国大返し | `sengoku/periods/1582-2_chugoku_ogaeshi.md` |
-| 1600年 | 義の天下（上杉if） | `sengoku/periods/1600_uesugi_if.md` |
-| 1614年 | 大坂の陣（真田丸） | `sengoku/periods/1614_osaka_campaign.md` |
+| 1555年 | 三国同盟 | [1555_sangoku_alliance.md](./sengoku/periods/1555_sangoku_alliance.md) |
+| 1561年 | 川中島の戦い | [1561_kawanakajima.md](./sengoku/periods/1561_kawanakajima.md) |
+| 1575年 | 長篠の戦い | [1575_nagashino.md](./sengoku/periods/1575_nagashino.md) |
+| 1582年 | 本能寺と中国大返し | [1582-2_chugoku_ogaeshi.md](./sengoku/periods/1582-2_chugoku_ogaeshi.md) |
+| 1600年 | 義の天下（上杉if） | [1600_uesugi_if.md](./sengoku/periods/1600_uesugi_if.md) |
+| 1614年 | 大坂の陣（真田丸） | [1614_osaka_campaign.md](./sengoku/periods/1614_osaka_campaign.md) |
 
 > 💬 例：「1561年の川中島で上杉謙信を選んでプレイします」とGPTに伝えるだけで即スタート！
 
@@ -31,9 +31,9 @@ Rekidenの中核は**戦国時代**シナリオです。
 
 | 時代 | テーマ | シナリオ例 |
 |------------|--------------------------------|------------------------------------|
-| 🎌 幕末 | 龍馬if・薩長同盟・大政奉還 | `bakumatsu/ryoma_if_government.md`|
-| ⚔️ 日露戦争 | ポーツマス講和／朝鮮中立構想 | `1900s/russo_japanese_war_if.md` |
-| 🌏 昭和前期 | 大東亜共栄圏の連携ルート | `ww2/daitoa_kyouei_if.md` |
+| 🎌 幕末 | 龍馬if・薩長同盟・大政奉還 | [ryoma_if_government.md](./bakumatsu/ryoma_if_government.md) |
+| ⚔️ 日露戦争 | ポーツマス講和／朝鮮中立構想 | [russo_japanese_war_if.md](./1900s/russo_japanese_war_if.md) |
+| 🌏 昭和前期 | 大東亜共栄圏の連携ルート | [daitoa_kyouei_if.md](./ww2/daitoa_kyouei_if.md) |
 
 ---
 
@@ -63,15 +63,15 @@ Rekidenの中核は**戦国時代**シナリオです。
 
 ChatGPTでのプレイ方法、貼り付け例、進行手順などは以下を参照：
 
-▶︎ `docs/how_to_play.md`
+▶︎ [how_to_play.md](./docs/how_to_play.md)
 
 ---
 
 ## 🧪 実際のプレイ例
 
-- `templates/1561_kawanakajima_user001.md`
-- `templates/1600_uesugi_if_user001.md`
-- `templates/1614_osaka_campaign_user001.md`
+- [川中島の戦い（上杉謙信）](./templates/1561_kawanakajima_user001.md)
+- [義の天下（上杉景勝）](./templates/1600_uesugi_if_user001.md)
+- [大坂の陣（豊臣秀頼）](./templates/1614_osaka_campaign_user001.md)
 
 ---
 
@@ -88,7 +88,7 @@ ChatGPTでのプレイ方法、貼り付け例、進行手順などは以下を�
 ## 📜 ライセンス
 
 MIT License © 2025 Shinichi Samizo
-詳細は `LICENSE` を参照。
+詳細は [LICENSE](./LICENSE) を参照。
 
 ---
 
@@ -98,5 +98,3 @@ MIT License © 2025 Shinichi Samizo
 半導体・制御系エンジニア、教育教材開発者
 GitHub: [Samizo-AITL](https://github.com/Samizo-AITL)
 Email: [shin3t72@gmail.com](mailto:shin3t72@gmail.com)
-
----
