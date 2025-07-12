@@ -103,6 +103,10 @@ Rekiden is designed to be played interactively with ChatGPT (GPT-4 or later):
 | Title | File |
 |----------------------------------------|--------------------------------------------------------------------------|
 | Memory of the Trench – Rebuilding Japan (If) | [future_reconstruction_path_if_en.md](./future/future_reconstruction_path_if_en.md) |
+> ⚠️ **Note**: This scenario is not part of the core Rekiden historical series.
+> It is an experimental "future simulation" that builds on the Rekiden system architecture and gameplay format.
+> Designed for educational use, it explores post-disaster recovery, societal decision-making, and the integration of AITL-H technologies.
+> The goal is to encourage critical thinking about future policies, technological impacts, and ethical dilemmas through AI-powered simulation.
 
 ---
 
