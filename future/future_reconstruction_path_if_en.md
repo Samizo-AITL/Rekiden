@@ -2,6 +2,10 @@
 
 **Setting**: The year is 2042, ten years after the Great Nankai Trough Earthquake.  
 **Location**: Coastal regions of Japan, where cities are being reimagined through citizen participation and AI collaboration.
+> ⚠️ **Note**: This scenario is not part of the core Rekiden historical series.
+> It is an experimental "future simulation" that builds on the Rekiden system architecture and gameplay format.
+> Designed for educational use, it explores post-disaster recovery, societal decision-making, and the integration of AITL-H technologies.
+> The goal is to encourage critical thinking about future policies, technological impacts, and ethical dilemmas through AI-powered simulation.
 
 ---
 
