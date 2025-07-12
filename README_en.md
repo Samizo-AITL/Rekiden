@@ -12,13 +12,14 @@ This is more than a game. Rekiden is an educational and interactive framework fo
 - **Genre**: Historical Simulation / Strategy (Text-based)
 - **Format**: Markdown-based scenarios with decision branches
 - **Supported Eras**:
-- 🏯 Sengoku Period (1555–1615) → Fully implemented
-- 🎌 Bakumatsu Period (1860s) → Implemented
-- ⚔️ Russo-Japanese War (1904–1905) → Implemented
-- 🌏 Greater East Asia Co-Prosperity Sphere (1942–) → Implemented
+  - 🏯 Sengoku Period (1555–1615) → Fully implemented
+  - 🎌 Bakumatsu Period (1860s) → Implemented
+  - ⚔️ Russo-Japanese War (1904–1905) → Implemented
+  - 🌏 Greater East Asia Co-Prosperity Sphere (1942–) → Implemented
+  - 🔮 Future Japan (Post-Nankai Earthquake) → Implemented
 - **Goal**:
-- Learn and experience historical context by interacting with AI to explore alternative paths
-- Combine strategic thinking, narrative generation, and educational utility into one framework
+  - Learn and experience historical context by interacting with AI to explore alternative paths
+  - Combine strategic thinking, narrative generation, and educational utility into one framework
 
 ---
 
@@ -40,7 +41,6 @@ Rekiden/
 ├─ docs/
 │ └─ game_spec.md ← Game rules and structure
 ├─ sengoku/
-│ ├─ README.md ← Sengoku overview
 │ ├─ periods/
 │ │ ├─ 1561_kawanakajima_en.md
 │ │ ├─ 1582-2_chugoku_ogaeshi_en.md
@@ -48,11 +48,13 @@ Rekiden/
 │ │ ├─ 1600_uesugi_if_en.md
 │ │ └─ 1614_osaka_campaign_en.md
 ├─ bakumatsu/
-│ └─ ryoma_if_government.md
+│ └─ ryoma_if_government_en.md
 ├─ 1900s/
-│ └─ russo_japanese_war_if.md
+│ └─ russo_japanese_war_if_en.md
 ├─ ww2/
-│ └─ daitoa_kyouei_if.md
+│ └─ daitoa_kyouei_if_en.md
+├─ future/
+│ └─ nankai_trough_aftershock_if_en.md
 ├─ templates/
 │ └─ scenario_template.md
 ```
@@ -87,7 +89,7 @@ Rekiden is designed to be played interactively with ChatGPT (GPT-4 or later):
 
 ---
 
-## 📜 Available Scenarios (EN/JPN)
+## 📜 Available Scenarios (EN)
 
 ### 🏯 Sengoku Period
 | Year | Title | File |
@@ -114,7 +116,6 @@ Rekiden is designed to be played interactively with ChatGPT (GPT-4 or later):
 | Dawn of the Sphere (If) | [daitoa_kyouei_if_en.md](./ww2/daitoa_kyouei_if_en.md) |
 
 ### 🔮 Future Scenarios
-
 | Title | File |
 |------------------------------|-----------------------------------------------------------|
 | Memory of the Trench – Rebuilding Japan (If) | [nankai_trough_aftershock_if_en.md](./future/nankai_trough_aftershock_if_en.md) |
@@ -143,7 +144,7 @@ Rekiden is designed to be played interactively with ChatGPT (GPT-4 or later):
 
 - ✅ 7+ Sengoku scenarios (JP) complete
 - ✅ English support for key battles (Kawanakajima, Sekigahara, Osaka)
-- ✅ New If-scenarios: Bakumatsu, Russo-Japan, Asia Sphere
+- ✅ New If-scenarios: Bakumatsu, Russo-Japan, Asia Sphere, Future Japan
 - 🔜 More translations and streamlined GUI
 - 🔜 Save/Resume support (Markdown + JSON)
 
@@ -158,14 +159,9 @@ See [LICENSE](./LICENSE) for full terms.
 
 ## 👤 Author
 
-**Shinichi Samizo**
-Engineer (Semiconductors & Control Systems) / Historical Simulation Developer
-GitHub: [Samizo-AITL](https://github.com/Samizo-AITL)
+**Shinichi Samizo**  
+Engineer (Semiconductors & Control Systems) / Historical Simulation Developer  
+GitHub: [Samizo-AITL](https://github.com/Samizo-AITL)  
 Email: [shin3t72@gmail.com](mailto:shin3t72@gmail.com)
-
----
-
-Rekiden is where AI meets history.
-Fork it. Translate it. Rewrite history.
 
 ---
