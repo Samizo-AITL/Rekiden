@@ -113,6 +113,12 @@ Rekiden is designed to be played interactively with ChatGPT (GPT-4 or later):
 |------------------|--------------------------------------------------------|
 | Dawn of the Sphere (If) | [daitoa_kyouei_if_en.md](./ww2/daitoa_kyouei_if_en.md) |
 
+### 🔮 Future Scenarios
+
+| Title | File |
+|------------------------------|-----------------------------------------------------------|
+| Memory of the Trench – Rebuilding Japan (If) | [nankai_trough_aftershock_if_en.md](./future/nankai_trough_aftershock_if_en.md) |
+
 ---
 
 ## 🧠 GPT Benefits Summary
