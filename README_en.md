@@ -165,3 +165,8 @@ GitHub: [Samizo-AITL](https://github.com/Samizo-AITL)
 Email: [shin3t72@gmail.com](mailto:shin3t72@gmail.com)
 
 ---
+
+Rekiden is where AI meets history.  
+Fork it. Translate it. Rewrite history.
+
+---
