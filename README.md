@@ -37,6 +37,8 @@ Rekidenの中核は**戦国時代**シナリオです。
 
 [Russo-Japanese War If](./1900s/russo_japanese_war_if_en.md)
 
+[Russo-Japanese War If](https://github.com/Samizo-AITL/Rekiden/blob/main/1900s/russo_japanese_war_if_en.md)
+
 ---
 
 ## 🎯 プロジェクト概要
