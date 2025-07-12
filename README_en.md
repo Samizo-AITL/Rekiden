@@ -86,13 +86,15 @@ Rekiden is designed to be played interactively with ChatGPT (GPT-4 or later):
 ## 📜 Available Scenarios (EN)
 
 ### 🏯 Sengoku Period
-| Year | Title | File |
-|------|-------------------------------|-------------------------------------------------------------|
-| 1561 | Battle of Kawanakajima       | [1561_kawanakajima_en.md](./sengoku/periods/1561_kawanakajima_en.md) |
-| 1582 | The Great Return from Chūgoku| [1582-2_chugoku_ogaeshi_en.md](./sengoku/periods/1582-2_chugoku_ogaeshi_en.md) |
-| 1600 | Battle of Sekigahara         | [1600_sekigahara_en.md](./sengoku/periods/1600_sekigahara_en.md) |
-| 1600 | Righteous Rule (If Scenario) | [1600_uesugi_if_en.md](./sengoku/periods/1600_uesugi_if_en.md) |
-| 1614 | Siege of Osaka               | [1614_osaka_campaign_en.md](./sengoku/periods/1614_osaka_campaign_en.md) |
+| Year | Title                            | File                                                                 |
+|------|----------------------------------|----------------------------------------------------------------------|
+| 1555 | The Tripartite Alliance          | [1555_sangoku_alliance_en.md](./sengoku/periods/1555_sangoku_alliance_en.md) |
+| 1575 | Battle of Nagashino              | [1575_nagashino_en.md](./sengoku/periods/1575_nagashino_en.md) |
+| 1561 | Battle of Kawanakajima           | [1561_kawanakajima_en.md](./sengoku/periods/1561_kawanakajima_en.md) |
+| 1582 | The Great Return from Chūgoku    | [1582-2_chugoku_ogaeshi_en.md](./sengoku/periods/1582-2_chugoku_ogaeshi_en.md) |
+| 1600 | Battle of Sekigahara             | [1600_sekigahara_en.md](./sengoku/periods/1600_sekigahara_en.md) |
+| 1600 | Righteous Rule (If Scenario)     | [1600_uesugi_if_en.md](./sengoku/periods/1600_uesugi_if_en.md) |
+| 1614 | Siege of Osaka                   | [1614_osaka_campaign_en.md](./sengoku/periods/1614_osaka_campaign_en.md) |
 
 ### 🎌 Bakumatsu
 | Title | File |
