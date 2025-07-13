@@ -126,7 +126,7 @@ Rekiden is designed to be played interactively with ChatGPT (GPT-4 or later):
 
 ## 🧪 Sample Play Log
 
-- [Battle of Kawanakajima – Sample Log (ENG)](templates/1561_kawanakajima_template_en.md)
+- [Battle of Kawanakajima – Uesugi Kenshin Play Log (ENG)](logs/1561_kawanakajima_kenshin_user001.md)
 
 ---
 
