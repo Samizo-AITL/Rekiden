@@ -84,26 +84,49 @@ Proceed with Yes/No choices or strategy selections to play the scenario.
 
 ---
 
-### 🟦 Takeda Clan Template
+### 🟦 Takeda Clan Template (with Strategist Yamamoto Kansuke Option)
 ```
 📝 Play Log: Battle of Nagashino (Takeda Katsuyori)
 
-🎮 Player Info
-- Player Name: your_name_here
-- Faction: Takeda Clan (Takeda Katsuyori)
-- Initial Base: Near Nagashino Castle
-- Officers: Yamagata Masakage, Baba Nobuharu, Naitō Masuhide, Obata Nobusada
-- Initial Troops: 15,000
+🎮 Player Information
+	•	Player Name: your_name_here
+	•	Faction: Takeda Clan (Takeda Katsuyori)
+	•	Initial Base: Around Nagashino Castle
+	•	Commanders: Yamagata Masakage, Baba Nobuharu, Naitō Masahide, Obata Nobusada
+	•	Strategist Option: 🧠 Yamamoto Kansuke (Strategic Analysis & Tactical Planning)
+	•	Initial Troop Strength: 15,000 soldiers
 
-📘 Scenario
-- Title: Battle of Nagashino
-- Year: 1575
-- Starting Condition: Nagashino Castle is under siege. The enemy is massing at Shitaragahara.
-- Enemy: Oda-Tokugawa Alliance (38,000 troops)
+📘 Scenario Information
+	•	Title: Battle of Nagashino
+	•	Year: 1575
+	•	Initial Situation: Nagashino Castle is under siege. The enemy is gathering forces in Shitaragahara.
+	•	Enemy Forces: Oda–Tokugawa Alliance (38,000 troops)
 
-🎯 First Choice
-- [ ] Launch a cavalry assault on Shitaragahara (Shock Charge)
-- [ ] Maintain the siege and observe enemy movements (Cautious Hold)
+🔍 Enemy Analysis (by Strategist Yamamoto Kansuke)
+	•	The enemy has built a defensive formation centered on firearms. Its firepower is formidable but relies heavily on visibility and weather conditions.
+	•	Their formation—triple-line volley fire behind wooden palisades on flat terrain—is highly effective against frontal cavalry assaults.
+	•	However, it is vulnerable to smoke, rain, and flanking maneuvers, and their counterattack capacity weakens if their formation collapses.
+	•	Disrupting the enemy’s supply line (Shitaragahara to Okazaki) could trigger a breakdown in their war front.
+
+🛡 Countermeasures (Kansuke’s Five Tactics)
+	1.	Night Raid with Smoke: Use smoke to obscure enemy vision at night, causing confusion in firearm ranks.
+	2.	Baited Volley: Send out small decoy units to lure out gunfire, exhausting their ammunition.
+	3.	Flanking Assault: Use forest or riverside routes to attack the sides or rear of the palisade line.
+	4.	Rain-Timed Charge: Launch an assault during rain—matchlock guns become unreliable when wet.
+	5.	Supply Line Disruption: Use Obata Nobusada to sabotage enemy logistics and cause internal disarray.
+
+🎯 Initial Choices
+
+Select one (✅)
+
+	•	Deploy the cavalry and break through the enemy at Shitaragahara (Direct Assault)
+　→ Take the initiative with a frontal charge. Success depends on attacking before the enemy’s gun line is fully established.
+	•	Maintain the siege and cautiously observe enemy movements (War of Attrition)
+　→ Focus on continuing the siege of Nagashino Castle. Offers strategic flexibility, but risks letting the enemy strengthen.
+	•	🧠 Follow Yamamoto Kansuke’s plan and execute a surprise maneuver to neutralize the gun line
+　→ A multi-layered tactic using nighttime smoke screens, flanking attacks, and logistics disruption.
+　→ Aim to dismantle the enemy formation and seize the battlefield momentum.
+
 ```
 
 ---
