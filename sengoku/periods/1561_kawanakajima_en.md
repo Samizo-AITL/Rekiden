@@ -66,7 +66,7 @@ Choose your preferred faction and gameplay mode, then paste the corresponding te
 ### 🟥 Takeda Clan Templates (Choose Mode)
 
 #### 📜 Historical Mode Template
-
+```
 📝 Play Log: Battle of Kawanakajima (Fūrin Kazan Mode – Yamamoto Kansuke)
 
 🎮 Player Info
@@ -92,10 +92,10 @@ Choose your preferred faction and gameplay mode, then paste the corresponding te
 🪦 Final Words
 
 “War… is fulfilled only when one gives their life to it. Lord Shingen… the rest is yours to carry on…”
-
+```
 
 #### 🎭 Fūrin Kazan Mode Template
-
+```
 📝 Play Log: Battle of Kawanakajima (Fūrin Kazan Mode – Yamamoto Kansuke)
 
 🎮 Player Info
@@ -121,12 +121,11 @@ Choose your preferred faction and gameplay mode, then paste the corresponding te
 🪦 Final Words
 
 “War… is fulfilled only when one gives their life to it. Lord Shingen… the rest is yours to carry on…”
-
+```
 ---
 
 ### 🟦 Uesugi Clan Template
-
-
+```
 📝 Play Log: Battle of Kawanakajima (Uesugi Kenshin)
 
 🎮 Player Info
@@ -145,7 +144,7 @@ Choose your preferred faction and gameplay mode, then paste the corresponding te
 🎯 Initial Choices
 	•	Use the Kuruma-gakari formation to launch a whirlwind assault
 	•	Maneuver flexibly to draw Takeda forces out of position
-
+```
  
 ---
 
