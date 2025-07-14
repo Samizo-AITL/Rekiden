@@ -21,13 +21,14 @@ Kenshin’s “Kuruma-gakari no Jin” (Wagon Wheel Formation) and Shingen’s �
 
 #### Key Retainers
 
-| Name            | Leadership | Martial | Intelligence | Politics | Charisma |
-|-----------------|------------|---------|--------------|----------|----------|
+| Name              | Leadership | Martial | Intelligence | Politics | Charisma |
+|-------------------|------------|---------|--------------|----------|----------|
 | Yamagata Masakage | 85         | 88      | 70           | 65       | 75       |
 | Baba Nobuharu     | 88         | 86      | 78           | 70       | 80       |
 | Naitō Masatoyo    | 82         | 82      | 72           | 68       | 74       |
 | Kōsaka Masanobu   | 80         | 80      | 80           | 72       | 78       |
 | Sanada Yukitaka   | 78         | 76      | 85           | 74       | 76       |
+| **Yamamoto Kansuke** | 72     | 65      | **92**       | 80       | 70       |
 
 ---
 
@@ -49,40 +50,83 @@ Kenshin’s “Kuruma-gakari no Jin” (Wagon Wheel Formation) and Shingen’s �
 
 ---
 
-## 🎮 How to Start Playing in ChatGPT (Battle of Kawanakajima)
+## 🎮 How to Start Playing in ChatGPT
 
-Choose one of the factions below and paste the following template into ChatGPT to begin the simulation.
+Choose your preferred faction and gameplay mode, then paste the corresponding template into ChatGPT.
 
 ---
 
-### 🟥 Takeda Clan (Takeda Shingen) Template
+## 🔀 Mode Selection
 
-```
-📝 Play Log: Battle of Kawanakajima (Takeda Shingen)
+- [ ] **Historical Mode** (史実モード): Reenact events based on historical consensus  
+- [ ] **Fūrin Kazan Mode** (風林火山モード): Based on the novel by Yasushi Inoue; dramatic and character-focused
+
+---
+
+### 🟥 Takeda Clan Templates (Choose Mode)
+
+#### 📜 Historical Mode Template
+
+📝 Play Log: Battle of Kawanakajima (Fūrin Kazan Mode – Yamamoto Kansuke)
 
 🎮 Player Info
 	•	Player Name: your_name_here
-	•	Faction: Takeda Clan (Takeda Shingen)
-	•	Base: Tsutsujigasaki Residence (Kai)
-	•	Retainers: Yamagata Masakage, Baba Nobuharu, Naitō Masatoyo, Kōsaka Masanobu, Sanada Yukitaka
+	•	Faction: Takeda Clan
+	•	Main Character: Yamamoto Kansuke (Military Strategist)
+	•	Base: Tsutsujigasaki Residence
+	•	Retainers: Same as historical, plus Kansuke
 	•	Troops: 20,000
 
 📘 Scenario Info
 	•	Title: Battle of Kawanakajima
 	•	Year: 1561
-	•	Initial State: In stalemate with Uesugi, both armies are in formation
-	•	Enemy Faction: Uesugi Clan (18,000 troops)
+	•	State: Executing Woodpecker Strategy; Kansuke leads detached unit up Mt. Saijoyama
+	•	Enemy: Uesugi Clan (18,000)
 
-🎯 Initial Choices
-	•	Execute the Kakuyoku (Woodpecker) Strategy to strike the enemy’s main camp
-	•	Fortify and prepare for a drawn-out battle
-```
+🎯 Tactical Decisions
+	•	Attempt the Woodpecker Strategy (night assault on enemy camp)
+	•	Discover enemy HQ has already moved — strategy failed
+	•	Return to battlefield; engage in desperate counterattack
+	•	Kansuke charges, waving Fūrin Kazan banner — dies in combat
 
- ---
+🪦 Final Words
 
-### 🟦 Uesugi Clan (Uesugi Kenshin) Template
+“War… is fulfilled only when one gives their life to it. Lord Shingen… the rest is yours to carry on…”
 
-```
+
+#### 🎭 Fūrin Kazan Mode Template
+
+📝 Play Log: Battle of Kawanakajima (Fūrin Kazan Mode – Yamamoto Kansuke)
+
+🎮 Player Info
+	•	Player Name: your_name_here
+	•	Faction: Takeda Clan
+	•	Main Character: Yamamoto Kansuke (Military Strategist)
+	•	Base: Tsutsujigasaki Residence
+	•	Retainers: Same as historical, plus Kansuke
+	•	Troops: 20,000
+
+📘 Scenario Info
+	•	Title: Battle of Kawanakajima
+	•	Year: 1561
+	•	State: Executing Woodpecker Strategy; Kansuke leads detached unit up Mt. Saijoyama
+	•	Enemy: Uesugi Clan (18,000)
+
+🎯 Tactical Decisions
+	•	Attempt the Woodpecker Strategy (night assault on enemy camp)
+	•	Discover enemy HQ has already moved — strategy failed
+	•	Return to battlefield; engage in desperate counterattack
+	•	Kansuke charges, waving Fūrin Kazan banner — dies in combat
+
+🪦 Final Words
+
+“War… is fulfilled only when one gives their life to it. Lord Shingen… the rest is yours to carry on…”
+
+---
+
+### 🟦 Uesugi Clan Template
+
+
 📝 Play Log: Battle of Kawanakajima (Uesugi Kenshin)
 
 🎮 Player Info
@@ -95,15 +139,15 @@ Choose one of the factions below and paste the following template into ChatGPT t
 📘 Scenario Info
 	•	Title: Battle of Kawanakajima
 	•	Year: 1561
-	•	Initial State: Facing Takeda forces, preparing for decisive battle
-	•	Enemy Faction: Takeda Clan (20,000 troops)
+	•	State: Preparing to strike the Takeda encampment
+	•	Enemy: Takeda Clan (20,000)
 
 🎯 Initial Choices
-	•	Launch an all-out assault using the Kuruma-gakari formation
-	•	Shift formations to induce a mobile and flexible engagement
-```
+	•	Use the Kuruma-gakari formation to launch a whirlwind assault
+	•	Maneuver flexibly to draw Takeda forces out of position
 
- ---
+ 
+---
 
 ## 📜 License
 
@@ -117,4 +161,3 @@ Shinichi Samizo
 Engineer in semiconductors and control systems / Creator of educational simulation frameworks  
 [GitHub](https://github.com/Samizo-AITL) / [Email](mailto:shin3t72@gmail.com)
 
----
