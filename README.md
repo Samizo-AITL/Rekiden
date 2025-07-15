@@ -91,9 +91,21 @@ MIT License © 2025 Shinichi Samizo
 
 ---
 
-## 👤 制作・運営
+## 🧑‍🔬 執筆者情報
 
-- 三溝 真一（Shinichi Samizo）  
-- 半導体・制御系エンジニア／教育教材開発者  
-- GitHub: [Samizo-AITL](https://github.com/Samizo-AITL)  
-- Email: [shin3t72@gmail.com](mailto:shin3t72@gmail.com)
+- **氏名**：三溝 真一（Shinichi Samizo）  
+- **学歴**：信州大学大学院 電気電子工学修士課程 修了  
+
+- **職歴**：  
+  1997年 セイコーエプソン株式会社 入社  
+  以下の開発・製品化に従事：  
+  - 半導体デバイス技術（0.35µm〜0.18µmノード）  
+  - ロジックデバイス、メモリデバイス、高耐圧インテグレーション技術の開発・量産化  
+  - インクジェット薄膜ピエゾアクチュエータ開発  
+  - PrecisionCoreプリントヘッド製品展開にも参画  
+
+- **連絡先**：  
+  GitHub：[Samizo-AITL](https://github.com/Samizo-AITL)  
+  Email：[shin3t72@gmail.com](mailto:shin3t72@gmail.com)
+
+---
