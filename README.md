@@ -5,7 +5,7 @@
 
 ---
 
-🇬🇧 English | [Rekiden - English Page](https://samizo-aitl.github.io/Rekiden/README_en) |
+🇬🇧 [English Page](https://samizo-aitl.github.io/Rekiden/README_en) 
 
 ---
 
