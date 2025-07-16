@@ -7,6 +7,10 @@ This is more than a game. Rekiden is an educational and interactive framework fo
 
 ---
 
+🇯🇵  [日本語ページ](https://samizo-aitl.github.io/Rekiden/) 
+
+---
+
 ## 🎯 Project Overview
 
 - **Genre**: Historical Simulation / Strategy (Text-based)
