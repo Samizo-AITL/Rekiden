@@ -1,13 +1,13 @@
-# 🏯 Rekiden – A ChatGPT-Powered Historical Simulation Framework
+# 🏯🌍 Rekiden – A ChatGPT-Powered Historical Simulation Framework
 
-**Rekiden** is a text-based, open-source simulation game that lets you relive—and reshape—turning points in Japanese history.  
-Interact with ChatGPT to take on the role of historical figures and make critical decisions that change the course of history.
+**Rekiden** is a text-based, open-source simulation game that lets you relive—and reshape—turning points in history.  
+Interact with ChatGPT to take on the role of historical figures and make critical decisions that could change the fate of a nation.
 
 This is more than a game. Rekiden is an educational and interactive framework for exploring historical “what-ifs.”
 
 ---
 
-🇯🇵  [日本語ページ](https://samizo-aitl.github.io/Rekiden/) 
+🇯🇵 [日本語ページはこちら](https://samizo-aitl.github.io/Rekiden/) 
 
 ---
 
@@ -17,79 +17,66 @@ This is more than a game. Rekiden is an educational and interactive framework fo
 - **Format**: Markdown-based scenarios with decision branches
 - **Supported Eras**:
   - 🏯 Sengoku Period (1555–1615) → Fully implemented
-  - 🎌 Bakumatsu Period (1860s) → Implemented
-  - 🔮 Future Japan (Post-Reconstruction) → Implemented
+  - 🌍 World War II (1930–1945) → 5 routes completed (Ver. 1.0)
 - **Goal**:
-  - Learn and experience historical context by interacting with AI to explore alternative paths
-  - Combine strategic thinking, narrative generation, and educational utility into one framework
+  - Learn and explore alternative historical paths through interactive simulation with AI
+  - Combine strategic thinking, ethical dilemmas, and narrative generation into a single learning tool
 
 ---
 
-## 🏯 What is the Sengoku Period?
-
-New to Japanese history?  
-See our short introduction to understand the **chaotic and fascinating era** of warlords, alliances, betrayals, and ambition.
-
-▶︎ [Intro to the Sengoku Period (sengoku_intro_en.md)](./docs/sengoku_intro_en.md)
-
----
-
-## 📂 Directory Structure
+## 📂 Directory Structure (EN)
 
 ```
 Rekiden/
-├─ README.md                ← Japanese top page
-├─ README_en.md             ← English top page
-├─ docs/
-│  └─ game_spec.md          ← Game rules and structure
+├─ README_en.md
 ├─ sengoku/
-│  ├─ periods/
-│  │  ├─ 1561_kawanakajima_en.md
-│  │  ├─ 1582-2_chugoku_ogaeshi_en.md
-│  │  ├─ 1600_sekigahara_en.md
-│  │  ├─ 1600_uesugi_if_en.md
-│  │  └─ 1614_osaka_campaign_en.md
-├─ bakumatsu/
-│  └─ ryoma_if_government_en.md
-├─ future/
-│  └─ future_reconstruction_path_if_en.md
+│  └─ periods/
+│     ├─ 1555_sangoku_alliance_en.md
+│     ├─ 1561_kawanakajima_en.md
+│     ├─ 1575_nagashino_en.md
+│     ├─ 1582-2_chugoku_ogaeshi_en.md
+│     ├─ 1600_sekigahara_en.md
+│     ├─ 1600_uesugi_if_en.md
+│     └─ 1614_osaka_campaign_en.md
+├─ ww2/
+│  ├─ index_en.md
+│  ├─ japan/
+│  │  └─ yamamoto_navy_en.md
+│  ├─ usa/
+│  │  ├─ roosevelt_strategy_en.md
+│  │  ├─ oppenheimer_ethics_en.md
+│  │  └─ macarthur_pacific_en.md
+│  └─ germany/
+│     └─ hitler_politics_en.md
 ├─ templates/
-│  └─ scenario_template.md
+│  └─ scenario_template_en.md
+├─ docs/
+│  └─ how_to_play_en.md
 ```
 
 ---
 
-## 🎮 Core Features
+## 🎮 Gameplay with ChatGPT
 
-- **Turn-Based Gameplay**: Seasonal choices (Spring/Summer/Fall/Winter) with branching outcomes
-- **Character Stats**: Leadership, Martial, Intelligence, Politics, Charisma
-- **Nation Stats**: Population, Troops, Economy, Fortifications, Food, etc.
-- **Event System**: War, Revolts, Betrayals, Natural Disasters, Diplomacy, and more
+Rekiden is designed to be played with ChatGPT (GPT-4 or later):
 
----
+1. Paste any `.md` scenario into ChatGPT
+2. Choose a playable character (e.g., "Uesugi Kenshin," "Roosevelt," "Oppenheimer")
+3. Enter choices each turn (“Negotiate,” “Attack,” “Develop Technology,” etc.)
+4. ChatGPT continues the story, generating outcomes dynamically
 
-## 🤖 ChatGPT Integration
-
-Rekiden is designed to be played interactively with ChatGPT (GPT-4 or later):
-
-- Paste any scenario `.md` file into ChatGPT
-- Choose a playable character (e.g., “Uesugi Kenshin,” “Ryoma Sakamoto,” or a future leader)
-- Make decisions each turn (“Attack,” “Negotiate,” “Rebuild,” etc.)
-- ChatGPT dynamically generates the narrative and continues the story
-
-> 🧠 ChatGPT acts as Game Master, Narrator, and Engine—all in one.
+> 🧠 ChatGPT acts as Game Master, Narrator, and Simulation Engine.
 
 ---
 
-## 📘 How to Start
+## 📘 How to Play
 
-▶︎ [Getting Started Guide (how_to_play_en.md)](./docs/how_to_play_en.md)
+▶︎ [Getting Started Guide](./docs/how_to_play_en.md)
 
 ---
 
-## 📜 Available Scenarios (EN)
+## 🏯 Sengoku Period Scenarios
 
-### 🏯 Sengoku Period
 | Year | Title                            | File                                                                 |
 |------|----------------------------------|----------------------------------------------------------------------|
 | 1555 | The Tripartite Alliance          | [1555_sangoku_alliance_en.md](./sengoku/periods/1555_sangoku_alliance_en.md) |
@@ -97,72 +84,62 @@ Rekiden is designed to be played interactively with ChatGPT (GPT-4 or later):
 | 1575 | Battle of Nagashino              | [1575_nagashino_en.md](./sengoku/periods/1575_nagashino_en.md) |
 | 1582 | The Great Return from Chūgoku    | [1582-2_chugoku_ogaeshi_en.md](./sengoku/periods/1582-2_chugoku_ogaeshi_en.md) |
 | 1600 | Battle of Sekigahara             | [1600_sekigahara_en.md](./sengoku/periods/1600_sekigahara_en.md) |
-| 1600 | Righteous Rule (If Scenario)     | [1600_uesugi_if_en.md](./sengoku/periods/1600_uesugi_if_en.md) |
+| 1600 | Righteous Rule (Uesugi IF)       | [1600_uesugi_if_en.md](./sengoku/periods/1600_uesugi_if_en.md) |
 | 1614 | Siege of Osaka                   | [1614_osaka_campaign_en.md](./sengoku/periods/1614_osaka_campaign_en.md) |
 
-### 🎌 Bakumatsu
-| Title | File |
-|-----------------------------|------------------------------------------------------------|
-| Ryoma’s Path to Reform (If) | [ryoma_if_government_en.md](./bakumatsu/ryoma_if_government_en.md) |
+---
 
-### 🔮 Future Japan (Post-Reconstruction)
-| Title | File |
-|----------------------------------------|--------------------------------------------------------------------------|
-| Memory of the Trench – Rebuilding Japan (If) | [future_reconstruction_path_if_en.md](./future/future_reconstruction_path_if_en.md) |
-> ⚠️ **Note**: This scenario is not part of the core Rekiden historical series.
-> It is an experimental "future simulation" that builds on the Rekiden system architecture and gameplay format.
-> Designed for educational use, it explores post-disaster recovery, societal decision-making, and the integration of AITL-H technologies.
-> The goal is to encourage critical thinking about future policies, technological impacts, and ethical dilemmas through AI-powered simulation.
+## 🌍 World War II Scenarios
+
+▶︎ [WW2 Scenario Menu (EN)](./ww2/index_en.md)
+
+| Nation | Role           | Theme                                | File |
+|--------|----------------|---------------------------------------|-------|
+| 🇯🇵 Japan | Yamamoto       | Pearl Harbor & Midway strategy       | [yamamoto_navy_en.md](./ww2/japan/yamamoto_navy_en.md) |
+| 🇺🇸 USA   | Roosevelt      | Total war & alliance building        | [roosevelt_strategy_en.md](./ww2/usa/roosevelt_strategy_en.md) |
+| 🇺🇸 USA   | Oppenheimer    | Ethics of atomic bomb development    | [oppenheimer_ethics_en.md](./ww2/usa/oppenheimer_ethics_en.md) |
+| 🇺🇸 USA   | MacArthur      | Pacific War and island campaign      | [macarthur_pacific_en.md](./ww2/usa/macarthur_pacific_en.md) |
+| 🇩🇪 Germany | Hitler       | Invasion of Poland & diplomacy       | [hitler_politics_en.md](./ww2/germany/hitler_politics_en.md) |
 
 ---
 
-## 🧠 GPT Benefits Summary
+## 🧪 Sample Play Logs
 
-| Feature              | GPT Capabilities                                               |
-|----------------------|----------------------------------------------------------------|
-| Strategic Reasoning  | Suggests tactics based on terrain, diplomacy, economy          |
-| What-If Exploration  | Simulates alternate histories with realism                     |
-| Dynamic Storytelling | Creates vivid narratives from decisions and consequences       |
-| Educational Utility  | Explains historical background, context, and decision outcomes |
-| Adaptable Gameplay   | Fully personalized story progression through user input        |
+- [Kawanakajima – Uesugi Kenshin (ENG)](templates/1561_kawanakajima_kenshin_user001.md)  
+- [Kawanakajima – Fūrin Kazan Mode (ENG)](templates/1561_kawanakajima_furinkazan_en.md)
 
 ---
 
-## 🧪 Sample Play Log
+## ✅ Project Status
 
-- [Battle of Kawanakajima – Uesugi Kenshin Play Log (ENG)](templates/1561_kawanakajima_kenshin_user001.md)
-
-- [Battle of Kawanakajima(Fūrin Kazan Mode)– Takeda Shingen Play Log (ENG)](templates/1561_kawanakajima_furinkazan_en.md)
-
----
-
-## 🚀 Roadmap
-
-- ✅ All Sengoku core scenarios implemented (JP)
-- ✅ Key scenarios translated to English
-- ✅ Future scenario support (reconstruction, AI governance, disaster recovery)
-- 🔜 GUI / Streamlit support
-- 🔜 Save/Resume with Markdown + JSON
+| Feature                         | Status |
+|----------------------------------|--------|
+| All Sengoku scenarios (JP)       | ✅ Done |
+| 5 WW2 scenarios (JP/EN)          | ✅ Done |
+| English scenario support         | ✅ Ongoing |
+| Future simulations               | ❌ Removed |
+| Streamlit GUI                    | 🔜 Planned |
+| Save/Resume (Markdown+JSON)     | 🔜 Planned |
 
 ---
 
 ## 📜 License
 
 MIT License © 2025 Shinichi Samizo  
-See [LICENSE](./LICENSE) for full terms.
+See [LICENSE](./LICENSE) for details.
 
 ---
 
 ## 👤 Author
 
 **Shinichi Samizo**  
-Engineer (Semiconductors & Control Systems) / Historical Simulation Developer  
+Engineer / AI-assisted simulation developer  
 GitHub: [Samizo-AITL](https://github.com/Samizo-AITL)  
 Email: [shin3t72@gmail.com](mailto:shin3t72@gmail.com)
 
 ---
 
-Rekiden is where AI meets history.  
-Explore it. Expand it. Evolve the future.
+**Rekiden** is where strategy meets storytelling.  
+History is not fixed—rewrite it.
 
 ---
