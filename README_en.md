@@ -89,6 +89,15 @@ Rekiden is designed to be played with ChatGPT (GPT-4 or later):
 
 ---
 
+## 🏯 What is the Sengoku Period?
+
+New to Japanese history?  
+See our short introduction to understand the **chaotic and fascinating era** of warlords, alliances, betrayals, and ambition.
+
+▶︎ [Intro to the Sengoku Period (sengoku_intro_en.md)](./docs/sengoku_intro_en.md)
+
+---
+
 ## 🌍 World War II Scenarios
 
 ▶︎ [WW2 Scenario Menu (EN)](./ww2/index_en.md)
