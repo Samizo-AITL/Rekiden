@@ -87,8 +87,6 @@ Rekiden is designed to be played with ChatGPT (GPT-4 or later):
 | 1600 | Righteous Rule (Uesugi IF)       | [1600_uesugi_if_en.md](./sengoku/periods/1600_uesugi_if_en.md) |
 | 1614 | Siege of Osaka                   | [1614_osaka_campaign_en.md](./sengoku/periods/1614_osaka_campaign_en.md) |
 
----
-
 ### 🏯 What is the Sengoku Period?
 
 New to Japanese history?  
