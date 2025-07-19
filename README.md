@@ -5,6 +5,11 @@
 
 ---
 
+🏠 [English Version is here](./README_en.md)  
+→ Experience Rekiden in English
+
+---
+
 ## 🎮 遊び方（ChatGPTと対話）
 
 1. `.md`シナリオファイルをChatGPTに貼り付ける  
