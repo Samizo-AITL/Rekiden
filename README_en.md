@@ -7,7 +7,8 @@ This is more than a game. Rekiden is an educational and interactive framework fo
 
 ---
 
-🇯🇵 [日本語ページはこちら](https://samizo-aitl.github.io/Rekiden/) 
+🏠 [日本語版はこちら](./README.md)  
+→ 日本語でRekidenを体験する
 
 ---
 
