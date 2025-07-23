@@ -169,7 +169,7 @@ Whether you're interested in educational use, historical storytelling, or altern
 👉 [Join the discussion on GitHub Discussions](https://github.com/Samizo-AITL/Rekiden/discussions)
 
 Examples:
-- Requests for other battles (e.g. Okehazama, Nagashino)
+- Requests for other battles 
 - Comparative views with other countries' history
 - Interest in AI-assisted historical simulations
 
