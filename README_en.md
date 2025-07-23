@@ -161,6 +161,22 @@ History is not fixed—rewrite it.
 
 ---
 
+## 💬 Feedback and Discussion
+
+We welcome your feedback, ideas, and suggestions for the **Rekiden** project.  
+Whether you're interested in educational use, historical storytelling, or alternative battle strategies — your input helps shape the future of this simulation.
+
+👉 [Join the discussion on GitHub Discussions](https://github.com/Samizo-AITL/Rekiden/discussions)
+
+Examples:
+- Requests for other battles (e.g. Okehazama, Nagashino)
+- Comparative views with other countries' history
+- Interest in AI-assisted historical simulations
+
+Your insights can elevate Rekiden to a global, collaborative knowledge platform.
+
+---
+
 ## Uesugi Kenshin - Battle of Kawanakajima (1561)
 
 ![Uesugi Kenshin - Battle of Kawanakajima](./Uesugi_Kenshin_Kawanakajima_1561.png)
