@@ -101,7 +101,7 @@ Rekiden プロジェクトでは、皆さまからのご意見・ご提案・改
 👉 [ディスカッションはこちら（GitHub Discussions）](https://github.com/Samizo-AITL/Rekiden/discussions)
 
 例：
-- 他の戦い（桶狭間、長篠など）も追加してほしい
+- 他の戦いも追加してほしい
 - 海外の歴史と比較したい
 - 戦略シミュレーションとして展開したい
 
