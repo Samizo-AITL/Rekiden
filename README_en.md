@@ -151,3 +151,12 @@ Email: [shin3t72@gmail.com](mailto:shin3t72@gmail.com)
 History is not fixed—rewrite it.
 
 ---
+
+## Uesugi Kenshin - Battle of Kawanakajima (1561)
+
+![Uesugi Kenshin - Battle of Kawanakajima](./Uesugi_Kenshin_Kawanakajima_1561.png)
+
+A dynamic depiction of young Uesugi Kenshin charging into battle on horseback, captured in a realistic oil painting style.  
+Ideal as a key visual for Rekiden historical education materials.
+
+---
