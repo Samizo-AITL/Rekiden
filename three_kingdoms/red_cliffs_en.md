@@ -12,6 +12,11 @@ His words moved kings. His vision redrew China.
 
 ---
 
+![Zhuge Liang stands by the river with a fan in hand, wind stirring his sleeves – before Red Cliffs](./images/zhuge_liang_red_cliffs.png)
+*Zhuge Liang contemplates the battle to come. Red Cliffs. Wind. Fire.*
+
+---
+
 ## 📖 Table of Contents
 
 1. [Part I: 三顧之禮](#part-i-三顧之禮)  
