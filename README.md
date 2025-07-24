@@ -50,7 +50,7 @@
 
 ---
 
-- 🐉 [諸葛亮と赤壁の戦い — The Sleeping Dragon Awakens](./three_kingdoms/red_cliffs_en.md)  
+- 🐉 [諸葛亮と赤壁の戦い — The Sleeping Dragon Awakens (AD 208)](./three_kingdoms/red_cliffs_en.md)  
   繁體字 × 英語で綴る文藝歴史シナリオ。ゲーム操作なし、読むだけで“知略の戦”を体験。
   
 ---
