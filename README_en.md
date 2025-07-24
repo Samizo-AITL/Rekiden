@@ -97,7 +97,7 @@ See our short introduction to understand the **chaotic and fascinating era** of 
 
 ---
 
-## 🌍 World War II Scenarios
+## 🌍 World War II Scenarios (1939–1945)
 
 ▶︎ [WW2 Scenario Menu (EN)](./ww2/index_en.md)
 
