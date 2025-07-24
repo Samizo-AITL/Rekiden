@@ -94,7 +94,7 @@ Will you restore peace? Seize power? Or fall in the chaos?
 
 ---
 
-### 🔥 Osaka Castle in Flames
+## 🔥 Osaka Castle in Flames
 
 The image below is a conceptual depiction of Osaka Castle engulfed in flames, symbolizing the final chapter of the Sengoku period.
 
