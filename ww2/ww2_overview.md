@@ -68,7 +68,7 @@ Rekiden WW2 シナリオでは、歴史的事実を踏まえながらも、**各
 
 ---
 
-**General of the Army Douglas MacArthur**
+## **General of the Army Douglas MacArthur**
 ![General MacArthur](./MacArthur.png)
 
 ---
