@@ -111,7 +111,7 @@ See our short introduction to understand the **chaotic and fascinating era** of 
 
 ---
 
-- 🐉 [The Sleeping Dragon Awakens – Battle of Red Cliffs](./three_kingdoms/red_cliffs_en.md)  
+- 🐉 [The Sleeping Dragon Awakens – Battle of Red Cliffs (AD 208)](./three_kingdoms/red_cliffs_en.md)  
   A non-interactive literary scenario featuring Zhuge Liang, written in English with Traditional Chinese keywords.
   
 ---
