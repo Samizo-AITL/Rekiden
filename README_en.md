@@ -111,6 +111,11 @@ See our short introduction to understand the **chaotic and fascinating era** of 
 
 ---
 
+- 🐉 [The Sleeping Dragon Awakens – Battle of Red Cliffs](./three_kingdoms/red_cliffs_en.md)  
+  A non-interactive literary scenario featuring Zhuge Liang, written in English with Traditional Chinese keywords.
+  
+---
+
 ## 🧪 Sample Play Logs
 
 - [Kawanakajima – Uesugi Kenshin (ENG)](templates/1561_kawanakajima_kenshin_user001.md)  
