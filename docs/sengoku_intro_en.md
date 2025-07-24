@@ -91,3 +91,13 @@ Just choose a time and place — and let AI guide you through Japan's most turbu
 Will you restore peace? Seize power? Or fall in the chaos?
 
 > **History is written by your choices.**
+
+---
+
+### 🔥 Osaka Castle in Flames
+
+The image below is a conceptual depiction of Osaka Castle engulfed in flames, symbolizing the final chapter of the Sengoku period.
+
+![Osaka Castle Burning](./Osaka_Castle_Burning_Cropped.png)
+
+---
