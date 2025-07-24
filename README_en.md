@@ -109,6 +109,8 @@ See our short introduction to understand the **chaotic and fascinating era** of 
 | 🇺🇸 USA   | MacArthur      | Pacific War and island campaign      | [macarthur_pacific_en.md](./ww2/usa/macarthur_pacific_en.md) |
 | 🇩🇪 Germany | Hitler       | Invasion of Poland & diplomacy       | [hitler_politics_en.md](./ww2/germany/hitler_politics_en.md) |
 
+> 📖 [Historical Overview (English)](./ww2/ww2_overview_en.md)
+
 ---
 
 - 🐉 [The Sleeping Dragon Awakens – Battle of Red Cliffs (AD 208)](./three_kingdoms/red_cliffs_en.md)  
