@@ -99,8 +99,6 @@ See our short introduction to understand the **chaotic and fascinating era** of 
 
 ## 🌍 World War II Scenarios (1939–1945)
 
-▶︎ [WW2 Scenario Menu (EN)](./ww2/index_en.md)
-
 | Nation | Role           | Theme                                | File |
 |--------|----------------|---------------------------------------|-------|
 | 🇯🇵 Japan | Yamamoto       | Pearl Harbor & Midway strategy       | [yamamoto_navy_en.md](./ww2/japan/yamamoto_navy_en.md) |
