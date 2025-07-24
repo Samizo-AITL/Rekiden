@@ -61,3 +61,8 @@ This scenario set explores World War II through **the perspectives of key histor
 | 1939 | 🇩🇪 Germany  | Adolf Hitler          | Invasion of Poland and Diplomatic Brinkmanship | [hitler_politics.md](./germany/hitler_politics.md) |
 
 ---
+
+## **General of the Army Douglas MacArthur**
+![General MacArthur](./MacArthur.png)
+
+---
