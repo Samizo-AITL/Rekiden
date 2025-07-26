@@ -20,7 +20,20 @@
 > ChatGPTはナレーター・ゲームマスター・エンジンを兼ねて進行します。
 
 ---
+## 🏯 戦国時代シナリオ
 
+---
+
+### ⚔️ 時代別シナリオ一覧（家紋・人物視点つき）
+
+| 年号   | 陣営     | 家紋                          | 主人物       | タイトル                          | マップ | シナリオ |
+|--------|----------|-------------------------------|--------------|-----------------------------------|--------|----------|
+| 1555年 | 甲斐・駿河・相模 | ![今川](https://upload.wikimedia.org/wikipedia/commons/8/8b/Imagawa_mon.svg) ![武田](https://upload.wikimedia.org/wikipedia/commons/0/00/Takeda_mon.svg) ![北条](https://upload.wikimedia.org/wikipedia/commons/5/5a/Hojo_mon.svg) | 今川義元／武田信玄／北条氏康 | 三国同盟                         | 🗺️ [地図](./maps/1555_map.png) | [読む](./sengoku/periods/1555_sangoku_alliance.md) |
+| 1561年 | 武田 vs 上杉 | ![武田](https://upload.wikimedia.org/wikipedia/commons/0/00/Takeda_mon.svg) ![上杉](https://upload.wikimedia.org/wikipedia/commons/7/76/Uesugi_mon.svg) | 武田信玄／上杉謙信 | 川中島の戦い                     | 🗺️ [地図](./maps/1561_map.png) | [読む](./sengoku/periods/1561_kawanakajima.md) |
+| 1575年 | 織田・徳川 vs 武田 | ![織田](https://upload.wikimedia.org/wikipedia/commons/2/26/Oda_mon.svg) ![徳川](https://upload.wikimedia.org/wikipedia/commons/2/27/Tokugawa_family_crest.svg) ![武田](https://upload.wikimedia.org/wikipedia/commons/0/00/Takeda_mon.svg) | 織田信長／徳川家康／武田勝頼 | 長篠の戦い                       | 🗺️ [地図](./maps/1575_map.png) | [読む](./sengoku/periods/1575_nagashino.md) |
+| 1582年 | 明智 vs 羽柴 | ![明智](https://upload.wikimedia.org/wikipedia/commons/b/b5/Akechi_mon.svg) ![豊臣](https://upload.wikimedia.org/wikipedia/commons/1/15/Toyotomi_mon.svg) | 明智光秀／羽柴秀吉 | 本能寺と中国大返し               | 🗺️ [地図](./maps/1582_map.png) | [読む](./sengoku/periods/1582-2_chugoku_ogaeshi.md) |
+| 1600年 | 上杉 vs 家康 | ![上杉](https://upload.wikimedia.org/wikipedia/commons/7/76/Uesugi_mon.svg) ![徳川](https://upload.wikimedia.org/wikipedia/commons/2/27/Tokugawa_family_crest.svg) | 上杉景勝／徳川家康 | 義の天下（上杉if）              | 🗺️ [地図](./maps/1600_if_map.png) | [読む](./sengoku/periods/1600_uesugi_if.md) |
+| 1614年 | 豊臣 vs 徳川 | ![豊臣](https://upload.wikimedia.org/wikipedia/commons/1/15/Toyotomi_mon.svg) ![徳川](https://upload.wikimedia.org/wikipedia/commons/2/27/Tokugawa_family_crest.svg) ![真田](https://upload.wikimedia.org/wikipedia/commons/e/ef/Rokumonsen.svg) | 真田幸村／徳川秀忠 | 大坂の陣（真田丸）               | 🗺️ [地図](./maps/1614_map.png) | [読む](./sengoku/periods/1614_osaka_campaign.md) |
 ## 🏯 戦国時代シナリオ
 
 ### ⚔️ 時代別シナリオ一覧
