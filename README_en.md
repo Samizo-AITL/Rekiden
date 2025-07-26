@@ -76,17 +76,19 @@ Rekiden is designed to be played with ChatGPT (GPT-4 or later):
 
 ---
 
-## 🏯 Sengoku Period Scenarios
+## 🏯 Sengoku Period Scenarios (1555–1614)
 
-| Year | Title                            | File                                                                 |
-|------|----------------------------------|----------------------------------------------------------------------|
-| 1555 | The Tripartite Alliance          | [1555_sangoku_alliance_en.md](./sengoku/periods/1555_sangoku_alliance_en.md) |
-| 1561 | Battle of Kawanakajima           | [1561_kawanakajima_en.md](./sengoku/periods/1561_kawanakajima_en.md) |
-| 1575 | Battle of Nagashino              | [1575_nagashino_en.md](./sengoku/periods/1575_nagashino_en.md) |
-| 1582 | The Great Return from Chūgoku    | [1582-2_chugoku_ogaeshi_en.md](./sengoku/periods/1582-2_chugoku_ogaeshi_en.md) |
-| 1600 | Battle of Sekigahara             | [1600_sekigahara_en.md](./sengoku/periods/1600_sekigahara_en.md) |
-| 1600 | Righteous Rule (Uesugi IF)       | [1600_uesugi_if_en.md](./sengoku/periods/1600_uesugi_if_en.md) |
-| 1614 | Siege of Osaka                   | [1614_osaka_campaign_en.md](./sengoku/periods/1614_osaka_campaign_en.md) |
+### ⚔️ Scenario List by Era
+
+| Year | Factions / Key Figures                      | Title                             | File |
+|------|---------------------------------------------|-----------------------------------|------|
+| 1555 | Imagawa Yoshimoto, Takeda Shingen, Hōjō Ujiyasu | The Tripartite Alliance          | [1555_sangoku_alliance_en.md](./sengoku/periods/1555_sangoku_alliance_en.md) |
+| 1561 | Takeda Shingen vs Uesugi Kenshin            | Battle of Kawanakajima           | [1561_kawanakajima_en.md](./sengoku/periods/1561_kawanakajima_en.md) |
+| 1575 | Oda Nobunaga & Tokugawa Ieyasu vs Takeda Katsuyori | Battle of Nagashino             | [1575_nagashino_en.md](./sengoku/periods/1575_nagashino_en.md) |
+| 1582 | Akechi Mitsuhide vs Hashiba (Toyotomi) Hideyoshi | The Great Return from Chūgoku   | [1582-2_chugoku_ogaeshi_en.md](./sengoku/periods/1582-2_chugoku_ogaeshi_en.md) |
+| 1600 | Uesugi Kagekatsu (IF) vs Tokugawa Ieyasu    | Righteous Rule (Uesugi IF)       | [1600_uesugi_if_en.md](./sengoku/periods/1600_uesugi_if_en.md) |
+| 1614 | Sanada Yukimura & Toyotomi Hideyori vs Tokugawa Hidetada | Siege of Osaka                 | [1614_osaka_campaign_en.md](./sengoku/periods/1614_osaka_campaign_en.md) |
+
 
 ### 🏯 What is the Sengoku Period?
 
@@ -97,17 +99,20 @@ See our short introduction to understand the **chaotic and fascinating era** of 
 
 ---
 
-## 🌍 World War II Scenarios (1939–1945)
+## 🌍 World War II Scenarios (1939–1945)  
+**Allies** 🇬🇧 🇺🇸 🇫🇷 vs. **Axis** 🇩🇪 🇮🇹 🇯🇵
 
-| Nation | Role           | Theme                                | File |
-|--------|----------------|---------------------------------------|-------|
-| 🇯🇵 Japan | Yamamoto       | Pearl Harbor & Midway strategy       | [yamamoto_navy_en.md](./ww2/japan/yamamoto_navy_en.md) |
-| 🇺🇸 USA   | Roosevelt      | Total war & alliance building        | [roosevelt_strategy_en.md](./ww2/usa/roosevelt_strategy_en.md) |
-| 🇺🇸 USA   | Oppenheimer    | Ethics of atomic bomb development    | [oppenheimer_ethics_en.md](./ww2/usa/oppenheimer_ethics_en.md) |
-| 🇺🇸 USA   | MacArthur      | Pacific War and island campaign      | [macarthur_pacific_en.md](./ww2/usa/macarthur_pacific_en.md) |
-| 🇩🇪 Germany | Hitler       | Invasion of Poland & diplomacy       | [hitler_politics_en.md](./ww2/germany/hitler_politics_en.md) |
+### 🎮 Playable Scenario List
 
-> 📖 [Historical Overview (English)](./ww2/ww2_overview_en.md)
+| Year | Nation      | Player         | Title                                  | File |
+|------|-------------|----------------|----------------------------------------|------|
+| 1941 | 🇯🇵 Japan    | Yamamoto       | Pearl Harbor & Midway Strategy         | [yamamoto_navy_en.md](./ww2/japan/yamamoto_navy_en.md) |
+| 1941 | 🇺🇸 USA      | Roosevelt      | Total War & Alliance Building          | [roosevelt_strategy_en.md](./ww2/usa/roosevelt_strategy_en.md) |
+| 1945 | 🇺🇸 USA      | Oppenheimer    | Ethics of Atomic Bomb Development      | [oppenheimer_ethics_en.md](./ww2/usa/oppenheimer_ethics_en.md) |
+| 1942 | 🇺🇸 USA      | MacArthur      | Pacific Front & Philippine Campaign    | [macarthur_pacific_en.md](./ww2/usa/macarthur_pacific_en.md) |
+| 1939 | 🇩🇪 Germany  | Hitler         | Invasion of Poland & Diplomatic Crisis | [hitler_politics_en.md](./ww2/germany/hitler_politics_en.md) |
+
+📖 [**Intro to World War II (English)**](./ww2/ww2_overview_en.md)
 
 ---
 
