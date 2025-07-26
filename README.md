@@ -26,6 +26,16 @@
 
 ### ⚔️ 時代別シナリオ一覧（家紋・人物視点つき）
 
+## 🏯 戦国時代シナリオ
+
+| 年号   | 家紋 | 主人物       | タイトル                          | リンク |
+|--------|------|--------------|-----------------------------------|--------|
+| 1555年 | ![](./assets/images/kamon/imagawa.png) ![](./assets/images/kamon/takeda.png) ![](./assets/images/kamon/hojo.png) | 今川・武田・北条 | 三国同盟 | [読む](./sengoku/periods/1555_sangoku_alliance.md) |
+| 1561年 | ![](./assets/images/kamon/takeda.png) ![](./assets/images/kamon/uesugi.png) | 武田信玄／上杉謙信 | 川中島の戦い | [読む](./sengoku/periods/1561_kawanakajima.md) |
+| 1575年 | ![](./assets/images/kamon/oda.png) ![](./assets/images/kamon/tokugawa.png) ![](./assets/images/kamon/takeda.png) | 織田信長／徳川家康／武田勝頼 | 長篠の戦い | [読む](./sengoku/periods/1575_nagashino.md) |
+| 1582年 | ![](./assets/images/kamon/akechi.png) ![](./assets/images/kamon/toyotomi.png) | 明智光秀／羽柴秀吉 | 本能寺と中国大返し | [読む](./sengoku/periods/1582-2_chugoku_ogaeshi.md) |
+| 1600年 | ![](./assets/images/kamon/uesugi.png) ![](./assets/images/kamon/tokugawa.png) | 上杉景勝／徳川家康 | 義の天下（上杉if） | [読む](./sengoku/periods/1600_uesugi_if.md) |
+| 1614年 | ![](./assets/images/kamon/toyotomi.png) ![](./assets/images/kamon/tokugawa.png) ![](./assets/images/kamon/sanada.png) | 真田幸村／徳川秀忠 | 大坂の陣（真田丸） | [読む](./sengoku/periods/1614_osaka_campaign.md) |
 | 年号   | 陣営     | 家紋                          | 主人物       | タイトル                          | マップ | シナリオ |
 |--------|----------|-------------------------------|--------------|-----------------------------------|--------|----------|
 | 1555年 | 甲斐・駿河・相模 | ![今川](https://upload.wikimedia.org/wikipedia/commons/8/8b/Imagawa_mon.svg) ![武田](https://upload.wikimedia.org/wikipedia/commons/0/00/Takeda_mon.svg) ![北条](https://upload.wikimedia.org/wikipedia/commons/5/5a/Hojo_mon.svg) | 今川義元／武田信玄／北条氏康 | 三国同盟                         | 🗺️ [地図](./maps/1555_map.png) | [読む](./sengoku/periods/1555_sangoku_alliance.md) |
