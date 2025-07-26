@@ -25,6 +25,12 @@
 
 ### ⚔️ 時代別シナリオ一覧
 
+## 🏯 家紋表示テスト
+
+| 織田家 | 武田家 | 真田家 |
+|--------|--------|--------|
+| ![](/Rekiden/assets/images/kamon/oda.png) | ![](/Rekiden/assets/images/kamon/takeda.png) | ![](/Rekiden/assets/images/kamon/sanada.png) |
+
 | 年号   | タイトル                          | ファイルリンク |
 |--------|----------------------------------|----------------|
 | 1555年 | 三国同盟                         | [1555_sangoku_alliance.md](./sengoku/periods/1555_sangoku_alliance.md) |
