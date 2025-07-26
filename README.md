@@ -25,7 +25,35 @@
 
 ### ⚔️ 時代別シナリオ一覧
 ## 🏯 家紋表示テスト
+<h2>🏯 家紋表示テスト</h2>
 
+<table>
+  <tr>
+    <th>織田</th><th>豊臣</th><th>徳川</th><th>武田</th>
+  </tr>
+  <tr>
+    <td><img src="/Rekiden/assets/images/kamon/oda.png" width="60"/></td>
+    <td><img src="/Rekiden/assets/images/kamon/toyotomi.png" width="60"/></td>
+    <td><img src="/Rekiden/assets/images/kamon/tokugawa.png" width="60"/></td>
+    <td><img src="/Rekiden/assets/images/kamon/takeda.png" width="60"/></td>
+  </tr>
+  <tr>
+    <th>上杉</th><th>真田</th><th>北条</th><th>毛利</th>
+  </tr>
+  <tr>
+    <td><img src="/Rekiden/assets/images/kamon/uesugi.png" width="60"/></td>
+    <td><img src="/Rekiden/assets/images/kamon/sanada.png" width="60"/></td>
+    <td><img src="/Rekiden/assets/images/kamon/hojo.png" width="60"/></td>
+    <td><img src="/Rekiden/assets/images/kamon/mouri.png" width="60"/></td>
+  </tr>
+  <tr>
+    <th>伊達</th><th>明智</th>
+  </tr>
+  <tr>
+    <td><img src="/Rekiden/assets/images/kamon/date.png" width="60"/></td>
+    <td><img src="/Rekiden/assets/images/kamon/akechi.png" width="60"/></td>
+  </tr>
+</table>
 | 織田家 | 豊臣家 | 徳川家 | 武田家 |
 |--------|--------|--------|--------|
 | ![](/Rekiden/assets/images/kamon/oda.png) | ![](/Rekiden/assets/images/kamon/toyotomi.png) | ![](/Rekiden/assets/images/kamon/tokugawa.png) | ![](/Rekiden/assets/images/kamon/takeda.png) |
