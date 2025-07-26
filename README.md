@@ -21,18 +21,18 @@
 
 ---
 
-## 🏯 戦国時代シナリオ
+## 🏯 戦国時代シナリオ (1555–1614)
 
 ### ⚔️ 時代別シナリオ一覧
 
-| 年号   | タイトル                          | ファイルリンク |
-|--------|----------------------------------|----------------|
-| 1555年 | 三国同盟                         | [1555_sangoku_alliance.md](./sengoku/periods/1555_sangoku_alliance.md) |
-| 1561年 | 川中島の戦い                     | [1561_kawanakajima.md](./sengoku/periods/1561_kawanakajima.md) |
-| 1575年 | 長篠の戦い                       | [1575_nagashino.md](./sengoku/periods/1575_nagashino.md) |
-| 1582年 | 本能寺と中国大返し               | [1582-2_chugoku_ogaeshi.md](./sengoku/periods/1582-2_chugoku_ogaeshi.md) |
-| 1600年 | 義の天下（上杉 if）              | [1600_uesugi_if.md](./sengoku/periods/1600_uesugi_if.md) |
-| 1614年 | 大坂の陣（真田丸）               | [1614_osaka_campaign.md](./sengoku/periods/1614_osaka_campaign.md) |
+| 年号   | 陣営 / 主人物                         | タイトル                          | ファイルリンク |
+|--------|----------------------------------------|-----------------------------------|----------------|
+| 1555年 | 今川義元・武田信玄・北条氏康         | 三国同盟                          | [1555_sangoku_alliance.md](./sengoku/periods/1555_sangoku_alliance.md) |
+| 1561年 | 武田信玄 vs 上杉謙信                 | 川中島の戦い                      | [1561_kawanakajima.md](./sengoku/periods/1561_kawanakajima.md) |
+| 1575年 | 織田信長・徳川家康 vs 武田勝頼       | 長篠の戦い                        | [1575_nagashino.md](./sengoku/periods/1575_nagashino.md) |
+| 1582年 | 明智光秀 vs 羽柴秀吉                 | 本能寺と中国大返し               | [1582-2_chugoku_ogaeshi.md](./sengoku/periods/1582-2_chugoku_ogaeshi.md) |
+| 1600年 | 上杉景勝（if） vs 徳川家康           | 義の天下（上杉 if）              | [1600_uesugi_if.md](./sengoku/periods/1600_uesugi_if.md) |
+| 1614年 | 真田幸村・豊臣秀頼 vs 徳川秀忠       | 大坂の陣（真田丸）               | [1614_osaka_campaign.md](./sengoku/periods/1614_osaka_campaign.md) |
 
 📘 **海外プレイヤー向け背景解説：**  
 📄 [**Sengoku Introduction in English**](./docs/sengoku_intro_en.md)
