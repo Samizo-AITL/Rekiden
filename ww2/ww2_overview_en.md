@@ -62,7 +62,32 @@ This scenario set explores World War II through **the perspectives of key histor
 
 ---
 
-## **General of the Army Douglas MacArthur**
-![General MacArthur](./MacArthur.png)
+![zero_fighter_battle_scene](./images/zero_fighter_battle_scene.png)
+
+> **A6M Zero Fighter Dogfight Scene**  
+This intense aerial battle captures the dominance of the Mitsubishi A6M "Zero" fighter in the early years of World War II. With superior agility and long-range capabilities, the Zero overwhelmed Allied aircraft in the Pacific until newer American fighters like the F6F Hellcat emerged. The scene reflects the high-speed engagements over ocean skies that defined Japan's early air superiority strategy.
 
 ---
+
+![berlin_fall_scene](./images/berlin_fall_scene.png)
+
+> **Fall of Berlin – Soviet Flag over the Reichstag**  
+This dramatic scene represents the final days of World War II in Europe, as Soviet forces stormed the heart of Nazi Germany. The iconic image of a Soviet soldier raising the red flag atop the Reichstag became a symbol of victory over fascism. T-34 tanks, rubble-strewn streets, and burning buildings portray the scale of destruction and the cost of urban warfare.
+
+---
+
+![macarthur_landing_scene](./images/macarthur_landing_scene.png)
+
+> **MacArthur Returns – Leyte Gulf Landing, 1944**  
+General Douglas MacArthur is seen wading ashore in the Philippines, fulfilling his famous promise: “I shall return.” Wearing his trademark aviator sunglasses and smoking a corncob pipe, this moment marked the beginning of the liberation of the Philippines and symbolized American resolve in the Pacific theater.
+
+---
+
+
+
+
+
+
+
+
+
