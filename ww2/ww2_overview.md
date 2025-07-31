@@ -75,3 +75,19 @@ Rekiden WW2 シナリオでは、歴史的事実を踏まえながらも、**各
 This intense aerial battle captures the dominance of the Mitsubishi A6M "Zero" fighter in the early years of World War II. With superior agility and long-range capabilities, the Zero overwhelmed Allied aircraft in the Pacific until newer American fighters like the F6F Hellcat emerged. The scene reflects the high-speed engagements over ocean skies that defined Japan's early air superiority strategy.
 
 ---
+
+![berlin_fall_scene](./images/berlin_fall_scene.png)
+
+> **ベルリン陥落 – ライヒスタークの赤旗 / Fall of Berlin – Soviet Flag over the Reichstag**  
+この劇的な場面は、第二次世界大戦末期、ソ連軍がナチス・ドイツの中枢に迫り、ベルリンを制圧した瞬間を描いています。ライヒスタークの屋上に赤旗を掲げるソ連兵の姿は、ファシズムに対する勝利の象徴として世界に刻まれました。T-34戦車、瓦礫の街路、燃え上がる市街地は、都市戦の過酷さと破壊の規模を物語っています。  
+This dramatic scene represents the final days of World War II in Europe, as Soviet forces stormed the heart of Nazi Germany. The iconic image of a Soviet soldier raising the red flag atop the Reichstag became a symbol of victory over fascism. T-34 tanks, rubble-strewn streets, and burning buildings portray the scale of destruction and the cost of urban warfare.
+
+---
+
+![macarthur_landing_scene](./images/macarthur_landing_scene.png)
+
+> **マッカーサー上陸 – レイテ湾、1944年 / MacArthur Returns – Leyte Gulf Landing, 1944**  
+このシーンは、1944年のフィリピン・レイテ島への上陸作戦で、ダグラス・マッカーサー将軍が「I shall return（私は必ず戻る）」という誓いを果たす瞬間を捉えています。特徴的なサングラスとパイプをくわえ、軍靴で海を歩く姿は、太平洋戦線におけるアメリカの反攻と象徴的な決意を表しています。  
+General Douglas MacArthur is seen wading ashore in the Philippines, fulfilling his famous promise: “I shall return.” Wearing his trademark aviator sunglasses and smoking a corncob pipe, this moment marked the beginning of the liberation of the Philippines and symbolized American resolve in the Pacific theater.
+
+---
