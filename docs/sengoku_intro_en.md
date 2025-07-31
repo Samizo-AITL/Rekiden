@@ -100,4 +100,13 @@ The image below is a conceptual depiction of **Osaka Castle engulfed in flames**
 
 ![Osaka Castle Burning](./Osaka_Castle_Burning_Cropped.png)
 
+
+
+
+## 🔥 **Osaka Castle in Flames**
+
+The image below is a conceptual depiction of **Osaka Castle engulfed in flames**, symbolizing the final chapter of the **Sengoku Period**.
+
+![Osaka Castle Burning](./Osaka_Castle_Burning_Cropped.png)
+
 ---
