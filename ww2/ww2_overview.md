@@ -72,4 +72,9 @@ Rekiden WW2 シナリオでは、歴史的事実を踏まえながらも、**各
 ![zero_fighter_battle_scene](./images/zero_fighter_battle_scene.png)
 
 ---
+berlin_fall_scene.png
+![berlin_fall_scene.png](./images/berlin_fall_scene.png)
+
+
+
 
