@@ -70,12 +70,8 @@ Rekiden WW2 シナリオでは、歴史的事実を踏まえながらも、**各
 
 ![zero_fighter_battle_scene](./images/zero_fighter_battle_scene.png)
 
----
-
-![berlin_fall_scene](./images/berlin_fall_scene.png)
-
----
-
-![macarthur_landing_scene](./images/macarthur_landing_scene.png)
+> **零戦の空中戦シーン / A6M Zero Fighter Dogfight Scene**  
+この迫力ある空中戦は、第二次世界大戦初期における三菱A6M「零戦」の優位性を描いています。優れた旋回性能と長大な航続距離により、零戦は太平洋戦線で連合軍機を圧倒しました。しかし、F6Fヘルキャットなどの新型機の登場によってその優位は短期間で終わります。海上上空の高速戦闘は、日本の初期航空戦略を象徴します。  
+This intense aerial battle captures the dominance of the Mitsubishi A6M "Zero" fighter in the early years of World War II. With superior agility and long-range capabilities, the Zero overwhelmed Allied aircraft in the Pacific until newer American fighters like the F6F Hellcat emerged. The scene reflects the high-speed engagements over ocean skies that defined Japan's early air superiority strategy.
 
 ---
