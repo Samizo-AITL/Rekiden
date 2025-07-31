@@ -94,14 +94,9 @@ Will you **restore peace**? **Seize power**? Or **fall in the chaos**?
 
 ---
 
-## 🔥 **Osaka Castle in Flames**
+![battle_of_nagashino_1575.png](./battle_of_nagashino_1575.png)
 
-The image below is a conceptual depiction of **Osaka Castle engulfed in flames**, symbolizing the final chapter of the **Sengoku Period**.
-
-![Osaka Castle Burning](./Osaka_Castle_Burning_Cropped.png)
-
-
-
+---
 
 ## 🔥 **Osaka Castle in Flames**
 
