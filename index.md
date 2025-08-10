@@ -16,38 +16,39 @@ body {
 }
 
 /* Minima のヘッダー・フッターなどを消す */
-.site-header, .site-footer, .site-title {
+.site-header, .site-footer, .page-content, .wrapper, .page, .post, .post-list,
+.site-nav, .site-title, .site-nav .page-link {
   display: none !important;
+  background: transparent !important;
+  box-shadow: none !important;
+  border: none !important;
 }
 
-/* コンテンツ全体に半透明背景 */
+/* メインコンテンツの半透明化 */
 .main {
   max-width: 980px;
   margin: 2rem auto;
   padding: 1.5rem;
-  background-color: rgba(255, 255, 255, 0.75); /* 半透明白 */
+  background: rgba(255, 255, 255, 0.65); /* 半透明（65%） */
   border-radius: 8px;
+  backdrop-filter: blur(1px); /* 背景ぼかし */
 }
 
-/* 表の枠線＋半透明背景 */
+/* 表のデザイン */
 table {
+  background: rgba(255, 255, 255, 0.65); /* 表も半透明 */
   border-collapse: collapse;
   width: 100%;
-  margin-bottom: 1.5rem;
-  background-color: rgba(255, 255, 255, 0.85);
 }
 table th, table td {
-  border: 1px solid rgba(0, 0, 0, 0.3);
+  border: 1px solid rgba(0, 0, 0, 0.2);
   padding: 0.5rem;
-  text-align: left;
+}
+table th {
+  background: rgba(0,0,0,0.05);
+  font-weight: bold;
 }
 
-/* 見出しの装飾 */
-h1, h2, h3 {
-  background-color: rgba(255, 255, 255, 0.6);
-  padding: 0.3rem 0.5rem;
-  border-radius: 4px;
-}
 </style>
 
 <div class="main" markdown="1">
