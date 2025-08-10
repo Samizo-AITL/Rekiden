@@ -55,3 +55,12 @@ th {
 .page-content > .wrapper {
   padding: 1.5rem !important;
 }
+/* サイトの自動タイトルを隠して本文H1だけ表示（GitHubは影響を受けない） */
+.post-header, .post-title, .page-title {
+  display: none !important;
+}
+
+/* 余白が詰みすぎないようにラッパのパディングを確保 */
+.page-content > .wrapper {
+  padding: 1.5rem !important;
+}
