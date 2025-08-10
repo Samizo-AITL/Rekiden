@@ -1,3 +1,10 @@
+---
+layout: none
+title: ""
+---
+    
+---
+
 # 🎮 遊び方ガイド – ChatGPTでRekidenを始めるには
 
 **Rekiden（歴伝）** は、ChatGPTを“ゲームマスター”として対話的にプレイする歴史シミュレーションゲームです。  
