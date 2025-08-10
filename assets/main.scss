@@ -38,3 +38,15 @@ code, pre, kbd, samp {
 
 /* 左上のサイトタイトルも消したい場合は以下を追加 */
 /* .site-title { display: none !important; } */
+
+/* サイトタイトル（ヘッダー）を非表示 */
+.site-title {
+  display: none !important;
+}
+
+/* フッター全体を非表示 */
+.site-footer,
+.footer-col-wrapper,
+.footer-col {
+  display: none !important;
+}
