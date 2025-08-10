@@ -3,6 +3,10 @@ layout: default
 title: "🏯🌍 Rekiden — 戦国とWW2を体験する歴史ifシミュレーション / Historical “What-if” Simulation"
 ---
 
+---
+
+# 🏯🌍 **Rekiden — 戦国とWW2を体験する歴史ifシミュレーション / Historical "What-if" Simulation**
+
 **Rekiden** は、日本の **戦国時代** と **第二次世界大戦** をテーマにした  
 **ChatGPT連携型の歴史ifシナリオ教材／戦略シミュレーションフレームワーク**です。  
 You play as a **samurai, national leader, or scientist** at a turning point in history,  
