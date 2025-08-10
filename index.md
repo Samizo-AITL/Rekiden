@@ -108,7 +108,49 @@ body{
 
 ---
 
+## 👤 **執筆者情報 / Author**
+
+**三溝 真一（Shinichi Samizo）**  
+
+📬 **連絡先**  
+- ✉️ [shin3t72@gmail.com](mailto:shin3t72@gmail.com)  
+- 🐦 [https://x.com/shin3t72](https://x.com/shin3t72)  
+- 💻 [https://samizo-aitl.github.io/](https://samizo-aitl.github.io/)
+
+---
+
+**Rekiden** は、**AIと歴史が交差する思考と学びの舞台**です。  
+**歴史を選び、語り、変えてみよう。**
+
+---
+
 ## 📜 **ライセンス**
 MIT License © 2025 Shinichi Samizo — see [LICENSE](./LICENSE)
+
+---
+
+## 💬 **ご意見・フィードバック募集**
+
+**Rekiden プロジェクト**では、皆さまからの  
+**ご意見・ご提案・改善案**を歓迎しています。
+
+- 「教材としての使い方」  
+- 「戦略の表現方法」  
+- 「他時代への応用」 など
+
+ぜひお気軽にお寄せください。
+
+👉 [**ディスカッションはこちら（GitHub Discussions）**](https://github.com/Samizo-AITL/Rekiden/discussions)
+
+あなたの知見が、この教材をより深く豊かにします。
+
+---
+
+## 🖼️ **上杉謙信 - 川中島の戦い（1561年）**
+
+![上杉謙信 川中島の戦い](./Uesugi_Kenshin_Kawanakajima_1561.png)
+
+若き謙信が馬上から突撃する姿を描いた**リアルな油彩風イメージ**。  
+**Rekiden教材の導入ヴィジュアル**として使用可能です。
 
 </div>
