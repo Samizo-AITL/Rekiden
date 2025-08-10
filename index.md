@@ -16,7 +16,7 @@ body {
 }
 
 /* Minima のヘッダー・フッターなどを消す */
-.site-header, .site-footer, .page-content, .wrapper, .page, .post, .post-list,
+.site-header, .site-footer, .wrapper, .page, .post, .post-list,
 .site-nav, .site-title, .site-nav .page-link {
   display: none !important;
   background: transparent !important;
@@ -29,26 +29,25 @@ body {
   max-width: 980px;
   margin: 2rem auto;
   padding: 1.5rem;
-  background: rgba(255, 255, 255, 0.65); /* 半透明（65%） */
+  background: rgba(255, 255, 255, 0.50); /* 半透明（50%） */
   border-radius: 8px;
-  backdrop-filter: blur(1px); /* 背景ぼかし */
+  backdrop-filter: blur(1px);
 }
 
 /* 表のデザイン */
 table {
-  background: rgba(255, 255, 255, 0.65); /* 表も半透明 */
+  background: rgba(255, 255, 255, 0.50); /* 表も半透明（50%） */
   border-collapse: collapse;
   width: 100%;
 }
-table th, table td {
-  border: 1px solid rgba(0, 0, 0, 0.2);
+th, td {
+  border: 1px solid #ccc;
   padding: 0.5rem;
 }
-table th {
-  background: rgba(0,0,0,0.05);
+th {
+  background: rgba(240, 240, 240, 0.6);
   font-weight: bold;
 }
-
 </style>
 
 <div class="main" markdown="1">
