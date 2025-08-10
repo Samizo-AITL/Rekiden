@@ -1,7 +1,17 @@
 theme: minima
 
 exclude:
+  # トップのREADME系ファイルをビルドから除外
   - README.md
   - README_en.md
-  - docs/README*.md
-  - **/*_template*.md
+
+  # docs配下のREADMEも除外
+  - docs/README.md
+  - docs/README_en.md
+
+  # テンプレートファイルはすべて除外
+  - "**/*template*.md"
+
+  # その他ビルド不要なMarkdownやメモ
+  - "*.backup.md"
+  - "*.draft.md"
