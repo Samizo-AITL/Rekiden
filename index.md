@@ -2,8 +2,6 @@
 layout: none
 title: ""
 ---
-
- <div class="rekiden-main" markdown="1"> 
     
 ---
 
@@ -102,5 +100,3 @@ We welcome your suggestions and improvements!
 </p>
 若き謙信が馬上から突撃する姿を描いたリアルな油彩風イメージ。  
 A vivid oil-paint style image of young Kenshin’s cavalry charge.
-
-</div>
