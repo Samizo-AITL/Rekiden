@@ -120,13 +120,21 @@ ChatGPT連携型の **歴史ifシナリオ教材／戦略シミュレーショ�
 ## 👤 **作成者情報 / Author**
 
 **三溝 真一（Shinichi Samizo）**  
+**半導体 × 制御 × AI × 歴史** — *統合クリエイター / Integrated Creator*
 
-半導体×制御×AI×歴史　統合クリエイター
+📌 **専門領域**
+- 半導体設計・製造技術（CMOS/FinFET/GAA）
+- 制御理論・適応/ロバスト制御
+- AI応用・教材設計
+- 歴史シナリオ制作（戦国時代・WW2・三国志）
 
-📬 **連絡先**  
-- ✉️ [shin3t72@gmail.com](mailto:shin3t72@gmail.com)  
-- 🐦 [https://x.com/shin3t72](https://x.com/shin3t72)  
-- 💻 [https://samizo-aitl.github.io/](https://samizo-aitl.github.io/)
+📬 **連絡先 / Contact**
+- ✉️ **Email**: [shin3t72@gmail.com](mailto:shin3t72@gmail.com)  
+- 🐦 **X (Twitter)**: [https://x.com/shin3t72](https://x.com/shin3t72)  
+- 💻 **Web**: [https://samizo-aitl.github.io/](https://samizo-aitl.github.io/)
+
+💡 **Rekiden** は、歴史と技術の「if」を結びつけ、  
+学び・戦略・創造を同時に体験できる舞台です。
 
 ---
 
