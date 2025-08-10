@@ -3,14 +3,22 @@ title: Rekiden
 ---
 
 <style>
-html,body{height:100%;}
+html,body{height:100%; margin:0;}
 body{
   background-image:url('{{ site.baseurl }}/assets/images/washi.PNG');
   background-size:cover;
   background-position:center;
   background-attachment:fixed;
-  margin:0;
 }
+
+/* minima テーマの白背景削除 */
+.site-header, .site-footer, .page-content, .wrapper {
+  background: transparent !important;
+  box-shadow: none !important;
+  border: none !important;
+}
+
+/* 読みやすさ用コンテンツボックス */
 .main{
   max-width:980px; margin:2rem auto; padding:1.5rem;
   background:rgba(255,255,255,.85); border-radius:8px;
