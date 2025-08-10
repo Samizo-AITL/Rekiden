@@ -1,3 +1,10 @@
+---
+layout: none
+title: ""
+---
+    
+---
+
 # 🇯🇵 Decisive Strike: Yamamoto and the Shadow of Pearl Harbor
 
 **Playable Role**: Admiral Isoroku Yamamoto – Commander-in-Chief of the Imperial Japanese Navy  
