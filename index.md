@@ -12,7 +12,7 @@ title: "🏯🌍 Rekiden — 戦国とWW2を体験する歴史ifシミュレー�
 You play as a **samurai**, **national leader**, or **scientist** at a **turning point in history**,  
 making **_what-if_ choices** and experiencing **alternative outcomes**.
 
-🏠 **[English Version / 英語版はこちら](./README_en.md)**
+🏠 **[English Version / 英語版はこちら](./index_en.md)**
 
 ---
 
