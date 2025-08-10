@@ -1,3 +1,10 @@
+---
+layout: none
+title: ""
+---
+    
+---
+
 # The Sleeping Dragon Awakens  
 *Zhuge Liang and the Battle of Red Cliffs, AD 208*  
 ## 臥龍初醒：諸葛亮與赤壁之戰  
