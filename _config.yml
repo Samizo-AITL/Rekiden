@@ -1,3 +1,13 @@
 theme: minima
 sass:
   style: compressed
+
+# ← ここが重要：Pages に載せない .md を除外
+exclude:
+  - README.md
+  - README_en.md
+  - docs/README.md
+  - docs/README_en.md
+  - "**/*template*.md"
+  - "*.backup.md"
+  - "*.draft.md"
