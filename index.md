@@ -62,7 +62,7 @@ making *what-if* choices and experiencing alternative outcomes.
 ## 🐉 **諸葛亮と赤壁の戦い / The Sleeping Dragon Awakens (AD 208)**
 繁體字と英語で綴る文藝歴史シナリオ。  
 A literary scenario in Traditional Chinese & English — *experience the Battle of Red Cliffs without gameplay*.  
-[Read Here](./three_kingdoms/red_cliffs_en.md)
+[**Three Kingdoms**](./three_kingdoms/red_cliffs_en.md)
 
 ---
 
