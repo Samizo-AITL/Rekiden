@@ -1,6 +1,6 @@
 ---
-layout: none
-title: ""
+layout: default
+title: "red_cliffs_en.md"
 ---
     
 ---
