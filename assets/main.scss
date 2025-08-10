@@ -2,31 +2,35 @@
 ---
 @import "minima";
 
-/* 1) 和紙背景：Safari安定策（html::before で固定レイヤー） */
+/* 和紙背景：固定は使わない（iPadゴースト回避） */
 html, body { height: 100%; margin: 0; }
-body { background: none !important; }            /* 既定の背景は消す */
-html::before{
-  content:"";
-  position: fixed; inset: 0; z-index: -1;        /* 常に最背面 */
-  background-image: url('{{ "/assets/images/washi.PNG" | relative_url }}');
-  background-size: cover;
-  background-position: center;
-  /* background-attachment は使わない（描画バグ回避） */
+body{
+  background-image: url('{{ "/assets/images/washi.PNG" | relative_url }}') !important;
+  background-position: center !important;
+  background-size: cover !important;
+  background-repeat: no-repeat !important;
+  /* 重要：fixed を使わない */
+  -webkit-backdrop-filter: none !important;
+  backdrop-filter: none !important;
+
+  /* 明朝体 */
+  font-family: "Yu Mincho","Hiragino Mincho ProN","MS PMincho", Georgia, serif;
+  line-height: 1.6;
 }
 
-/* 2) コンテンツ枠は完全に透明（= 表以外は直に和紙の上） */
+/* コンテンツ枠は透過（＝本文は直に和紙の上） */
 .page-content, .wrapper, .post, .post-content{
   background: transparent !important;
   box-shadow: none !important;
   border: 0 !important;
-  padding: 0;                                     /* 余白は本文側に任せるなら 0、必要なら調整 */
+  padding: 0;
 }
 
-/* 3) 表だけ読みやすく：半透明＋罫線 */
+/* 表だけ半透明＋罫線を強制 */
 table{
   width: 100% !important;
   border-collapse: collapse !important;
-  background: rgba(255,255,255,0.6) !important;   /* ← 表の下地だけ薄い白 */
+  background: rgba(255,255,255,0.6) !important; /* 表の下地だけ薄い白 */
 }
 table, th, td{
   border: 1px solid rgba(0,0,0,0.6) !important;
@@ -35,10 +39,4 @@ th, td{ padding: .5rem !important; }
 th{
   background: rgba(0,0,0,0.05) !important;
   font-weight: 700 !important;
-}
-
-/* 4) 明朝体（任意：雰囲気重視） */
-body{
-  font-family: "Yu Mincho","Hiragino Mincho ProN","MS PMincho", Georgia, serif;
-  line-height: 1.6;
 }
