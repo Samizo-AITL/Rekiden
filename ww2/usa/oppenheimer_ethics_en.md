@@ -1,3 +1,8 @@
+---
+layout: default
+title: ""
+---
+
 # 🇺🇸 The Manhattan Dilemma: Oppenheimer and the Price of Knowledge
 
 **Playable Role**: J. Robert Oppenheimer – Scientific Director of the Manhattan Project  
