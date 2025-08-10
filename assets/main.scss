@@ -1,19 +1,44 @@
 ---
 ---
 
-@import "minima";
+@import "minima"; /* Minimaテーマ標準を読み込む */
 
-/* ==== 表に罫線を付ける ==== */
+/* ==== 和紙背景（全ページ共通） ==== */
+html, body {
+  height: 100%;
+  margin: 0;
+}
+body {
+  background-image: url('{{ "/assets/images/washi.PNG" | relative_url }}');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+/* ==== ページコンテンツの透過背景（40%透過） ==== */
+.page-content, .wrapper, .post, .post-content {
+  background-color: rgba(255, 255, 255, 0.6); /* 0.6 = 40%透過 */
+  padding: 1.5rem;
+  border-radius: 8px;
+  backdrop-filter: blur(1px);
+}
+
+/* ==== 表のスタイル ==== */
 table {
   border-collapse: collapse;
   width: 100%;
+  background-color: rgba(255, 255, 255, 0.6); /* 表自体も半透明 */
+}
+
+table, th, td {
+  border: 1px solid rgba(0, 0, 0, 0.6) !important;
 }
 
 th, td {
-  border: 1px solid #ccc;
-  padding: 6px;
+  padding: 0.5rem;
 }
 
 th {
-  background-color: #f9f9f9;
+  background-color: rgba(0, 0, 0, 0.05);
+  font-weight: bold;
 }
