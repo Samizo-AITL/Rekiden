@@ -12,8 +12,6 @@ Interact with ChatGPT to take on the role of historical figures and **make criti
 
 This is more than a game. **Rekiden** is an **educational and interactive framework** for exploring historical “what-ifs.”
 
----
-
 🏠 [**日本語版はこちら**](./README.md)  
 → 日本語でRekidenを体験する
 
