@@ -1,13 +1,1 @@
 theme: minima
-title: Rekiden
-description: "Historical what-if simulation: Sengoku & WWII"
-sass:
-  style: compressed
-
-# すべての .md を自動的に Jekyll レイアウトで配信
-defaults:
-  - scope:
-      path: ""        # リポジトリ全体
-      type: "pages"   # すべての Markdown ページ
-    values:
-      layout: default
