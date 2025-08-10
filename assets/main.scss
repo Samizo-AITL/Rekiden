@@ -1,42 +1,57 @@
 ---
 ---
+
 @import "minima";
 
-/* 和紙背景：固定は使わない（iPadゴースト回避） */
-html, body { height: 100%; margin: 0; }
-body{
+/* ==== 和紙背景（fixedを使わずiPadゴースト回避） ==== */
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+body {
   background-image: url('{{ "/assets/images/washi.PNG" | relative_url }}') !important;
   background-position: center !important;
   background-size: cover !important;
   background-repeat: no-repeat !important;
-  /* 重要：fixed を使わない */
+  /* fixed を使わないことでiPad描画バグを回避 */
   -webkit-backdrop-filter: none !important;
   backdrop-filter: none !important;
 
-  /* 明朝体 */
-  font-family: "Yu Mincho","Hiragino Mincho ProN","MS PMincho", Georgia, serif;
+  /* ==== 明朝体指定 ==== */
+  font-family: "Yu Mincho", "Hiragino Mincho ProN", "MS PMincho", Georgia, serif;
   line-height: 1.6;
 }
 
-/* コンテンツ枠は透過（＝本文は直に和紙の上） */
-.page-content, .wrapper, .post, .post-content{
+/* ==== コンテンツ枠は透明化（本文を直接和紙の上に） ==== */
+.page-content, .wrapper, .post, .post-content {
   background: transparent !important;
   box-shadow: none !important;
   border: 0 !important;
   padding: 0;
 }
 
-/* 表だけ半透明＋罫線を強制 */
-table{
+/* ==== 表のスタイル（半透明背景＋罫線） ==== */
+table {
   width: 100% !important;
   border-collapse: collapse !important;
-  background: rgba(255,255,255,0.6) !important; /* 表の下地だけ薄い白 */
+  background: rgba(255, 255, 255, 0.6) !important; /* 表だけ白を少し入れる */
 }
-table, th, td{
-  border: 1px solid rgba(0,0,0,0.6) !important;
+table, th, td {
+  border: 1px solid rgba(0, 0, 0, 0.6) !important;
 }
-th, td{ padding: .5rem !important; }
-th{
-  background: rgba(0,0,0,0.05) !important;
+th, td {
+  padding: 0.5rem !important;
+}
+th {
+  background: rgba(0, 0, 0, 0.05) !important;
   font-weight: 700 !important;
+}
+
+/* ==== ゴースト（二重タイトル）消去 + 余白補正 ==== */
+.post-header, .post-title, .page-title {
+  display: none !important;
+}
+.page-content > .wrapper {
+  padding: 1.5rem !important;
 }
