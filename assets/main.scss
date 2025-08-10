@@ -50,3 +50,11 @@ code, pre, kbd, samp {
 .footer-col {
   display: none !important;
 }
+
+/* ページ全体に和紙背景を適用 */
+body {
+  background-color: #f8f5e9; /* 下地の色（和紙に合う薄ベージュ） */
+  background-image: url('/assets/images/washi.PNG');
+  background-repeat: repeat; /* 和紙模様を繰り返し */
+  background-size: auto; /* 元サイズを維持 */
+}
