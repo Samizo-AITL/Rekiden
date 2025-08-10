@@ -188,7 +188,9 @@ Your insight helps **elevate Rekiden** into a global, collaborative knowledge pl
 
 ## 🖼 **Uesugi Kenshin – Battle of Kawanakajima (1561)**
 
-![Uesugi Kenshin - Battle of Kawanakajima](./Uesugi_Kenshin_Kawanakajima_1561.png)
+<p align="center">
+  <img src="./Uesugi_Kenshin_Kawanakajima_1561.png" alt="上杉謙信 川中島の戦い" style="width:80%;">
+</p>
 
 *A dynamic depiction of young Uesugi Kenshin charging into battle on horseback, captured in a realistic oil painting style.*  
 Ideal as a **visual introduction** for **Rekiden** educational content.
