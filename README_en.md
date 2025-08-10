@@ -1,6 +1,6 @@
 ---
-layout: none
-title: ""
+layout: default
+title: "README_en.md"
 ---
     
 ---
