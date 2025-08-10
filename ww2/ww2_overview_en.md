@@ -1,6 +1,6 @@
 ---
-layout: none
-title: ""
+layout: default
+title: "ww2_overview_en.md"
 ---
     
 ---
