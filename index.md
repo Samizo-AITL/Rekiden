@@ -26,6 +26,8 @@ making *what-if* choices and experiencing alternative outcomes.
 4. **ChatGPT** が物語・状況・結末を生成し進行  
    ChatGPT narrates and advances the story.
 
+👉 [**how_to_play.md**](./docs/how_to_play.md) — プレイガイド / Play Guide
+
 ---
 
 ## 🏯 **戦国時代シナリオ / Sengoku Period Scenarios (1555–1614)**
@@ -66,9 +68,9 @@ A literary scenario in Traditional Chinese & English — *experience the Battle 
 
 ---
 
-## 📘 **関連ガイド / Guides**
-- ▶︎ [**how_to_play.md**](./docs/how_to_play.md) — プレイガイド / Play Guide  
-- ▶︎ [**templates/**](./templates/) — 導入テンプレート・ログ記録 / Templates & Logs
+## ✍️ **プレイログ例（対話記録）**
+
+- [**1575 長篠の戦い（武田勝頼 奇襲ルート）**](./templates/1575_katsuyori_if_user001.md)
 
 ---
 
