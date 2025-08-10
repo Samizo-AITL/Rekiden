@@ -1,8 +1,0 @@
----
----
-@import "minima";
-
-/* 先頭に出てくるリンク羅列ブロックを一時的に隠す（応急） */
-.post-content > p:first-child + p + p {
-  display: none !important;
-}
