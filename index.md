@@ -14,18 +14,39 @@ body {
   background-position: center;
   background-attachment: fixed;
 }
-.site-header, .site-footer, .page-content, .wrapper, .page, .post, .post-list,
-.site-nav, .site-title, .site-nav .page-link {
+
+/* Minima のヘッダー・フッターなどを消す */
+.site-header, .site-footer, .site-title {
   display: none !important;
-  background: transparent !important;
-  box-shadow: none !important;
-  border: none !important;
 }
+
+/* コンテンツ全体に半透明背景 */
 .main {
   max-width: 980px;
   margin: 2rem auto;
-  padding: 0;
-  background: transparent;
+  padding: 1.5rem;
+  background-color: rgba(255, 255, 255, 0.75); /* 半透明白 */
+  border-radius: 8px;
+}
+
+/* 表の枠線＋半透明背景 */
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-bottom: 1.5rem;
+  background-color: rgba(255, 255, 255, 0.85);
+}
+table th, table td {
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  padding: 0.5rem;
+  text-align: left;
+}
+
+/* 見出しの装飾 */
+h1, h2, h3 {
+  background-color: rgba(255, 255, 255, 0.6);
+  padding: 0.3rem 0.5rem;
+  border-radius: 4px;
 }
 </style>
 
