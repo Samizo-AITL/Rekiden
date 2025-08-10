@@ -14,8 +14,6 @@ body {
   background-position: center;
   background-attachment: fixed;
 }
-
-/* Minima のヘッダー・フッターなどを消す */
 .site-header, .site-footer, .page-content, .wrapper, .page, .post, .post-list,
 .site-nav, .site-title, .site-nav .page-link {
   display: none !important;
@@ -23,7 +21,6 @@ body {
   box-shadow: none !important;
   border: none !important;
 }
-
 .main {
   max-width: 980px;
   margin: 2rem auto;
@@ -34,86 +31,72 @@ body {
 
 <div class="main" markdown="1">
 
----
-
-# 🏯🌍 **Rekiden – 戦国とWW2を体験する歴史ifシミュレーション**
+# 🏯🌍 **Rekiden — 戦国とWW2を体験する歴史ifシミュレーション / Historical "What-if" Simulation**
 
 **Rekiden** は、日本の **戦国時代** と **第二次世界大戦** をテーマにした  
-ChatGPT連携型の **歴史ifシナリオ教材／戦略シミュレーションフレームワーク**です。  
-あなたは **武将・国家指導者・科学者**として、歴史の転換点に立ち、  
-対話によって「ifの選択」を行い、その先の世界を追体験します。
+**ChatGPT連携型の歴史ifシナリオ教材／戦略シミュレーションフレームワーク**です。  
+You play as a **samurai, national leader, or scientist** at a turning point in history,  
+making *what-if* choices and experiencing alternative outcomes.
 
 ---
 
-🏠 [**English Version is here**](./README_en.md)
+🏠 [**English Version / 英語版はこちら**](./README_en.md)
 
 ---
 
-## 🎮 **遊び方（ChatGPTと対話）**
-1. `.md` シナリオファイルを **ChatGPT** に貼り付ける  
+## 🎮 **遊び方 / How to Play**
+1. **シナリオファイル**（`.md`）を ChatGPT に貼り付ける  
+   Paste a scenario `.md` file into ChatGPT.  
 2. **プレイヤーキャラを指定**（例：上杉謙信、山本五十六など）  
-3. **ターンごとに選択肢を入力**（例：交渉／進軍／研究）  
-4. **ChatGPT** が物語・状況・結末を生成・進行
+   Choose your player character (e.g., Uesugi Kenshin, Yamamoto Isoroku).  
+3. **ターンごとに選択肢を入力**（交渉／進軍／研究など）  
+   Enter your choice each turn (negotiate / advance / research).  
+4. **ChatGPT** が物語・状況・結末を生成し進行  
+   ChatGPT narrates and advances the story.
 
 ---
 
-## 🏯 **戦国時代シナリオ (1555–1614)**
+## 🏯 **戦国時代シナリオ / Sengoku Period Scenarios (1555–1614)**
 
-### ⚔️ **時代別シナリオ一覧**
+| **年号 / Year** | **陣営・主人物 / Factions & Key Figures** | **タイトル / Title** | **リンク / Link** |
+|---|---|---|---|
+| 1555 | 今川義元・武田信玄・北条氏康 / Imagawa–Takeda–Hōjō | 三国同盟 / Three-Country Alliance | [1555_sangoku_alliance.md](./sengoku/periods/1555_sangoku_alliance.md) |
+| 1561 | 武田信玄 vs 上杉謙信 / Takeda vs Uesugi | 川中島の戦い / Battle of Kawanakajima | [1561_kawanakajima.md](./sengoku/periods/1561_kawanakajima.md) |
+| 1575 | 織田信長・徳川家康 vs 武田勝頼 / Oda–Tokugawa vs Takeda | 長篠の戦い / Battle of Nagashino | [1575_nagashino.md](./sengoku/periods/1575_nagashino.md) |
+| 1582 | 明智光秀 vs 羽柴秀吉 / Akechi vs Hashiba | 本能寺と中国大返し / Honnoji & Great Return | [1582-2_chugoku_ogaeshi.md](./sengoku/periods/1582-2_chugoku_ogaeshi.md) |
+| 1600 | 上杉景勝（if） vs 徳川家康 / Uesugi (if) vs Tokugawa | 義の天下 / Realm of Justice | [1600_uesugi_if.md](./sengoku/periods/1600_uesugi_if.md) |
+| 1614 | 真田幸村・豊臣秀頼 vs 徳川秀忠 / Sanada–Toyotomi vs Tokugawa | 大坂の陣（真田丸） / Siege of Osaka (Sanadamaru) | [1614_osaka_campaign.md](./sengoku/periods/1614_osaka_campaign.md) |
 
-| **年号** | **陣営 / 主人物**                     | **タイトル**                          | **ファイルリンク** |
-|---------|----------------------------------------|--------------------------------------|-------------------|
-| 1555年  | 今川義元・武田信玄・北条氏康         | 三国同盟                              | [1555_sangoku_alliance.md](./sengoku/periods/1555_sangoku_alliance.md) |
-| 1561年  | 武田信玄 vs 上杉謙信                 | 川中島の戦い                          | [1561_kawanakajima.md](./sengoku/periods/1561_kawanakajima.md) |
-| 1575年  | 織田信長・徳川家康 vs 武田勝頼       | 長篠の戦い                            | [1575_nagashino.md](./sengoku/periods/1575_nagashino.md) |
-| 1582年  | 明智光秀 vs 羽柴秀吉                 | 本能寺と中国大返し                   | [1582-2_chugoku_ogaeshi.md](./sengoku/periods/1582-2_chugoku_ogaeshi.md) |
-| 1600年  | 上杉景勝（if） vs 徳川家康           | 義の天下（上杉 if）                  | [1600_uesugi_if.md](./sengoku/periods/1600_uesugi_if.md) |
-| 1614年  | 真田幸村・豊臣秀頼 vs 徳川秀忠       | 大坂の陣（真田丸）                   | [1614_osaka_campaign.md](./sengoku/periods/1614_osaka_campaign.md) |
-
-📘 **海外プレイヤー向け背景解説：**  
-📄 [**Sengoku Introduction in English**](./docs/sengoku_intro_en.md)
+📘 **海外プレイヤー向け背景解説 / Sengoku Background for Overseas Players**  
+[**Sengoku Introduction in English**](./docs/sengoku_intro_en.md)
 
 ---
 
-## 🌍 **第二次世界大戦シナリオ (1939–1945)**  
-**連合国** 🇬🇧 🇺🇸 🇫🇷 vs. **枢軸国** 🇩🇪 🇮🇹 🇯🇵
+## 🌍 **第二次世界大戦シナリオ / WWII Scenarios (1939–1945)**
 
-### 🎮 **プレイアブル・シナリオ一覧**
+| **年代 / Year** | **国家 / Nation** | **プレイヤー / Player** | **タイトル / Title** | **リンク / Link** |
+|---|---|---|---|---|
+| 1941 | 🇯🇵 日本 / Japan | 山本五十六 / Yamamoto | 真珠湾とミッドウェーの海軍戦略 / Pearl Harbor & Midway Strategy | [yamamoto_navy.md](./ww2/japan/yamamoto_navy.md) |
+| 1941 | 🇺🇸 米国 / USA | ルーズベルト / Roosevelt | 総力戦と国際同盟の決断 / Total War & Alliance Decision | [roosevelt_strategy.md](./ww2/usa/roosevelt_strategy.md) |
+| 1945 | 🇺🇸 米国 / USA | オッペンハイマー / Oppenheimer | 原爆開発と科学倫理の葛藤 / A-Bomb & Ethics | [oppenheimer_ethics.md](./ww2/usa/oppenheimer_ethics.md) |
+| 1942 | 🇺🇸 米国 / USA | マッカーサー / MacArthur | 太平洋戦線・フィリピン奪還作戦 / Pacific & Philippines | [macarthur_pacific.md](./ww2/usa/macarthur_pacific.md) |
+| 1939 | 🇩🇪 ドイツ / Germany | ヒトラー / Hitler | ポーランド侵攻と外交の岐路 / Poland & Diplomacy | [hitler_politics.md](./ww2/germany/hitler_politics.md) |
 
-| **年代** | **国家**   | **プレイヤー**     | **タイトル**                          | **ファイルリンク** |
-|----------|------------|--------------------|---------------------------------------|--------------------|
-| 1941年   | 🇯🇵 日本    | 山本五十六          | 真珠湾とミッドウェーの海軍戦略         | [yamamoto_navy.md](./ww2/japan/yamamoto_navy.md) |
-| 1941年   | 🇺🇸 アメリカ | ルーズベルト        | 総力戦と国際同盟の決断                 | [roosevelt_strategy.md](./ww2/usa/roosevelt_strategy.md) |
-| 1945年   | 🇺🇸 アメリカ | オッペンハイマー    | 原爆開発と科学倫理の葛藤               | [oppenheimer_ethics.md](./ww2/usa/oppenheimer_ethics.md) |
-| 1942年   | 🇺🇸 アメリカ | マッカーサー        | 太平洋戦線・フィリピン奪還作戦         | [macarthur_pacific.md](./ww2/usa/macarthur_pacific.md) |
-| 1939年   | 🇩🇪 ドイツ   | ヒトラー            | ポーランド侵攻と外交の岐路             | [hitler_politics.md](./ww2/germany/hitler_politics.md) |
-
-📖 [**第二次世界大戦 時代背景（日本語）**](./ww2/ww2_overview.md)
+📖 **WWII 時代背景（日本語） / WWII Overview (Japanese)**  
+[**WWII Overview**](./ww2/ww2_overview.md)
 
 ---
 
-### 🐉 [**諸葛亮と赤壁の戦い — The Sleeping Dragon Awakens (AD 208)**](./three_kingdoms/red_cliffs_en.md)  
-繁體字 × 英語で綴る **文藝歴史シナリオ**。ゲーム操作なし、**読むだけで“知略の戦”を体験**。
+## 🐉 **諸葛亮と赤壁の戦い / The Sleeping Dragon Awakens (AD 208)**
+繁體字と英語で綴る文藝歴史シナリオ。  
+A literary scenario in Traditional Chinese & English — *experience the Battle of Red Cliffs without gameplay*.  
+[Read Here](./three_kingdoms/red_cliffs_en.md)
 
 ---
 
-## 📘 **関連ガイド・素材**
-
-- ▶︎ [**how_to_play.md**](./docs/how_to_play.md)：プレイガイド  
-- ▶︎ [**templates/**](./templates/)：ログ記録テンプレート・導入テンプレート
-
----
-
-## ✍️ **プレイログ例（対話記録）**
-
-- [**1575 長篠の戦い（武田勝頼 奇襲ルート）**](./templates/1575_katsuyori_if_user001.md)
-
----
-
-## 📜 **ライセンス**
-
-**MIT License © 2025 Shinichi Samizo**  
-詳細は [**LICENSE**](./LICENSE) を参照
+## 📘 **関連ガイド / Guides**
+- ▶︎ [**how_to_play.md**](./docs/how_to_play.md) — プレイガイド / Play Guide  
+- ▶︎ [**templates/**](./templates/) — 導入テンプレート・ログ記録 / Templates & Logs
 
 ---
 
@@ -122,46 +105,26 @@ ChatGPT連携型の **歴史ifシナリオ教材／戦略シミュレーショ�
 **三溝 真一（Shinichi Samizo）**  
 **半導体 × 制御 × AI × 歴史** — *統合クリエイター / Integrated Creator*
 
-📌 **専門領域**
-- 半導体設計・製造技術（CMOS/FinFET/GAA）
-- 制御理論・適応/ロバスト制御
-- AI応用・教材設計
-- 歴史シナリオ制作（戦国時代・WW2・三国志）
-
-📬 **連絡先 / Contact**
-- ✉️ **Email**: [shin3t72@gmail.com](mailto:shin3t72@gmail.com)  
-- 🐦 **X (Twitter)**: [https://x.com/shin3t72](https://x.com/shin3t72)  
-- 💻 **Web**: [https://samizo-aitl.github.io/](https://samizo-aitl.github.io/)
+| **専門分野 / Expertise** | 半導体設計・製造（CMOS / FinFET / GAA）<br>制御理論（適応 / ロバスト）<br>AI応用・教材設計<br>歴史シナリオ制作（戦国・WWII・三国志） |
+|---|---|
+| **Email** | [shin3t72@gmail.com](mailto:shin3t72@gmail.com) |
+| **X (Twitter)** | [https://x.com/shin3t72](https://x.com/shin3t72) |
+| **Web** | [https://samizo-aitl.github.io/](https://samizo-aitl.github.io/) |
 
 💡 **Rekiden** は、歴史と技術の「if」を結びつけ、  
 学び・戦略・創造を同時に体験できる舞台です。
 
 ---
 
-## 💬 **ご意見・フィードバック募集**
-
-**Rekiden プロジェクト**では、皆さまからの  
-**ご意見・ご提案・改善案**を歓迎しています。
-
-- 「教材としての使い方」  
-- 「戦略の表現方法」  
-- 「他時代への応用」 など
-
-ぜひお気軽にお寄せください。
-
-👉 [**ディスカッションはこちら（GitHub Discussions）**](https://github.com/Samizo-AITL/Rekiden/discussions)
-
-あなたの知見が、この教材をより深く豊かにします。
+## 💬 **フィードバック / Feedback**
+We welcome your suggestions and improvements!  
+👉 [**GitHub Discussions**](https://github.com/Samizo-AITL/Rekiden/discussions)
 
 ---
 
-## 🖼️ **上杉謙信 - 川中島の戦い（1561年）**
-
-![上杉謙信 川中島の戦い](./Uesugi_Kenshin_Kawanakajima_1561.png)
-
-若き謙信が馬上から突撃する姿を描いた**リアルな油彩風イメージ**。  
-**Rekiden教材の導入ヴィジュアル**として使用可能です。
-
----
+## 🖼️ **上杉謙信 — 川中島の戦い / Uesugi Kenshin — Battle of Kawanakajima (1561)**
+![上杉謙信 川中島の戦い](./Uesugi_Kenshin_Kawanakajima_1561.png)  
+若き謙信が馬上から突撃する姿を描いたリアルな油彩風イメージ。  
+A vivid oil-paint style image of young Kenshin’s cavalry charge.
 
 </div>
