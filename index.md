@@ -40,7 +40,7 @@ making *what-if* choices and experiencing alternative outcomes.
 | 1614 | 真田幸村・豊臣秀頼 vs 徳川秀忠 / Sanada–Toyotomi vs Tokugawa | 大坂の陣（真田丸） / Siege of Osaka (Sanadamaru) | [1614_osaka_campaign.md](./sengoku/periods/1614_osaka_campaign.md) |
 
 📘 **海外プレイヤー向け背景解説 / Sengoku Background for Overseas Players**  
-[**Sengoku Introduction in English**](./docs/sengoku_intro_en.md)
+👉 [**Sengoku Introduction in English**](./docs/sengoku_intro_en.md)
 
 ---
 
@@ -55,14 +55,14 @@ making *what-if* choices and experiencing alternative outcomes.
 | 1939 | 🇩🇪 ドイツ / Germany | ヒトラー / Hitler | ポーランド侵攻と外交の岐路 / Poland & Diplomacy | [hitler_politics.md](./ww2/germany/hitler_politics.md) |
 
 📖 **WWII 時代背景（日本語） / WWII Overview (Japanese)**  
-[**WWII Overview**](./ww2/ww2_overview.md)
+👉 [**WWII Overview**](./ww2/ww2_overview.md)
 
 ---
 
 ## 🐉 **諸葛亮と赤壁の戦い / The Sleeping Dragon Awakens (AD 208)**
 繁體字と英語で綴る文藝歴史シナリオ。  
 A literary scenario in Traditional Chinese & English — *experience the Battle of Red Cliffs without gameplay*.  
-[**Three Kingdoms**](./three_kingdoms/red_cliffs_en.md)
+👉 [**Three Kingdoms**](./three_kingdoms/red_cliffs_en.md)
 
 ---
 
@@ -77,7 +77,7 @@ A literary scenario in Traditional Chinese & English — *experience the Battle 
 **三溝 真一（Shinichi Samizo）**  
 **半導体 × 制御 × AI × 歴史** — *統合クリエイター / Integrated Creator*
 
-| **専門分野 / Expertise** | 半導体設計・製造（CMOS / FinFET / GAA）<br>制御理論（適応 / ロバスト）<br>AI応用・教材設計<br>歴史シナリオ制作（戦国・WWII・三国志） |
+| **専門分野 / Expertise** | 半導体デバイス技術（CMOS / Memory / Integration）<br>制御理論（ロバスト）<br>AI応用・教材設計<br>歴史シナリオ制作（戦国・WWII・三国志） |
 |---|---|
 | **Email** | [shin3t72@gmail.com](mailto:shin3t72@gmail.com) |
 | **X (Twitter)** | [https://x.com/shin3t72](https://x.com/shin3t72) |
