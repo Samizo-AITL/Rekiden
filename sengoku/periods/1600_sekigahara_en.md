@@ -1,3 +1,10 @@
+---
+layout: default
+title: ""
+---
+    
+---
+
 # ⚔️ 1600: Battle of Sekigahara — The Clash That Divided the Realm
 
 ---
