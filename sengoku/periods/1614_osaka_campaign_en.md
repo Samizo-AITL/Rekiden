@@ -1,3 +1,10 @@
+---
+layout: none
+title: ""
+---
+    
+---
+
 # 🏯 1614: Siege of Osaka — The Last Battle of the Toyotomi
 
 ---
