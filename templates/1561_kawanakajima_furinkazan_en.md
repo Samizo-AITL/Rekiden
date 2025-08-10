@@ -1,3 +1,10 @@
+---
+layout: none
+title: ""
+---
+    
+---
+
 📝 Play Log: Battle of Kawanakajima (Fūrin Kazan Mode - Historical Reenactment)
 
 🎮 Player Information
