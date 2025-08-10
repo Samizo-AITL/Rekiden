@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Rebuilding the Future (If) – A Civic Blueprint after Crisis"
+title: "Rebuilding the Future (If) – A Civic Blueprint after Crisis" 
 ---
 
 
