@@ -75,7 +75,11 @@ Rekiden WW2 シナリオでは、歴史的事実を踏まえながらも、**各
 
 ---
 
-![zero_fighter_battle_scene](./images/zero_fighter_battle_scene.png)
+<p align="center">
+  <a href="./images/zero_fighter_battle_scene.png" target="_blank">
+    <img src="./images/zero_fighter_battle_scene.png" alt="Zero Fighter Dogfight Scene" width="80%">
+  </a>
+</p>
 
 > **零戦の空中戦シーン / A6M Zero Fighter Dogfight Scene**  
 この迫力ある空中戦は、第二次世界大戦初期における三菱A6M「零戦」の優位性を描いています。優れた旋回性能と長大な航続距離により、零戦は太平洋戦線で連合軍機を圧倒しました。しかし、F6Fヘルキャットなどの新型機の登場によってその優位は短期間で終わります。海上上空の高速戦闘は、日本の初期航空戦略を象徴します。  
@@ -83,7 +87,11 @@ This intense aerial battle captures the dominance of the Mitsubishi A6M "Zero" f
 
 ---
 
-![berlin_fall_scene](./images/berlin_fall_scene.png)
+<p align="center">
+  <a href="./images/berlin_fall_scene.png" target="_blank">
+    <img src="./images/berlin_fall_scene.png" alt="Fall of Berlin – Soviet Flag over the Reichstag" width="80%">
+  </a>
+</p>
 
 > **ベルリン陥落 – ライヒスタークの赤旗 / Fall of Berlin – Soviet Flag over the Reichstag**  
 この劇的な場面は、第二次世界大戦末期、ソ連軍がナチス・ドイツの中枢に迫り、ベルリンを制圧した瞬間を描いています。ライヒスタークの屋上に赤旗を掲げるソ連兵の姿は、ファシズムに対する勝利の象徴として世界に刻まれました。T-34戦車、瓦礫の街路、燃え上がる市街地は、都市戦の過酷さと破壊の規模を物語っています。  
@@ -91,7 +99,11 @@ This dramatic scene represents the final days of World War II in Europe, as Sovi
 
 ---
 
-![macarthur_landing_scene](./images/macarthur_landing_scene.png)
+<p align="center">
+  <a href="./images/macarthur_landing_scene.png" target="_blank">
+    <img src="./images/macarthur_landing_scene.png" alt="MacArthur Returns – Leyte Gulf Landing, 1944" width="80%">
+  </a>
+</p>
 
 > **マッカーサー上陸 – レイテ湾、1944年 / MacArthur Returns – Leyte Gulf Landing, 1944**  
 このシーンは、1944年のフィリピン・レイテ島への上陸作戦で、ダグラス・マッカーサー将軍が「I shall return（私は必ず戻る）」という誓いを果たす瞬間を捉えています。特徴的なサングラスとパイプをくわえ、軍靴で海を歩く姿は、太平洋戦線におけるアメリカの反攻と象徴的な決意を表しています。  
