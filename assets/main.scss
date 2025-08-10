@@ -2,3 +2,18 @@
 ---
 
 @import "minima";
+
+/* ==== 表に罫線を付ける ==== */
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  border: 1px solid #ccc;
+  padding: 6px;
+}
+
+th {
+  background-color: #f9f9f9;
+}
