@@ -1,3 +1,11 @@
+---
+layout: default
+title: "red_cliffs_template_en.md"
+---
+
+---
+
+
 # 📄 red_cliffs_template.md  
 *A Structural Template for Game Adaptation – The Battle of Red Cliffs*
 
