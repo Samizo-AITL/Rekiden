@@ -1,3 +1,10 @@
+---
+layout: none
+title: ""
+---
+    
+---
+
 # 🇯🇵 山本五十六 – 真珠湾からミッドウェーへ  
 **Rekiden – WW2 Scenario: Japan / Naval Command Route**
 
