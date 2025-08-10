@@ -1,3 +1,10 @@
+---
+layout: none
+title: ""
+---
+    
+---
+
 # 🏯 The Tripartite Alliance (1555) – Scenario
 
 In 1555, Takeda Shingen of Kai, Imagawa Yoshimoto of Suruga, and Hōjō Ujiyasu of Sagami formed a military alliance known as the "Kai-Sagami-Suruga Tripartite Alliance."  
