@@ -1,3 +1,10 @@
+---
+layout: none
+title: ""
+---
+    
+---
+
 # 🇺🇸 ダグラス・マッカーサー – 太平洋戦線を制する者  
 **Rekiden – WW2 Scenario: USA / Military Commander Route**
 
