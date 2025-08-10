@@ -1,3 +1,10 @@
+---
+layout: none
+title: ""
+---
+    
+---
+
 # 🇺🇸 Commander-in-Chief: Roosevelt and the Path to Total War
 
 **Playable Role**: Franklin D. Roosevelt – 32nd President of the United States  
