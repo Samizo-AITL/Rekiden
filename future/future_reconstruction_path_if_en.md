@@ -1,3 +1,9 @@
+---
+layout: default
+title: "Rebuilding the Future (If) – A Civic Blueprint after Crisis"
+---
+
+
 # 🌅 Rebuilding the Future (If) – A Civic Blueprint after Crisis
 
 **Setting**: The year is 2042, ten years after the Great Nankai Trough Earthquake.  
