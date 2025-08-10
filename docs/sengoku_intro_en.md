@@ -1,6 +1,6 @@
 ---
-layout: none
-title: ""
+layout: default
+title: "sengoku_intro_en.md"
 ---
     
 ---
