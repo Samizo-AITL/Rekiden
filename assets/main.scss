@@ -1,10 +1,10 @@
 ---
-# Jekyllに処理させるための空フロントマター
+# JekyllがこのSCSSを処理して /assets/main.css を生成するためのフロントマター
 ---
 
 @import "minima";
 
-/* 全ページ共通：和紙背景のみ適用 */
+/* 全ページ共通：和紙背景のみ */
 html, body { height: 100%; margin: 0; }
 body{
   background-image: url('{{ "/assets/images/washi.PNG" | relative_url }}');
@@ -13,16 +13,15 @@ body{
   background-attachment: fixed;
 }
 
-/* ▼ ここからは「トップ専用」クラス。ほかのページには影響しません */
+/* トップ専用パネル（他ページには影響しない） */
 .rekiden-main{
   max-width: 980px;
   margin: 2rem auto;
   padding: 1.5rem;
-  background: rgba(255,255,255,.50);
+  background: rgba(255,255,255,.50);   /* 透け具合の調整はここ */
   border-radius: 8px;
   backdrop-filter: blur(1px);
 }
-
 .rekiden-main table{
   width: 100%;
   border-collapse: collapse;
@@ -36,7 +35,6 @@ body{
   background: rgba(0,0,0,.05);
   font-weight: 700;
 }
-
 .rekiden-main h1, .rekiden-main h2, .rekiden-main h3{
   background: rgba(255,255,255,.35);
   padding: .25rem .5rem;
