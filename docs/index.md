@@ -138,7 +138,7 @@ MIT License © 2025 Shinichi Samizo — see [LICENSE](./LICENSE)
 
 ## 🖼️ **上杉謙信 - 川中島の戦い（1561年）**
 
-![上杉謙信 川中島の戦い](./Uesugi_Kenshin_Kawanakajima_1561.png)
+![上杉謙信 川中島の戦い](../Uesugi_Kenshin_Kawanakajima_1561.png)
 
 若き謙信が馬上から突撃する姿を描いた**リアルな油彩風イメージ**。  
 **Rekiden教材の導入ヴィジュアル**として使用可能です。
