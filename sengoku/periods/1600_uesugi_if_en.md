@@ -1,3 +1,10 @@
+---
+layout: none
+title: ""
+---
+    
+---
+
 # 🏯 1600: Righteous Rule — Rise of Heaven, Earth, and Man
 
 ---
