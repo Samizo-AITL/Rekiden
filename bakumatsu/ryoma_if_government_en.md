@@ -1,3 +1,8 @@
+---
+layout: default
+title: ""
+---
+
 # Ryoma’s Path to Reform (If)
 ## Historical Context: Bakumatsu Period (1867)
 
