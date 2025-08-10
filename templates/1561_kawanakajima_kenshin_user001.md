@@ -1,3 +1,10 @@
+---
+layout: none
+title: ""
+---
+    
+---
+
 # 🧾 Play Log: Battle of Kawanakajima (1561) – Uesugi Kenshin Route
 
 **Player Name**: your_name_here  
