@@ -1,0 +1,34 @@
+---
+---
+@import "minima";
+
+/* 日本語は明朝、英語はクラシカル（セリフ）に自動振り分け */
+html, body {
+  /* 英字→和文の順にフォントを並べるのがコツ */
+  font-family:
+    /* 英字（クラシカル） */
+    Georgia, "Garamond", "Times New Roman", Times,
+    /* 和文（明朝） */
+    "Yu Mincho", "Hiragino Mincho ProN", "Hiragino Mincho",
+    "MS PMincho", "Noto Serif JP",
+    serif;
+  line-height: 1.65;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+/* 見出しはやや締める（クラシカル感を保ちつつ読みやすく） */
+h1, h2, h3 {
+  font-weight: 700;
+  line-height: 1.25;
+  letter-spacing: 0.01em;
+}
+
+/* 本文の強調も崩れないように */
+strong, b { font-weight: 700; }
+
+/* コード系は等幅のまま */
+code, pre, kbd, samp {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono",
+               "Courier New", monospace;
+}
