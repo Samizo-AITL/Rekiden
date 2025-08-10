@@ -1,6 +1,6 @@
 ---
-layout: none
-title: ""
+layout: default
+title: "Rekiden Special Series – Three Kingdoms 三國志特別編"
 ---
     
 ---
