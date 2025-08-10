@@ -32,3 +32,9 @@ code, pre, kbd, samp {
   font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono",
                "Courier New", monospace;
 }
+
+/* 余計なMinimaテーマのヘッダーナビを非表示にする */
+.site-nav { display: none !important; }
+
+/* 左上のサイトタイトルも消したい場合は以下を追加 */
+/* .site-title { display: none !important; } */
