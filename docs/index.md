@@ -1,5 +1,5 @@
 ---
-title: Rekiden
+# title は入れない（ヘッダーを出さないため）
 ---
 
 <style>
@@ -11,9 +11,9 @@ body{
   background-attachment:fixed;
 }
 
-/* Minimaのヘッダー・フッター・白枠などを消す */
-.site-header, .site-footer, .site-title {
-  display: none !important; /* ←ヘッダー消す */
+/* Minima のヘッダー・タイトル類を完全に消す */
+.site-header, .site-footer, .site-title, .page-title, header {
+  display: none !important;
 }
 .page-content, .wrapper, .page, .post, .post-list,
 .site-nav, .site-nav .page-link {
@@ -22,20 +22,11 @@ body{
   border: none !important;
 }
 
-/* ▼ A) 完全に背景だけ（読みやすさ補助なし） */
+/* コンテンツ領域（必要なら白地に戻したい時は background を調整）*/
 .main{
   max-width:980px; margin:2rem auto; padding:0;
   background: transparent;
 }
-
-/* ▼ B) 少しだけ白地を入れて可読性UP（Aを無視して使いたい方だけON）
-.main{
-  max-width:980px; margin:2rem auto; padding:1.5rem;
-  background: rgba(255,255,255,.55);
-  border-radius: 8px;
-  backdrop-filter: blur(1px);
-}
-*/
 </style>
 
 <div class="main" markdown="1">
