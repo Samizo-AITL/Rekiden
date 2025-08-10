@@ -1,13 +1,39 @@
 ---
 ---
-@import "minima"; // Minimaテーマ標準を読み込み
+@import "minima";  // ←必須：Minimaの標準CSSを読み込む
 
-/* ==== トップページだけ透過パネル ==== */
-.rekiden-main {
-  max-width: 980px;
-  margin: 2rem auto;
-  padding: 1.5rem;
-  background: rgba(255, 255, 255, .5); /* 半透明白 */
+/* 全ページ共通：背景だけ和紙にする（レイアウトは変えない） */
+html, body { height: 100%; margin: 0; }
+body{
+  background-image: url('{{ "/assets/images/washi.PNG" | relative_url }}');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+/* これ以降は “段階的カスタム用” のユーティリティだけ用意（使わない限り影響なし） */
+
+/* 半透明パネル（必要なページで <div class="panel">…</div> と書いた場所にだけ効く） */
+.panel{
+  background: rgba(255,255,255,.50);
   border-radius: 8px;
+  padding: 1rem 1.25rem;
   backdrop-filter: blur(1px);
 }
+
+/* 表だけ少し見やすくしたい時は、表を .panel で包む or .table-panel を付与 */
+.table-panel{
+  background: rgba(255,255,255,.50);
+  border-radius: 8px;
+  padding: .5rem;
+}
+.table-panel table{
+  width: 100%;
+  border-collapse: collapse;
+  background: transparent;
+}
+.table-panel th, .table-panel td{
+  border: 1px solid rgba(0,0,0,.2);
+  padding: .5rem;
+}
+.table-panel th{ background: rgba(0,0,0,.05); font-weight: 700; }
