@@ -1,6 +1,6 @@
 ---
-layout: none
-title: ""
+layout: default
+title: "遊び方ガイド – ChatGPTでRekidenを始めるには"
 ---
     
 ---
