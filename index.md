@@ -1,5 +1,5 @@
 ---
-layout: none
+layout: default
 title: "🏯🌍 Rekiden — 戦国とWW2を体験する歴史ifシミュレーション / Historical “What-if” Simulation"
 ---
 
