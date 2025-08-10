@@ -1,3 +1,8 @@
+---
+layout: default
+title: "Memory of the Trench – Rebuilding Japan (If)"
+---
+
 # 🌊 Memory of the Trench – Rebuilding Japan (If)
 
 ## 📘 Overview
