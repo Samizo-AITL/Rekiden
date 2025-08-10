@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "sengoku_intro_en.md"
+title: "Intro to the Sengoku Period – Japan’s Age of Warring States"
 ---
     
 ---
