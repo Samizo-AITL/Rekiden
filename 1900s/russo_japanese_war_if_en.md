@@ -1,3 +1,8 @@
+---
+layout: default
+title: ""
+---
+
 # ⚔️ Russo-Japanese Peace Route (If)
 **Era**: Russo-Japanese War (1904–1905)
 **Playable Characters**: Itō Hirobumi, Komura Jutarō, General Ōyama Iwao
