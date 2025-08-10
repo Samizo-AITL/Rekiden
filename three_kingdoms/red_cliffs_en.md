@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "red_cliffs_en.md"
+title: "The Sleeping Dragon Awakens"
 ---
     
 ---
