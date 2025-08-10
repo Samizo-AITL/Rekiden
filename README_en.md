@@ -1,3 +1,10 @@
+---
+layout: none
+title: ""
+---
+    
+---
+
 # 🏯🌍 **Rekiden – A ChatGPT-Powered Historical Simulation Framework**
 
 **Rekiden** is a text-based, open-source simulation game that lets you **relive—and reshape—turning points in history**.  
