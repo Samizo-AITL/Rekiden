@@ -1,39 +1,13 @@
 ---
 ---
-
-@import "minima"; // Minimaテーマ標準を呼び出す
-
-/* ==== 和紙背景を全ページに適用 ==== */
-html, body {
-  height: 100%;
-  margin: 0;
-}
-body {
-  background-image: url('{{ "/assets/images/washi.PNG" | relative_url }}');
-  background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
-}
+@import "minima"; // Minimaテーマ標準を読み込み
 
 /* ==== トップページだけ透過パネル ==== */
 .rekiden-main {
   max-width: 980px;
   margin: 2rem auto;
   padding: 1.5rem;
-  background: rgba(255, 255, 255, .5); /* 透け具合 */
+  background: rgba(255, 255, 255, .5); /* 半透明白 */
   border-radius: 8px;
   backdrop-filter: blur(1px);
-}
-.rekiden-main table {
-  width: 100%;
-  border-collapse: collapse;
-  background: rgba(255, 255, 255, .5);
-}
-.rekiden-main th, .rekiden-main td {
-  border: 1px solid rgba(0, 0, 0, .2);
-  padding: .5rem;
-}
-.rekiden-main th {
-  background: rgba(0, 0, 0, .05);
-  font-weight: bold;
 }
