@@ -101,18 +101,22 @@ Will you **restore peace**? **Seize power**? Or **fall in the chaos**?
 
 ---
 
-<a href="./battle_of_nagashino_1575.png" target="_blank">
-<img src="./battle_of_nagashino_1575.png" alt="Battle of Nagashino (1575)" width="80%">
-</a>
+<p align="center">
+  <a href="./battle_of_nagashino_1575.png" target="_blank">
+    <img src="./battle_of_nagashino_1575.png" alt="Battle of Nagashino (1575)" width="80%">
+  </a>
+</p>
 
 > **🔥 Battle of Nagashino (1575) – The Turning Point in Sengoku Warfare**  
 This historical artwork illustrates the pivotal Battle of Nagashino, where Oda Nobunaga deployed organized arquebus (matchlock) volleys behind wooden barricades to repel the feared cavalry of the Takeda clan. It marks a revolutionary moment in Japanese military tactics: the triumph of firearms and defensive strategy over traditional cavalry assaults. The depicted mokko-crested banner represents Nobunaga's authority, while the Takeda cavalry charge into coordinated gunfire. The battle not only solidified Nobunaga’s military dominance but also signaled a shift toward modern warfare in the Sengoku era.
 
 ---
 
-<a href="./Osaka_Castle_Burning_Cropped.png" target="_blank">
-<img src="./Osaka_Castle_Burning_Cropped.png" alt="Osaka Castle Burning" width="80%">
-</a>
+<p align="center">
+  <a href="./Osaka_Castle_Burning_Cropped.png" target="_blank">
+    <img src="./Osaka_Castle_Burning_Cropped.png" alt="Osaka Castle Burning" width="80%">
+  </a>
+</p>
 
 > **🔥 Osaka Castle in Flames – The Fall of the Toyotomi Clan (1615)**  
 This dramatic depiction symbolizes the final siege of Osaka Castle in 1615, marking the end of the Toyotomi clan and the conclusion of Japan’s Sengoku Period. Set ablaze during the Summer Campaign of the Siege of Osaka, the castle’s destruction represented the final victory of Tokugawa Ieyasu and the unification of Japan under the Tokugawa Shogunate. The image captures both the physical destruction and the symbolic collapse of the last resistance to Tokugawa rule. Smoke, flames, and the silhouette of the castle evoke the end of an era of warlords and the dawn of a new political order.
