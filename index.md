@@ -3,8 +3,8 @@ layout: none
 title: ""
 ---
 
-<div class="main" markdown="1">
-
+ <div class="rekiden-main" markdown="1"> 
+    
 ---
 
 # 🏯🌍 **Rekiden — 戦国とWW2を体験する歴史ifシミュレーション / Historical "What-if" Simulation**
