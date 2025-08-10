@@ -1,3 +1,8 @@
+---
+layout: default
+title: "red_cliffs_template.md"
+---
+
 # 📄 red_cliffs_template.md  
 *A Structural Template for Game Adaptation – 赤壁之戰 シナリオ構造テンプレート*
 
