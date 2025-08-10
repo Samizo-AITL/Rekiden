@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Rekiden"
+title: "Rekiden/index.md"
 ---
     
 ---
