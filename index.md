@@ -40,7 +40,6 @@ body{
 
 <div class="main" markdown="1">
 
-# Rekiden
 # 🏯🌍 **Rekiden – 戦国とWW2を体験する歴史ifシミュレーション**
 
 **Rekiden** は、日本の **戦国時代** と **第二次世界大戦** をテーマにした、ChatGPT連携型の  
