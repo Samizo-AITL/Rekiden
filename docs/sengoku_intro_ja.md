@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "sengoku_intro_ja.md"
+title: "戦国時代とは？– 日本の「下剋上」と群雄割拠の時代を知る"
 ---
     
 ---
