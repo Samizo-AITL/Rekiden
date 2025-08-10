@@ -1,3 +1,10 @@
+---
+layout: none
+title: ""
+---
+    
+---
+
 # 🇺🇸 フランクリン・D・ルーズベルト – 民主主義の防衛と総力戦の選択  
 **Rekiden – WW2 Scenario: USA / Presidential Strategy Route**
 
