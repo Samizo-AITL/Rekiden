@@ -1,3 +1,10 @@
+---
+layout: none
+title: ""
+---
+    
+---
+
 # ⚔️ Battle of Kawanakajima (1561)
 
 ---
