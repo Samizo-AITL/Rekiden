@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "README_en.md"
+title: "Rekiden – A ChatGPT-Powered Historical Simulation Framework"
 ---
     
 ---
