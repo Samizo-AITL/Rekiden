@@ -1,3 +1,10 @@
+---
+layout: none
+title: ""
+---
+    
+---
+
 # Rekiden Special Series – Three Kingdoms 三國志特別編
 
 This folder contains literary historical scenarios focused on key moments from the Three Kingdoms period, designed as reading-based educational content.
