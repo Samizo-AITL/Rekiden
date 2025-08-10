@@ -1,66 +1,40 @@
 ---
 ---
-
 @import "minima";
 
-/* ==== 和紙背景（fixedを使わずiPadゴースト回避） ==== */
-html, body {
-  height: 100%;
-  margin: 0;
-}
+/* ========== 基本に戻す（ゴースト要因を全て無効化） ========== */
+html, body { height: 100%; margin: 0; }
 
-body {
+/* 背景：和紙（fixed・filter類・透明化は使わない） */
+body{
   background-image: url('{{ "/assets/images/washi.PNG" | relative_url }}') !important;
   background-position: center !important;
   background-size: cover !important;
   background-repeat: no-repeat !important;
-  /* fixed を使わないことでiPad描画バグを回避 */
-  -webkit-backdrop-filter: none !important;
-  backdrop-filter: none !important;
 
-  /* ==== 明朝体指定 ==== */
-  font-family: "Yu Mincho", "Hiragino Mincho ProN", "MS PMincho", Georgia, serif;
+  /* フォント：明朝 */
+  font-family: "Yu Mincho","Hiragino Mincho ProN","MS PMincho", Georgia, serif;
   line-height: 1.6;
 }
 
-/* ==== コンテンツ枠は透明化（本文を直接和紙の上に） ==== */
-.page-content, .wrapper, .post, .post-content {
-  background: transparent !important;
-  box-shadow: none !important;
-  border: 0 !important;
-  padding: 0;
+/* ★安全のため、描画に影響し得る効果を全無効化 */
+*, *::before, *::after{
+  backdrop-filter: none !important;
+  -webkit-backdrop-filter: none !important;
+  filter: none !important;
+  text-shadow: none !important;
+  transform: none !important;
+  mix-blend-mode: normal !important;
 }
 
-/* ==== 表のスタイル（半透明背景＋罫線） ==== */
-table {
+/* 余白は Minima 既定に任せる（透明化はしない） */
+
+/* 表：全ページで罫線を出す（半透明は一旦やめる） */
+table{
   width: 100% !important;
   border-collapse: collapse !important;
-  background: rgba(255, 255, 255, 0.6) !important; /* 表だけ白を少し入れる */
+  background: #fff !important;
 }
-table, th, td {
-  border: 1px solid rgba(0, 0, 0, 0.6) !important;
-}
-th, td {
-  padding: 0.5rem !important;
-}
-th {
-  background: rgba(0, 0, 0, 0.05) !important;
-  font-weight: 700 !important;
-}
-
-/* ==== ゴースト（二重タイトル）消去 + 余白補正 ==== */
-.post-header, .post-title, .page-title {
-  display: none !important;
-}
-.page-content > .wrapper {
-  padding: 1.5rem !important;
-}
-/* サイトの自動タイトルを隠して本文H1だけ表示（GitHubは影響を受けない） */
-.post-header, .post-title, .page-title {
-  display: none !important;
-}
-
-/* 余白が詰みすぎないようにラッパのパディングを確保 */
-.page-content > .wrapper {
-  padding: 1.5rem !important;
-}
+table, th, td{ border: 1px solid rgba(0,0,0,.6) !important; }
+th, td{ padding: .5rem !important; }
+th{ background: rgba(0,0,0,.05) !important; font-weight: 700 !important; }
