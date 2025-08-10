@@ -77,7 +77,7 @@ A literary scenario in Traditional Chinese & English — *experience the Battle 
 **三溝 真一（Shinichi Samizo）**  
 **半導体 × 制御 × AI × 歴史** — *統合クリエイター / Integrated Creator*
 
-| **専門分野 / Expertise** | 半導体デバイス技術（CMOS / Memory / Integration）<br>制御理論（ロバスト）<br>AI応用・教材設計<br>歴史シナリオ制作（戦国・WWII・三国志） |
+| **専門分野 / Expertise** | 半導体デバイス技術（CMOS Logic / Memory / Integration）<br>制御理論（ロバスト）<br>AI応用・教材設計<br>歴史シナリオ制作（戦国・WWII・三国志） |
 |---|---|
 | **Email** | [shin3t72@gmail.com](mailto:shin3t72@gmail.com) |
 | **X (Twitter)** | [https://x.com/shin3t72](https://x.com/shin3t72) |
