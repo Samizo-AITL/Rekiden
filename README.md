@@ -12,8 +12,6 @@ title: ""
 あなたは **武将・国家指導者・科学者**として、歴史の転換点に立ち、対話によって「ifの選択」を行い、  
 その先の世界を追体験します。
 
----
-
 🏠 [**English Version is here**](./README_en.md)  
 → Experience **Rekiden** in English
 
