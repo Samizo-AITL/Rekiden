@@ -1,3 +1,10 @@
+---
+layout: none
+title: ""
+---
+    
+---
+
 # 🇺🇸 オッペンハイマー – 科学と人道のはざまで  
 **Rekiden – WW2 Scenario: USA / Scientist Route**
 
