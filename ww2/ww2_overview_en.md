@@ -1,3 +1,10 @@
+---
+layout: none
+title: ""
+---
+    
+---
+
 # 🌍 World War II Scenario: Historical Context
 
 ## 🕊️ Prologue
