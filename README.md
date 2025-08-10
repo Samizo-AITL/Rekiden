@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "README.md"
+title: "Rekiden – 戦国とWW2を体験する歴史ifシミュレーション"
 ---
     
 ---
