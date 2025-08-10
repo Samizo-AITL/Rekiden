@@ -1,3 +1,10 @@
+---
+layout: none
+title: ""
+---
+    
+---
+
 # 🇩🇪 アドルフ・ヒトラー – 独裁者の選択  
 **Rekiden – WW2 Scenario: Germany / Political Leadership Route**
 
