@@ -1,3 +1,10 @@
+---
+layout: none
+title: ""
+---
+    
+---
+
 # 🏃‍♂️ 1582: The Great Return from Chūgoku — Heir to Nobunaga
 
 ---
