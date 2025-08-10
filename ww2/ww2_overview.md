@@ -1,3 +1,10 @@
+---
+layout: none
+title: ""
+---
+    
+---
+
 # 🌍 第二次世界大戦：時代背景 / World War II: Historical Context
 
 ## 🕊️ 序章 / Prologue
