@@ -1,38 +1,48 @@
 ---
 ---
-@import "minima";
 
-/* 1) 和紙背景：Safariバグ回避（html::before で固定、テキストは一切置かない） */
-html, body { height: 100%; margin: 0; }
-body { background: none !important; }               /* body には背景を置かない */
-html::before{
-  content:"";
-  position: fixed; inset: 0; z-index: -1;           /* 常に最背面 */
+@import "minima"; /* Minimaテーマ標準を読み込む */
+
+/* ==== 和紙背景（全ページ共通） ==== */
+html, body {
+  height: 100%;
+  margin: 0;
+}
+body {
   background-image: url('{{ "/assets/images/washi.PNG" | relative_url }}');
-  background-size: cover; background-position: center;
-  /* background-attachment は使わない */
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+
+  /* フォント：和文は明朝、欧文はGeorgia */
+  font-family: "Yu Mincho", "Hiragino Mincho ProN", "MS PMincho", Georgia, serif;
+  line-height: 1.6;
 }
 
-/* 2) 本文枠：40%透過（blurは外す → ゴースト防止） */
-.page-content > .wrapper{
-  background-color: rgba(255,255,255,0.6) !important;  /* 0.6=不透明度60% → 40%透過 */
+/* ==== ページコンテンツの透過背景（40%透過） ==== */
+.page-content, .wrapper, .post, .post-content {
+  background-color: rgba(255, 255, 255, 0.6); /* 0.6 = 40%透過 */
+  padding: 1.5rem;
   border-radius: 8px;
-  padding: 1.5rem !important;
-  box-shadow: none !important; border: 0 !important;
-  /* backdrop-filter / -webkit-backdrop-filter は使わない */
+  backdrop-filter: blur(1px);
 }
 
-/* 3) 表：全ページで罫線を強制 */
-.page-content table, .post table{
-  width: 100% !important;
-  border-collapse: collapse !important;
-  background-color: rgba(255,255,255,0.6) !important;
+/* ==== 表のスタイル ==== */
+table {
+  border-collapse: collapse;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.6); /* 表自体も半透明 */
 }
-.page-content table, .page-content th, .page-content td,
-.post table, .post th, .post td{
-  border: 1px solid rgba(0,0,0,0.6) !important;
+
+table, th, td {
+  border: 1px solid rgba(0, 0, 0, 0.6) !important;
 }
-.page-content th, .post th{
-  background-color: rgba(0,0,0,0.05) !important;
-  font-weight: 700 !important;
+
+th, td {
+  padding: 0.5rem;
+}
+
+th {
+  background-color: rgba(0, 0, 0, 0.05);
+  font-weight: bold;
 }
