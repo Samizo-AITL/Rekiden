@@ -1,3 +1,10 @@
+---
+layout: none
+title: ""
+---
+    
+---
+
 # 🏯 **Intro to the Sengoku Period – Japan’s Age of Warring States**
 
 Welcome to the **Sengoku Period (戦国時代)** – Japan’s “**Age of Warring States**.”  
