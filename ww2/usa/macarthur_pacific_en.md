@@ -1,3 +1,10 @@
+---
+layout: none
+title: ""
+---
+    
+---
+
 # 🇺🇸 Island Commander: MacArthur and the Pacific Front
 
 **Playable Role**: General Douglas MacArthur – Supreme Commander of Allied Forces in the Pacific  
