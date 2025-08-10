@@ -11,9 +11,12 @@ body{
   background-attachment:fixed;
 }
 
-/* Minimaの白や箱影を消す */
-.site-header, .site-footer, .page-content, .wrapper, .page, .post, .post-list,
-.site-nav, .site-title, .site-nav .page-link {
+/* Minimaのヘッダー・フッター・白枠などを消す */
+.site-header, .site-footer, .site-title {
+  display: none !important; /* ←ヘッダー消す */
+}
+.page-content, .wrapper, .page, .post, .post-list,
+.site-nav, .site-nav .page-link {
   background: transparent !important;
   box-shadow: none !important;
   border: none !important;
@@ -21,16 +24,16 @@ body{
 
 /* ▼ A) 完全に背景だけ（読みやすさ補助なし） */
 .main{
-  max-width:980px; margin:2rem auto; padding:0;   /* ←余白だけ残す */
-  background: transparent;                        /* ←白背景を消す */
+  max-width:980px; margin:2rem auto; padding:0;
+  background: transparent;
 }
 
 /* ▼ B) 少しだけ白地を入れて可読性UP（Aを無視して使いたい方だけON）
 .main{
   max-width:980px; margin:2rem auto; padding:1.5rem;
-  background: rgba(255,255,255,.55);   /* 0.55→薄い。0に近いほど和紙が強く見える */
+  background: rgba(255,255,255,.55);
   border-radius: 8px;
-  backdrop-filter: blur(1px);          /* 文字の読みやすさ補助（対応ブラウザのみ） */
+  backdrop-filter: blur(1px);
 }
 */
 </style>
@@ -108,9 +111,11 @@ body{
 
 ---
 
-## 👤 **執筆者情報 / Author**
+## 👤 **作成者情報 / Author**
 
 **三溝 真一（Shinichi Samizo）**  
+
+半導体×制御×AI×歴史　統合クリエイター
 
 📬 **連絡先**  
 - ✉️ [shin3t72@gmail.com](mailto:shin3t72@gmail.com)  
