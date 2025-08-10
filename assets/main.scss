@@ -1,61 +1,37 @@
 ---
 ---
-@import "minima"; /* ← Minima標準CSSを先に読み込み */
+@import "minima";
 
-/* =========================
-   1) 和紙背景（全ページ）
-   - Safariの描画バグ回避のため body ではなく html::before で固定
-   ========================= */
+/* 1) 和紙背景：Safariバグ回避（html::before で固定、テキストは一切置かない） */
 html, body { height: 100%; margin: 0; }
-body { background: none !important; } /* 既定の背景は使わない */
-
+body { background: none !important; }               /* body には背景を置かない */
 html::before{
-  content: "";
-  position: fixed;        /* 画面に固定 */
-  inset: 0;
-  z-index: -1;            /* 文字の背面に配置 */
+  content:"";
+  position: fixed; inset: 0; z-index: -1;           /* 常に最背面 */
   background-image: url('{{ "/assets/images/washi.PNG" | relative_url }}');
-  background-size: cover;
-  background-position: center;
-  /* background-attachment は使わない（Safari対策） */
+  background-size: cover; background-position: center;
+  /* background-attachment は使わない */
 }
 
-/* =========================
-   2) コンテンツの透過（40%透過 = 0.6不透明）
-   - Minimaの構造: <main class="page-content"><div class="wrapper">…</div></main>
-   - ここだけに半透明を当てる（ヘッダー/フッターは触らない）
-   ========================= */
+/* 2) 本文枠：40%透過（blurは外す → ゴースト防止） */
 .page-content > .wrapper{
-  background-color: rgba(255,255,255,0.6) !important; /* ← 透過度調整はここ */
+  background-color: rgba(255,255,255,0.6) !important;  /* 0.6=不透明度60% → 40%透過 */
   border-radius: 8px;
   padding: 1.5rem !important;
-  box-shadow: none !important;
-  border: 0 !important;
-  backdrop-filter: blur(1px);
+  box-shadow: none !important; border: 0 !important;
+  /* backdrop-filter / -webkit-backdrop-filter は使わない */
 }
 
-/* 投稿ページなど個別のラッパがある場合の保険 */
-.post, .post-content{
-  background: transparent !important;
-  box-shadow: none !important;
-  border: 0 !important;
-}
-
-/* =========================
-   3) 表の線（強制上書き）
-   ========================= */
-.page-content table,
-.post table{
+/* 3) 表：全ページで罫線を強制 */
+.page-content table, .post table{
   width: 100% !important;
   border-collapse: collapse !important;
-  background-color: rgba(255,255,255,0.6) !important; /* 表自体もうっすら白 */
+  background-color: rgba(255,255,255,0.6) !important;
 }
-
 .page-content table, .page-content th, .page-content td,
 .post table, .post th, .post td{
   border: 1px solid rgba(0,0,0,0.6) !important;
 }
-
 .page-content th, .post th{
   background-color: rgba(0,0,0,0.05) !important;
   font-weight: 700 !important;
