@@ -8,7 +8,11 @@
 ---
 
 *諸葛亮於風中佇立，羽扇輕搖，江面靜靜燃起赤壁之戰的序曲*
-![Zhuge Liang stands by the river with a fan in hand, wind stirring his sleeves – before Red Cliffs](./images/zhuge_liang_red_cliffs.png)
+<p align="center">
+  <a href="./images/zhuge_liang_red_cliffs.png" target="_blank">
+    <img src="./images/zhuge_liang_red_cliffs.png" alt="Zhuge Liang before Red Cliffs" width="80%">
+  </a>
+</p>
 *Zhuge Liang contemplates the battle to come. Red Cliffs. Wind. Fire.*
 
 ---
