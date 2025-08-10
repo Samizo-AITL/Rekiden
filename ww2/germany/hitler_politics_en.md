@@ -1,3 +1,10 @@
+---
+layout: none
+title: ""
+---
+    
+---
+
 # 🇩🇪 The Threshold of War: Hitler and the Polish Gamble
 
 **Playable Role**: Adolf Hitler – Führer of Nazi Germany  
