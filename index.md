@@ -1,5 +1,5 @@
 ---
-layout: defaurt
+layout: default
 title: "Rekiden"
 ---
     
