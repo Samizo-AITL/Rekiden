@@ -144,7 +144,9 @@ We welcome your suggestions and improvements!
 ---
 
 ## 🖼️ **上杉謙信 — 川中島の戦い / Uesugi Kenshin — Battle of Kawanakajima (1561)**
-![上杉謙信 川中島の戦い](./Uesugi_Kenshin_Kawanakajima_1561.png)  
+<p align="center">
+  <img src="./Uesugi_Kenshin_Kawanakajima_1561.png" alt="上杉謙信 川中島の戦い" style="width:80%;">
+</p>
 若き謙信が馬上から突撃する姿を描いたリアルな油彩風イメージ。  
 A vivid oil-paint style image of young Kenshin’s cavalry charge.
 
