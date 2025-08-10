@@ -1,3 +1,10 @@
+---
+layout: default
+title: "How to Play Rekiden (with ChatGPT)"
+---
+    
+---
+
 # 🎮 How to Play Rekiden (with ChatGPT)
 
 **Rekiden** is a text-based historical simulation game powered by ChatGPT.  
