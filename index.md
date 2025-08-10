@@ -1,6 +1,6 @@
 ---
-layout: none
-title: ""
+layout: defaurt
+title: "Rekiden"
 ---
     
 ---
