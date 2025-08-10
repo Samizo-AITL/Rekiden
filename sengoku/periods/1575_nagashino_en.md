@@ -1,3 +1,10 @@
+---
+layout: none
+title: ""
+---
+    
+---
+
 # ⚔️ Battle of Nagashino, 1575  
 _Rekiden Scenario Template (English Version)_
 
