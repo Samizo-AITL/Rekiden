@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Rekiden – English"
+title: "Rekiden – English" 
 ---
 
 # 🏯🌍 **Rekiden – A ChatGPT-Powered Historical Simulation Framework**
