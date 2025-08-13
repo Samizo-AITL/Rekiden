@@ -32,7 +32,7 @@ The outcomes depend on your strategy and choices.
 3. **Enter choices** each turn (“Negotiate,” “Attack,” “Develop Technology,” etc.)  
 4. ChatGPT acts as **Game Master**, **Narrator**, and **Simulation Engine**
 
-▶︎ [**Getting Started Guide**](./docs/how_to_play_en.md)
+▶︎ [**Getting Started Guide**](../docs/how_to_play_en.md)
 
 ---
 
