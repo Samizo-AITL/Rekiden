@@ -3,8 +3,6 @@ layout: default
 title: "Rekiden – English"
 ---
 
----
-
 # 🏯🌍 **Rekiden – A ChatGPT-Powered Historical Simulation Framework**
 
 **Rekiden** is a **text-based, open-source simulation framework** that lets you  
@@ -12,18 +10,18 @@ title: "Rekiden – English"
 You take the role of **a warlord, a national leader, or a scientist**, making *critical decisions* at key historical crossroads.  
 The outcomes depend on your strategy and choices.
 
-🏠 [**日本語版はこちら / Japanese Version**](./index.md)
+🏠 [**日本語版はこちら / Japanese Version**](../index.md)
 
 ---
 
 ## 🎯 **Project Overview**
 
-| **Item**         | **Details** |
-|------------------|-------------|
-| **Genre**        | Historical Simulation / Strategy (Text-based) |
-| **Format**       | Markdown-based branching scenarios |
+| **Item** | **Details** |
+|---|---|
+| **Genre** | Historical Simulation / Strategy (Text-based) |
+| **Format** | Markdown-based branching scenarios |
 | **Eras Covered** | 🏯 Sengoku Period (1555–1615) – *Fully implemented*<br>🌍 WWII (1939–1945) – *5 routes completed (Ver. 1.0)* |
-| **Goals**        | Learn and explore **alternative history** through interactive simulation with AI. Combine **strategic thinking**, **ethical dilemmas**, and **narrative generation** into a single educational tool. |
+| **Goals** | Learn and explore **alternative history** through interactive simulation with AI. Combine **strategic thinking**, **ethical dilemmas**, and **narrative generation** into a single educational tool. |
 
 ---
 
@@ -41,7 +39,7 @@ The outcomes depend on your strategy and choices.
 ## 🏯 **Sengoku Period Scenarios (1555–1614)**
 
 | **Year** | **Factions / Key Figures** | **Title** | **File** |
-|----------|-----------------------------|-----------|----------|
+|---|---|---|---|
 | 1555 | Imagawa Yoshimoto, Takeda Shingen, Hōjō Ujiyasu | *The Tripartite Alliance* | [1555_sangoku_alliance_en.md](./sengoku/periods/1555_sangoku_alliance_en.md) |
 | 1561 | Takeda Shingen vs Uesugi Kenshin | *Battle of Kawanakajima* | [1561_kawanakajima_en.md](./sengoku/periods/1561_kawanakajima_en.md) |
 | 1575 | Oda Nobunaga & Tokugawa Ieyasu vs Takeda Katsuyori | *Battle of Nagashino* | [1575_nagashino_en.md](./sengoku/periods/1575_nagashino_en.md) |
@@ -58,7 +56,7 @@ The outcomes depend on your strategy and choices.
 **Allies** 🇬🇧 🇺🇸 🇫🇷 vs. **Axis** 🇩🇪 🇮🇹 🇯🇵
 
 | **Year** | **Nation** | **Player** | **Title** | **File** |
-|----------|------------|------------|-----------|----------|
+|---|---|---|---|---|
 | 1941 | 🇯🇵 Japan | Yamamoto | *Pearl Harbor & Midway Strategy* | [yamamoto_navy_en.md](./ww2/japan/yamamoto_navy_en.md) |
 | 1941 | 🇺🇸 USA | Roosevelt | *Total War & Alliance Building* | [roosevelt_strategy_en.md](./ww2/usa/roosevelt_strategy_en.md) |
 | 1945 | 🇺🇸 USA | Oppenheimer | *Ethics of Atomic Bomb Development* | [oppenheimer_ethics_en.md](./ww2/usa/oppenheimer_ethics_en.md) |
@@ -79,15 +77,15 @@ Written in **English** with **Traditional Chinese** elements.
 
 ## 🧪 **Sample Play Logs**
 
-- [*Kawanakajima – Uesugi Kenshin (ENG)*](templates/1561_kawanakajima_kenshin_user001.md)  
-- [*Fūrin Kazan Mode (ENG)*](templates/1561_kawanakajima_furinkazan_en.md)
+- [*Kawanakajima – Uesugi Kenshin (ENG)*](./templates/1561_kawanakajima_kenshin_user001.md)  
+- [*Fūrin Kazan Mode (ENG)*](./templates/1561_kawanakajima_furinkazan_en.md)
 
 ---
 
 ## ✅ **Project Status**
 
 | **Feature** | **Status** |
-|-------------|------------|
+|---|---|
 | Sengoku scenarios (JP) | ✅ Done |
 | WWII scenarios (JP/EN) | ✅ Done |
 | English scenario support | ✅ Ongoing |
@@ -100,7 +98,7 @@ Written in **English** with **Traditional Chinese** elements.
 ## 📜 **License**
 
 MIT License © 2025 **Shinichi Samizo**  
-See [**LICENSE**](./LICENSE) for details.
+See [**LICENSE**](../LICENSE) for details.
 
 ---
 
@@ -142,6 +140,3 @@ Whether you're interested in **educational use**, **historical storytelling**, o
 
 *A dynamic depiction of young Uesugi Kenshin charging into battle on horseback,  
 captured in a realistic oil painting style.*
-
----
-
