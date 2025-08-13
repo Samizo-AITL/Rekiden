@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Rekiden – English"
+title: "Rekiden – English" 
 ---
 
 ---
