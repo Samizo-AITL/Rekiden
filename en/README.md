@@ -32,7 +32,7 @@ The outcomes depend on your strategy and choices.
 3. **Enter choices** each turn (“Negotiate,” “Attack,” “Develop Technology,” etc.)  
 4. ChatGPT acts as **Game Master**, **Narrator**, and **Simulation Engine**
 
-▶︎ [**Getting Started Guide**](./docs/how_to_play_en.md)
+▶︎ [**Getting Started Guide**](../docs/how_to_play_en.md)
 
 ---
 
@@ -40,14 +40,14 @@ The outcomes depend on your strategy and choices.
 
 | **Year** | **Factions / Key Figures** | **Title** | **File** |
 |---|---|---|---|
-| 1555 | Imagawa Yoshimoto, Takeda Shingen, Hōjō Ujiyasu | *The Tripartite Alliance* | [1555_sangoku_alliance_en.md](./sengoku/periods/1555_sangoku_alliance_en.md) |
-| 1561 | Takeda Shingen vs Uesugi Kenshin | *Battle of Kawanakajima* | [1561_kawanakajima_en.md](./sengoku/periods/1561_kawanakajima_en.md) |
-| 1575 | Oda Nobunaga & Tokugawa Ieyasu vs Takeda Katsuyori | *Battle of Nagashino* | [1575_nagashino_en.md](./sengoku/periods/1575_nagashino_en.md) |
-| 1582 | Akechi Mitsuhide vs Hashiba Hideyoshi | *The Great Return from Chūgoku* | [1582-2_chugoku_ogaeshi_en.md](./sengoku/periods/1582-2_chugoku_ogaeshi_en.md) |
-| 1600 | Uesugi Kagekatsu (IF) vs Tokugawa Ieyasu | *Righteous Rule (Uesugi IF)* | [1600_uesugi_if_en.md](./sengoku/periods/1600_uesugi_if_en.md) |
-| 1614 | Sanada Yukimura vs Tokugawa Hidetada | *Siege of Osaka* | [1614_osaka_campaign_en.md](./sengoku/periods/1614_osaka_campaign_en.md) |
+| 1555 | Imagawa Yoshimoto, Takeda Shingen, Hōjō Ujiyasu | *The Tripartite Alliance* | [1555_sangoku_alliance_en.md](../sengoku/periods/1555_sangoku_alliance_en.md) |
+| 1561 | Takeda Shingen vs Uesugi Kenshin | *Battle of Kawanakajima* | [1561_kawanakajima_en.md](../sengoku/periods/1561_kawanakajima_en.md) |
+| 1575 | Oda Nobunaga & Tokugawa Ieyasu vs Takeda Katsuyori | *Battle of Nagashino* | [1575_nagashino_en.md](../sengoku/periods/1575_nagashino_en.md) |
+| 1582 | Akechi Mitsuhide vs Hashiba Hideyoshi | *The Great Return from Chūgoku* | [1582-2_chugoku_ogaeshi_en.md](../sengoku/periods/1582-2_chugoku_ogaeshi_en.md) |
+| 1600 | Uesugi Kagekatsu (IF) vs Tokugawa Ieyasu | *Righteous Rule (Uesugi IF)* | [1600_uesugi_if_en.md](../sengoku/periods/1600_uesugi_if_en.md) |
+| 1614 | Sanada Yukimura vs Tokugawa Hidetada | *Siege of Osaka* | [1614_osaka_campaign_en.md](../sengoku/periods/1614_osaka_campaign_en.md) |
 
-▶︎ [**Intro to the Sengoku Period**](./docs/sengoku_intro_en.md)
+▶︎ [**Intro to the Sengoku Period**](../docs/sengoku_intro_en.md)
 
 ---
 
@@ -57,13 +57,13 @@ The outcomes depend on your strategy and choices.
 
 | **Year** | **Nation** | **Player** | **Title** | **File** |
 |---|---|---|---|---|
-| 1941 | 🇯🇵 Japan | Yamamoto | *Pearl Harbor & Midway Strategy* | [yamamoto_navy_en.md](./ww2/japan/yamamoto_navy_en.md) |
-| 1941 | 🇺🇸 USA | Roosevelt | *Total War & Alliance Building* | [roosevelt_strategy_en.md](./ww2/usa/roosevelt_strategy_en.md) |
-| 1945 | 🇺🇸 USA | Oppenheimer | *Ethics of Atomic Bomb Development* | [oppenheimer_ethics_en.md](./ww2/usa/oppenheimer_ethics_en.md) |
-| 1942 | 🇺🇸 USA | MacArthur | *Pacific Front & Philippine Campaign* | [macarthur_pacific_en.md](./ww2/usa/macarthur_pacific_en.md) |
-| 1939 | 🇩🇪 Germany | Hitler | *Invasion of Poland & Diplomatic Crisis* | [hitler_politics_en.md](./ww2/germany/hitler_politics_en.md) |
+| 1941 | 🇯🇵 Japan | Yamamoto | *Pearl Harbor & Midway Strategy* | [yamamoto_navy_en.md](../ww2/japan/yamamoto_navy_en.md) |
+| 1941 | 🇺🇸 USA | Roosevelt | *Total War & Alliance Building* | [roosevelt_strategy_en.md](../ww2/usa/roosevelt_strategy_en.md) |
+| 1945 | 🇺🇸 USA | Oppenheimer | *Ethics of Atomic Bomb Development* | [oppenheimer_ethics_en.md](../ww2/usa/oppenheimer_ethics_en.md) |
+| 1942 | 🇺🇸 USA | MacArthur | *Pacific Front & Philippine Campaign* | [macarthur_pacific_en.md](../ww2/usa/macarthur_pacific_en.md) |
+| 1939 | 🇩🇪 Germany | Hitler | *Invasion of Poland & Diplomatic Crisis* | [hitler_politics_en.md](../ww2/germany/hitler_politics_en.md) |
 
-▶︎ [**Intro to World War II**](./ww2/ww2_overview_en.md)
+▶︎ [**Intro to World War II**](../ww2/ww2_overview_en.md)
 
 ---
 
@@ -71,14 +71,14 @@ The outcomes depend on your strategy and choices.
 
 A non-interactive literary scenario featuring Zhuge Liang.  
 Written in **English** with **Traditional Chinese** elements.  
-▶︎ [**Read Scenario**](./three_kingdoms/red_cliffs_en.md)
+▶︎ [**Read Scenario**](../three_kingdoms/red_cliffs_en.md)
 
 ---
 
 ## 🧪 **Sample Play Logs**
 
-- [*Kawanakajima – Uesugi Kenshin (ENG)*](./templates/1561_kawanakajima_kenshin_user001.md)  
-- [*Fūrin Kazan Mode (ENG)*](./templates/1561_kawanakajima_furinkazan_en.md)
+- [*Kawanakajima – Uesugi Kenshin (ENG)*](../templates/1561_kawanakajima_kenshin_user001.md)  
+- [*Fūrin Kazan Mode (ENG)*](../templates/1561_kawanakajima_furinkazan_en.md)
 
 ---
 
@@ -135,7 +135,7 @@ Whether you're interested in **educational use**, **historical storytelling**, o
 ## 🖼 **Uesugi Kenshin – Battle of Kawanakajima (1561)**
 
 <p align="center">
-  <img src="./Uesugi_Kenshin_Kawanakajima_1561.png" alt="Uesugi Kenshin at the Battle of Kawanakajima" style="width:80%;">
+  <img src="../Uesugi_Kenshin_Kawanakajima_1561.png" alt="Uesugi Kenshin at the Battle of Kawanakajima" style="width:80%;">
 </p>
 
 *A dynamic depiction of young Uesugi Kenshin charging into battle on horseback,  
