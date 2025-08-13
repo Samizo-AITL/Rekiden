@@ -5,7 +5,7 @@ title: "Rekiden – English"
 
 ---
 
-# 🏯🌍 **Rekiden – A ChatGPT-Powered Historical Simulation Framework**
+# 🏯🌍 **Rekiden – A ChatGPT-Powered Historical Simulation Framework** 
 
 [![license](https://img.shields.io/badge/license-MIT-blue)](../LICENSE)
 [![view](https://img.shields.io/badge/view-site-brightgreen)](https://samizo-aitl.github.io/en)
