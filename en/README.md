@@ -14,7 +14,14 @@ title: "Rekiden – English"
 You take the role of **a warlord, a national leader, or a scientist**, making *critical decisions* at key historical crossroads.  
 The outcomes depend on your strategy and choices.
 
-🏠 [**日本語版はこちら / Japanese Version**](../index.md)
+---
+
+## 🔗 Official Links
+
+| Language | GitHub Pages 🌐 | GitHub 💻 |
+|----------|----------------|-----------|
+| 🇺🇸 English | [![GitHub Pages EN](https://img.shields.io/badge/GitHub%20Pages-English-brightgreen?logo=github)](https://samizo-aitl.github.io/Rekiden/en/) | [![GitHub Repo EN](https://img.shields.io/badge/GitHub-English-blue?logo=github)](https://github.com/Samizo-AITL/Rekiden/tree/main/en) |
+| 🇯🇵 Japanese | [![GitHub Pages JP](https://img.shields.io/badge/GitHub%20Pages-日本語版-brightgreen?logo=github)](https://samizo-aitl.github.io/Rekiden/) | [![GitHub Repo JP](https://img.shields.io/badge/GitHub-日本語版-blue?logo=github)](https://github.com/Samizo-AITL/Rekiden) |
 
 ---
 
