@@ -7,8 +7,7 @@ title: "🏯🌍 Rekiden — 戦国とWW2を体験する歴史ifシミュレー�
 
 # 🏯🌍 **Rekiden — 戦国とWW2を体験する歴史ifシミュレーション / Historical "What-if" Simulation**
 
-[![license](https://img.shields.io/badge/license-MIT-blue)](LICENSE)
-[![view](https://img.shields.io/badge/view-site-brightgreen)](https://samizo-aitl.github.io)
+[![Samizo-AITLポータルサイトに戻る](https://img.shields.io/badge/Samizo--AITL%20ポータルサイトに戻る-brightgreen)](https://samizo-aitl.github.io/) [![MIT License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 
 **Rekiden** は、日本の **戦国時代** と **第二次世界大戦** をテーマにした  
 **ChatGPT連携型の歴史ifシナリオ教材／戦略シミュレーションフレームワーク**です。  
