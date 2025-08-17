@@ -1,170 +1,124 @@
 ---
-layout: defualt
-title: ""
+layout: default
+title: "Battle of Kawanakajima (1561) Scenario"
 ---
-    
----
-
-# ⚔️ Battle of Kawanakajima (1561)
 
 ---
 
-## 📘 Scenario Background
-
-In 1561, Takeda Shingen and Uesugi Kenshin clashed once again over control of the Shinano region.
-The confrontation escalated into the Fifth Battle of Kawanakajima, one of the most famous and intense battles of the Sengoku era.
-
-Kenshin’s “Kuruma-gakari no Jin” (Wagon Wheel Formation) and Shingen’s “Kakuyoku Tactics” (Woodpecker Strategy) collide, leading to an unpredictable development of the battle.
+# ⚔️ Battle of Kawanakajima (1561) – Scenario
 
 ---
 
-## 🧠 Factions Overview
+## 📘 Background
+
+In 1561, the struggle for dominance in Shinano Province culminated in the legendary clash between **Takeda Shingen** of Kai and **Uesugi Kenshin** of Echigo.  
+This battle, known as the **Fifth Battle of Kawanakajima**, became one of the most iconic and bloodiest engagements of the Sengoku period.
+
+The two armies confronted each other in the Kawanakajima plain (Nagano Basin). Shingen aimed to outmaneuver Kenshin using the **Woodpecker Strategy (Kitsutsuki Sakusen)**, while Kenshin countered with the **Kuruma-gakari no Jin (Winding Wheel Formation)**, a unique rotating assault formation.  
+
+These opposing strategies clashed in a chaotic and intense battle that would be remembered as one of Japan’s greatest tactical confrontations.
+
+---
+
+## 🧠 Factions
 
 ### 🟥 Takeda Clan (Takeda Shingen)
 
-- Base: Tsutsujigasaki Residence (Kai Province)
-- Kokudaka: 220,000 koku Troops: 20,000 Supplies: 12,000 bales of rice Funds: 3,000 kanmon
-- Leadership: 92 Martial: 85 Intelligence: 88 Politics: 86 Charisma: 94
+- Headquarters: Tsutsujigasaki Residence (Kai)  
+- Kokudaka: 220,000 koku　Troops: 20,000　Supplies: 12,000 koku rice　Funds: 3,000 kanmon  
+- Leadership: 92　Valor: 85　Intelligence: 88　Politics: 86　Charisma: 94  
+- Trait: **Cavalry Corps, Mountain Adaptability**
 
 #### Key Retainers
-
-| Name | Leadership | Martial | Intelligence | Politics | Charisma |
-|-------------------|------------|---------|--------------|----------|----------|
-| Yamagata Masakage | 85 | 88 | 70 | 65 | 75 |
-| Baba Nobuharu | 88 | 86 | 78 | 70 | 80 |
-| Naitō Masatoyo | 82 | 82 | 72 | 68 | 74 |
-| Kōsaka Masanobu | 80 | 80 | 80 | 72 | 78 |
-| Sanada Yukitaka | 78 | 76 | 85 | 74 | 76 |
-| **Yamamoto Kansuke** | 72 | 65 | **92** | 80 | 70 |
+| Name        | Leadership | Valor | Intelligence | Politics | Charisma | Notes |
+|-------------|------------|-------|--------------|----------|----------|-------|
+| Yamagata Masakage | 85 | 88 | 70 | 65 | 75 | "Red Armored Troops" |
+| Baba Nobuharu    | 88 | 86 | 78 | 70 | 80 | Veteran General |
+| Naitō Masatoyo   | 82 | 82 | 72 | 68 | 74 | Loyal retainer |
+| Kōsaka Masanobu  | 80 | 80 | 80 | 72 | 78 | "Escape Expert" |
+| Sanada Yukitaka  | 78 | 76 | 85 | 74 | 76 | Strategist |
 
 ---
 
 ### 🟦 Uesugi Clan (Uesugi Kenshin)
 
-- Base: Kasugayama Castle (Echigo Province)
-- Kokudaka: 180,000 koku Troops: 18,000 Supplies: 10,000 bales of rice Funds: 2,800 kanmon
-- Leadership: 94 Martial: 90 Intelligence: 86 Politics: 82 Charisma: 96
+- Headquarters: Kasugayama Castle (Echigo)  
+- Kokudaka: 180,000 koku　Troops: 18,000　Supplies: 10,000 koku rice　Funds: 2,800 kanmon  
+- Leadership: 94　Valor: 90　Intelligence: 86　Politics: 82　Charisma: 96  
+- Trait: **Holy General, Morale Boost**
 
 #### Key Retainers
-
-| Name | Leadership | Martial | Intelligence | Politics | Charisma |
-|--------------------|------------|---------|--------------|----------|----------|
-| Naoe Kagekatsu | 80 | 70 | 78 | 76 | 72 |
-| Kakizaki Kageie | 82 | 84 | 75 | 70 | 74 |
-| Amakasu Kagemochi | 75 | 72 | 70 | 68 | 70 |
-| Honjō Shigenaga | 78 | 80 | 72 | 72 | 76 |
-| Oni Kojima Yatarō | 70 | 90 | 65 | 60 | 68 |
-
----
-
-## 🎮 How to Start Playing in ChatGPT
-
-Choose your preferred faction and gameplay mode, then paste the corresponding template into ChatGPT.
+| Name            | Leadership | Valor | Intelligence | Politics | Charisma | Notes |
+|-----------------|------------|-------|--------------|----------|----------|-------|
+| Naoe Kagekatsu  | 80 | 70 | 78 | 76 | 72 | Domestic advisor |
+| Kakizaki Kageie | 82 | 84 | 75 | 70 | 74 | Fierce warrior |
+| Amakasu Kagemochi | 75 | 72 | 70 | 68 | 70 | Defensive specialist |
+| Honjō Shigenaga | 78 | 80 | 72 | 72 | 76 | Influential retainer |
+| Oni Kojima Yatarō | 70 | 90 | 65 | 60 | 68 | Brave warrior |
 
 ---
 
-## 🔀 Mode Selection
+## ⚔️ Tactical Concepts
 
-- [ ] **Historical Mode** (史実モード): Reenact events based on historical consensus
-- [ ] **Fūrin Kazan Mode** (風林火山モード): Based on the novel by Yasushi Inoue; dramatic and character-focused
+### 🟨 Woodpecker Strategy (Kitsutsuki Sakusen – 武田信玄)
+A complex plan where one force lures the enemy into engagement while a second detachment attacks the enemy’s rear, like a woodpecker striking a tree.  
+Shingen intended to divide his forces, with one attacking at night and the other ambushing Kenshin’s camp at dawn.
+
+### 🟩 Kuruma-gakari no Jin (車懸かりの陣 – 上杉謙信)
+A rotating wheel formation where successive units continuously attack the enemy front.  
+This constant pressure prevents the opponent from resting, overwhelming them with relentless assaults.  
+Kenshin personally led charges, creating legendary moments such as his direct assault on Shingen’s command tent.
 
 ---
 
-### 🟥 Takeda Clan Templates (Choose Mode)
+## 🎮 How to Play (with ChatGPT)
 
-#### 📜 Historical Mode Template
+Choose a side and copy the template below into ChatGPT to start your campaign.
+
+---
+
+### 🟥 Takeda Clan (Takeda Shingen) Template
 ```
-📝 Play Log: Battle of Kawanakajima (Fūrin Kazan Mode – Yamamoto Kansuke)
+📝 Play Log: Battle of Kawanakajima (Takeda Shingen)
 
 🎮 Player Info
-• Player Name: your_name_here
-• Faction: Takeda Clan
-• Main Character: Yamamoto Kansuke (Military Strategist)
-• Base: Tsutsujigasaki Residence
-• Retainers: Same as historical, plus Kansuke
-• Troops: 20,000
+- Player Name: your_name_here
+- Faction: Takeda Clan (Takeda Shingen)
+- HQ: Tsutsujigasaki Residence (Kai)
+- Retainers: Yamagata Masakage, Baba Nobuharu, Naitō Masatoyo, Kōsaka Masanobu, Sanada Yukitaka
+- Initial Troops: 20,000
 
 📘 Scenario Info
-• Title: Battle of Kawanakajima
-• Year: 1561
-• State: Executing Woodpecker Strategy; Kansuke leads detached unit up Mt. Saijoyama
-• Enemy: Uesugi Clan (18,000)
+- Title: Battle of Kawanakajima
+- Year: 1561
+- Status: Facing Kenshin’s army, preparing for battle
+- Enemy: Uesugi Clan (18,000)
 
-🎯 Tactical Decisions
-• Attempt the Woodpecker Strategy (night assault on enemy camp)
-• Discover enemy HQ has already moved — strategy failed
-• Return to battlefield; engage in desperate counterattack
-• Kansuke charges, waving Fūrin Kazan banner — dies in combat
-
-🪦 Final Words
-
-“War… is fulfilled only when one gives their life to it. Lord Shingen… the rest is yours to carry on…”
+🎯 Initial Choices
+- [ ] Execute Woodpecker Strategy (rear ambush plan)
+- [ ] Fortify defenses and prepare for prolonged battle
 ```
 
-#### 🎭 Fūrin Kazan Mode Template
-```
-📝 Play Log: Battle of Kawanakajima (Fūrin Kazan Mode – Yamamoto Kansuke)
-
-🎮 Player Info
-• Player Name: your_name_here
-• Faction: Takeda Clan
-• Main Character: Yamamoto Kansuke (Military Strategist)
-• Base: Tsutsujigasaki Residence
-• Retainers: Same as historical, plus Kansuke
-• Troops: 20,000
-
-📘 Scenario Info
-• Title: Battle of Kawanakajima
-• Year: 1561
-• State: Executing Woodpecker Strategy; Kansuke leads detached unit up Mt. Saijoyama
-• Enemy: Uesugi Clan (18,000)
-
-🎯 Tactical Decisions
-• Attempt the Woodpecker Strategy (night assault on enemy camp)
-• Discover enemy HQ has already moved — strategy failed
-• Return to battlefield; engage in desperate counterattack
-• Kansuke charges, waving Fūrin Kazan banner — dies in combat
-
-🪦 Final Words
-
-“War… is fulfilled only when one gives their life to it. Lord Shingen… the rest is yours to carry on…”
-```
 ---
 
-### 🟦 Uesugi Clan Template
+### 🟦 Uesugi Clan (Uesugi Kenshin) Template
 ```
 📝 Play Log: Battle of Kawanakajima (Uesugi Kenshin)
 
 🎮 Player Info
-• Player Name: your_name_here
-• Faction: Uesugi Clan (Uesugi Kenshin)
-• Base: Kasugayama Castle (Echigo)
-• Retainers: Naoe Kagekatsu, Kakizaki Kageie, Amakasu Kagemochi, Honjō Shigenaga, Oni Kojima Yatarō
-• Troops: 18,000
+- Player Name: your_name_here
+- Faction: Uesugi Clan (Uesugi Kenshin)
+- HQ: Kasugayama Castle (Echigo)
+- Retainers: Naoe Kagekatsu, Kakizaki Kageie, Amakasu Kagemochi, Honjō Shigenaga, Oni Kojima Yatarō
+- Initial Troops: 18,000
 
 📘 Scenario Info
-• Title: Battle of Kawanakajima
-• Year: 1561
-• State: Preparing to strike the Takeda encampment
-• Enemy: Takeda Clan (20,000)
+- Title: Battle of Kawanakajima
+- Year: 1561
+- Status: Facing Shingen’s army, ready to strike
+- Enemy: Takeda Clan (20,000)
 
 🎯 Initial Choices
-• Use the Kuruma-gakari formation to launch a whirlwind assault
-• Maneuver flexibly to draw Takeda forces out of position
+- [ ] Launch Kuruma-gakari no Jin (rotating wheel attack)
+- [ ] Maneuver into mobile warfare
 ```
-
----
-
-## 📜 License
-
-MIT License © 2025 Shinichi Samizo
-
----
-
-## 👤 Author
-
-Shinichi Samizo
-Engineer in semiconductors and control systems / Creator of educational simulation frameworks
-[GitHub](https://github.com/Samizo-AITL) / [Email](mailto:shin3t72@gmail.com)
-
----
