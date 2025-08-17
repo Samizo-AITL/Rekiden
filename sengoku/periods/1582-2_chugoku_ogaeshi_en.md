@@ -57,10 +57,31 @@ It is designed for both **historical immersion** and **strategic role-play**, en
 - A regime based in **Echizen and the Hokuriku** region.  
 - Strong but distant from Kyoto; must negotiate with Tokugawa, Mōri, and the Uesugi.  
 
-### IF Route B: Oichi Regency (1584–)  
-- After Shibata’s downfall, **Oichi no Kata** (Nobunaga’s sister and Katsuie’s widow) inherits his coalition.  
-- The first **female-led political regime** in Sengoku Japan.  
-- Uses **marriage diplomacy** (her daughters Chacha, Hatsu, and Gō) to strengthen alliances.  
+---
+
+### IF Route B: The Oichi Regime (1584–)
+
+After the downfall of Shibata Katsuie, **Lady Oichi** (widow of both Azai Nagamasa and later Katsuie) inherits the Hokuriku alliance.  
+Through **matrilineal legitimacy and marriage diplomacy**, she gradually gains recognition within the Kinai region.
+
+📖 **Explanation | A Female-Led Regime as "What-If"**  
+In the Sengoku era, no long-lasting regime was ever led by a woman.  
+Therefore, the core gameplay here emphasizes **marriage alliances, diplomacy, and symbolic legitimacy** rather than brute force.
+
+#### Lady Oichi as a "Female Shogun" (Helmeted Figure)
+
+<img src="./images/oichi.PNG" alt="Lady Oichi Shogun" width="400"/>
+
+#### Commentary
+Lady Oichi (1547–1583) was the younger sister of Oda Nobunaga, one of the most famous figures of the Sengoku period.  
+Historically, she married Azai Nagamasa and later Shibata Katsuie, and died following Katsuie’s defeat.  
+
+In this scenario, however, the **IF Route B "Oichi Regime"** explores an alternate history in which she survives her husband’s fall and takes command of the Hokuriku alliance, emerging as a rare female ruler.  
+Her image as a helmeted “female shogun” symbolizes a **vision of female hegemony** that never truly existed in Japanese history.
+
+- **Cultural Significance**: Challenges the male-centered narrative of samurai politics, highlighting the potential for female leadership.  
+- **Gameplay Role**: Focus shifts toward diplomacy, alliances, and symbolic power. Victory may depend less on battlefield might and more on **marriage diplomacy and cultural influence**.  
+- **For Overseas Players**: The samurai helmet (*kabuto*) and armor represent the authority of a warlord in Sengoku Japan. Depicting Oichi in such attire visually reinforces the theme of a "female hegemon."
 
 ---
 
