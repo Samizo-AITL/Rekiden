@@ -97,8 +97,8 @@ Her image as a helmeted “female shogun” symbolizes a **vision of female hege
 # 🧠 Character Ability Tables (1582–1584)
 
 ## Ability Reference
-| Stat      | Meaning |
-|-----------|---------|
+| Stat           | Meaning |
+|----------------|---------|
 | **Leadership** | Army command, tactics, deployments |
 | **Valor**      | Personal combat, bravery, physical strength |
 | **Intelligence** | Strategic insight, schemes, analysis |
@@ -108,57 +108,57 @@ Her image as a helmeted “female shogun” symbolizes a **vision of female hege
 ---
 
 ## 🟧 Hashiba (Toyotomi) Faction
-| Name             | Lead | Val | Int | Pol | Cha | Notes |
-|------------------|------|-----|-----|-----|-----|------|
-| Hashiba Hideyoshi | 88 | 80 | 88 | 82 | 90 | Supreme commander |
-| Kuroda Kanbei    | 85 | 72 | 92 | 80 | 78 | Chief strategist |
-| Hachisuka Koroku | 78 | 80 | 70 | 68 | 75 | Mobility |
-| Katō Kiyomasa    | 80 | 85 | 68 | 60 | 72 | Young warrior |
-| Fukushima Masanori | 75 | 82 | 65 | 58 | 70 | Fierce general |
-| Maeda Toshiie*   | 82 | 86 | 70 | 65 | 78 | Defection event |
-| Niwa Nagahide*   | 82 | 74 | 80 | 84 | 76 | Council elder |
+| Name              | Lead | Val | Int | Pol | Cha | Notes |
+|-------------------|------|-----|-----|-----|-----|-------|
+| Hashiba Hideyoshi | 88   | 80  | 88  | 82  | 90  | Supreme commander |
+| Kuroda Kanbei     | 85   | 72  | 92  | 80  | 78  | Chief strategist |
+| Hachisuka Koroku  | 78   | 80  | 70  | 68  | 75  | Mobility |
+| Katō Kiyomasa     | 80   | 85  | 68  | 60  | 72  | Young warrior |
+| Fukushima Masanori| 75   | 82  | 65  | 58  | 70  | Fierce general |
+| Maeda Toshiie*    | 82   | 86  | 70  | 65  | 78  | Defection event |
+| Niwa Nagahide*    | 82   | 74  | 80  | 84  | 76  | Council elder |
 
 ---
 
 ## 🟦 Akechi Faction
-| Name             | Lead | Val | Int | Pol | Cha | Notes |
-|------------------|------|-----|-----|-----|-----|------|
-| Akechi Mitsuhide | 84 | 74 | 92 | 86 | 82 | Supreme commander |
-| Saitō Toshimitsu | 76 | 70 | 80 | 74 | 70 | Close retainer |
-| Akechi Hidemitsu | 78 | 75 | 72 | 65 | 68 | Son-in-law |
-| Hosokawa Fujitaka | 74 | 66 | 86 | 80 | 72 | Cultural / court diplomacy |
-| Tsutsui Junkei   | 72 | 66 | 76 | 72 | 70 | Wavering ally |
+| Name              | Lead | Val | Int | Pol | Cha | Notes |
+|-------------------|------|-----|-----|-----|-----|-------|
+| Akechi Mitsuhide  | 84   | 74  | 92  | 86  | 82  | Supreme commander |
+| Saitō Toshimitsu  | 76   | 70  | 80  | 74  | 70  | Close retainer |
+| Akechi Hidemitsu  | 78   | 75  | 72  | 65  | 68  | Son-in-law |
+| Hosokawa Fujitaka | 74   | 66  | 86  | 80  | 72  | Cultural / court diplomacy |
+| Tsutsui Junkei    | 72   | 66  | 76  | 72  | 70  | Wavering ally |
 
 ---
 
 ## 🟥 Shibata Faction
 | Name             | Lead | Val | Int | Pol | Cha | Notes |
-|------------------|------|-----|-----|-----|-----|------|
-| Shibata Katsuie  | 88 | 84 | 72 | 70 | 80 | Supreme commander |
-| Sassa Narimasa   | 80 | 82 | 68 | 60 | 70 | Hokuriku |
-| Sakuma Morimasa  | 84 | 86 | 66 | 60 | 72 | Fierce general |
-| Maeda Toshiie*   | 82 | 86 | 70 | 65 | 78 | Loyalty check |
+|------------------|------|-----|-----|-----|-----|-------|
+| Shibata Katsuie  | 88   | 84  | 72  | 70  | 80  | Supreme commander |
+| Sassa Narimasa   | 80   | 82  | 68  | 60  | 70  | Hokuriku |
+| Sakuma Morimasa  | 84   | 86  | 66  | 60  | 72  | Fierce general |
+| Maeda Toshiie*   | 82   | 86  | 70  | 65  | 78  | Loyalty check |
 
 ---
 
 ## 🟨 Tokugawa Faction
-| Name           | Lead | Val | Int | Pol | Cha | Notes |
-|----------------|------|-----|-----|-----|-----|------|
-| Tokugawa Ieyasu | 88 | 72 | 84 | 88 | 80 | Supreme commander |
-| Honda Tadakatsu | 82 | 92 | 70 | 66 | 78 | “The warrior without wounds” |
-| Ii Naomasa (young) | 74 | 82 | 68 | 64 | 72 | Red Armor youth |
-| Honda Masanobu | 70 | 58 | 82 | 84 | 68 | Schemer |
+| Name               | Lead | Val | Int | Pol | Cha | Notes |
+|--------------------|------|-----|-----|-----|-----|-------|
+| Tokugawa Ieyasu    | 88   | 72  | 84  | 88  | 80  | Supreme commander |
+| Honda Tadakatsu    | 82   | 92  | 70  | 66  | 78  | “The warrior without wounds” |
+| Ii Naomasa (young) | 74   | 82  | 68  | 64  | 72  | Red Armor youth |
+| Honda Masanobu     | 70   | 58  | 82  | 84  | 68  | Schemer |
 
 ---
 
 ## 👑 Oichi Regency (IF)
-| Name         | Lead | Val | Int | Pol | Cha | Notes |
-|--------------|------|-----|-----|-----|-----|------|
-| Oichi no Kata | 75 | 40 | 82 | 88 | 95 | Female regent |
-| Maeda Toshiie* | 84 | 82 | 75 | 72 | 80 | Pivotal |
-| Chacha (Yodo) | 60 | 40 | 72 | 70 | 78 | Marriage diplomacy |
-| Hatsu        | 58 | 38 | 68 | 68 | 72 | Marriage diplomacy |
-| Gō          | 60 | 40 | 70 | 72 | 80 | Marriage diplomacy |
+| Name            | Lead | Val | Int | Pol | Cha | Notes |
+|-----------------|------|-----|-----|-----|-----|-------|
+| Oichi no Kata   | 75   | 40  | 82  | 88  | 95  | Female regent |
+| Maeda Toshiie*  | 84   | 82  | 75  | 72  | 80  | Pivotal |
+| Chacha (Yodo)   | 60   | 40  | 72  | 70  | 78  | Marriage diplomacy |
+| Hatsu           | 58   | 38  | 68  | 68  | 72  | Marriage diplomacy |
+| Gō              | 60   | 40  | 70  | 72  | 80  | Marriage diplomacy |
 
 ---
 
