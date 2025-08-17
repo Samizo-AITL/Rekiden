@@ -3,6 +3,8 @@ layout: default
 title: "1582–1584 Ultimate Scenario (English Edition) — From Honno-ji to Oichi's Rule"
 ---
 
+---
+
 # ⚔️ 1582–1584 Ultimate Scenario (English Edition)
 This scenario pack covers the dramatic years from **the Incident at Honno-ji (1582)** to the rise of alternative histories such as **the Shibata Regime** and **Oichi’s Female Regency**.  
 It is designed for both **historical immersion** and **strategic role-play**, enabling players to relive — or rewrite — one of the most turbulent successions in Japanese history.
