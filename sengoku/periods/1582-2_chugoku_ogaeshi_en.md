@@ -104,12 +104,11 @@ Her image as a helmeted “female shogun” symbolizes a **vision of female hege
 | **Intelligence** | Strategic insight, schemes, analysis |
 | **Politics**   | Diplomacy, governance, logistics |
 | **Charisma**   | Morale, influence, loyalty control |
+{:style="display:block; overflow-x:auto; white-space:nowrap;"}
 
 ---
 
 ## 🟧 Hashiba (Toyotomi) Faction
-<div style="overflow-x: auto;">
-
 | Name              | Lead | Val | Int | Pol | Cha | Notes |
 |-------------------|------|-----|-----|-----|-----|-------|
 | Hashiba Hideyoshi | 88   | 80  | 88  | 82  | 90  | Supreme commander |
@@ -119,14 +118,11 @@ Her image as a helmeted “female shogun” symbolizes a **vision of female hege
 | Fukushima Masanori| 75   | 82  | 65  | 58  | 70  | Fierce general |
 | Maeda Toshiie*    | 82   | 86  | 70  | 65  | 78  | Defection event |
 | Niwa Nagahide*    | 82   | 74  | 80  | 84  | 76  | Council elder |
-
-</div>
+{:style="display:block; overflow-x:auto; white-space:nowrap;"}
 
 ---
 
 ## 🟦 Akechi Faction
-<div style="overflow-x: auto;">
-
 | Name              | Lead | Val | Int | Pol | Cha | Notes |
 |-------------------|------|-----|-----|-----|-----|-------|
 | Akechi Mitsuhide  | 84   | 74  | 92  | 86  | 82  | Supreme commander |
@@ -134,42 +130,33 @@ Her image as a helmeted “female shogun” symbolizes a **vision of female hege
 | Akechi Hidemitsu  | 78   | 75  | 72  | 65  | 68  | Son-in-law |
 | Hosokawa Fujitaka | 74   | 66  | 86  | 80  | 72  | Cultural / court diplomacy |
 | Tsutsui Junkei    | 72   | 66  | 76  | 72  | 70  | Wavering ally |
-
-</div>
+{:style="display:block; overflow-x:auto; white-space:nowrap;"}
 
 ---
 
 ## 🟥 Shibata Faction
-<div style="overflow-x: auto;">
-
 | Name             | Lead | Val | Int | Pol | Cha | Notes |
 |------------------|------|-----|-----|-----|-----|-------|
 | Shibata Katsuie  | 88   | 84  | 72  | 70  | 80  | Supreme commander |
 | Sassa Narimasa   | 80   | 82  | 68  | 60  | 70  | Hokuriku |
 | Sakuma Morimasa  | 84   | 86  | 66  | 60  | 72  | Fierce general |
 | Maeda Toshiie*   | 82   | 86  | 70  | 65  | 78  | Loyalty check |
-
-</div>
+{:style="display:block; overflow-x:auto; white-space:nowrap;"}
 
 ---
 
 ## 🟨 Tokugawa Faction
-<div style="overflow-x: auto;">
-
 | Name               | Lead | Val | Int | Pol | Cha | Notes |
 |--------------------|------|-----|-----|-----|-----|-------|
 | Tokugawa Ieyasu    | 88   | 72  | 84  | 88  | 80  | Supreme commander |
 | Honda Tadakatsu    | 82   | 92  | 70  | 66  | 78  | “The warrior without wounds” |
 | Ii Naomasa (young) | 74   | 82  | 68  | 64  | 72  | Red Armor youth |
 | Honda Masanobu     | 70   | 58  | 82  | 84  | 68  | Schemer |
-
-</div>
+{:style="display:block; overflow-x:auto; white-space:nowrap;"}
 
 ---
 
 ## 👑 Oichi Regency (IF)
-<div style="overflow-x: auto;">
-
 | Name            | Lead | Val | Int | Pol | Cha | Notes |
 |-----------------|------|-----|-----|-----|-----|-------|
 | Oichi no Kata   | 75   | 40  | 82  | 88  | 95  | Female regent |
@@ -177,8 +164,7 @@ Her image as a helmeted “female shogun” symbolizes a **vision of female hege
 | Chacha (Yodo)   | 60   | 40  | 72  | 70  | 78  | Marriage diplomacy |
 | Hatsu           | 58   | 38  | 68  | 68  | 72  | Marriage diplomacy |
 | Gō              | 60   | 40  | 70  | 72  | 80  | Marriage diplomacy |
-
-</div>
+{:style="display:block; overflow-x:auto; white-space:nowrap;"}
 
 ---
 
