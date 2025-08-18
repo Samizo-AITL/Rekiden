@@ -2,10 +2,15 @@ theme: minima
 sass:
   style: compressed
 
-# ← これでヘッダーナビを空にして非表示
+# これで表が正しくGFM形式で処理される
+markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false
+  syntax_highlighter: rouge
+
 header_pages: []
 
-# Pages に載せないファイル（任意）
 exclude:
   - README.md
   - README_en.md
