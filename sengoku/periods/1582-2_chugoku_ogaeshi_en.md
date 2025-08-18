@@ -166,6 +166,112 @@ Her image as a helmeted “female shogun” symbolizes a **vision of female hege
 | Gō              | 60   | 40  | 70  | 72  | 80  | Marriage diplomacy |
 {:style="display:block; overflow-x:auto; white-space:nowrap;"}
 
+<style>
+/* ページ内だけの軽量CSS（重複可） */
+.table-wrap { overflow-x:auto; }
+.table-wrap table { border-collapse:collapse; white-space:nowrap; }
+.table-wrap th, .table-wrap td { border:1px solid #ccc; padding:4px 8px; }
+.table-wrap caption { text-align:left; font-weight:700; margin:0.5rem 0; }
+</style>
+
+<h2>🧠 Character Ability Tables (1582–1584)</h2>
+
+<h3>Ability Reference</h3>
+<div class="table-wrap">
+<table>
+  <thead>
+    <tr><th>Stat</th><th>Meaning</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><b>Leadership</b></td><td>Army command, tactics, deployments</td></tr>
+    <tr><td><b>Valor</b></td><td>Personal combat, bravery, physical strength</td></tr>
+    <tr><td><b>Intelligence</b></td><td>Strategic insight, schemes, analysis</td></tr>
+    <tr><td><b>Politics</b></td><td>Diplomacy, governance, logistics</td></tr>
+    <tr><td><b>Charisma</b></td><td>Morale, influence, loyalty control</td></tr>
+  </tbody>
+</table>
+</div>
+
+<h3>🟧 Hashiba (Toyotomi) Faction</h3>
+<div class="table-wrap">
+<table>
+  <thead>
+    <tr><th>Name</th><th>Lead</th><th>Val</th><th>Int</th><th>Pol</th><th>Cha</th><th>Notes</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Hashiba Hideyoshi</td><td>88</td><td>80</td><td>88</td><td>82</td><td>90</td><td>Supreme commander</td></tr>
+    <tr><td>Kuroda Kanbei</td><td>85</td><td>72</td><td>92</td><td>80</td><td>78</td><td>Chief strategist</td></tr>
+    <tr><td>Hachisuka Koroku</td><td>78</td><td>80</td><td>70</td><td>68</td><td>75</td><td>Mobility</td></tr>
+    <tr><td>Katō Kiyomasa</td><td>80</td><td>85</td><td>68</td><td>60</td><td>72</td><td>Young warrior</td></tr>
+    <tr><td>Fukushima Masanori</td><td>75</td><td>82</td><td>65</td><td>58</td><td>70</td><td>Fierce general</td></tr>
+    <tr><td>Maeda Toshiie*</td><td>82</td><td>86</td><td>70</td><td>65</td><td>78</td><td>Defection event</td></tr>
+    <tr><td>Niwa Nagahide*</td><td>82</td><td>74</td><td>80</td><td>84</td><td>76</td><td>Council elder</td></tr>
+  </tbody>
+</table>
+</div>
+
+<h3>🟦 Akechi Faction</h3>
+<div class="table-wrap">
+<table>
+  <thead>
+    <tr><th>Name</th><th>Lead</th><th>Val</th><th>Int</th><th>Pol</th><th>Cha</th><th>Notes</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Akechi Mitsuhide</td><td>84</td><td>74</td><td>92</td><td>86</td><td>82</td><td>Supreme commander</td></tr>
+    <tr><td>Saitō Toshimitsu</td><td>76</td><td>70</td><td>80</td><td>74</td><td>70</td><td>Close retainer</td></tr>
+    <tr><td>Akechi Hidemitsu</td><td>78</td><td>75</td><td>72</td><td>65</td><td>68</td><td>Son-in-law</td></tr>
+    <tr><td>Hosokawa Fujitaka</td><td>74</td><td>66</td><td>86</td><td>80</td><td>72</td><td>Cultural / court diplomacy</td></tr>
+    <tr><td>Tsutsui Junkei</td><td>72</td><td>66</td><td>76</td><td>72</td><td>70</td><td>Wavering ally</td></tr>
+  </tbody>
+</table>
+</div>
+
+<h3>🟥 Shibata Faction</h3>
+<div class="table-wrap">
+<table>
+  <thead>
+    <tr><th>Name</th><th>Lead</th><th>Val</th><th>Int</th><th>Pol</th><th>Cha</th><th>Notes</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Shibata Katsuie</td><td>88</td><td>84</td><td>72</td><td>70</td><td>80</td><td>Supreme commander</td></tr>
+    <tr><td>Sassa Narimasa</td><td>80</td><td>82</td><td>68</td><td>60</td><td>70</td><td>Hokuriku</td></tr>
+    <tr><td>Sakuma Morimasa</td><td>84</td><td>86</td><td>66</td><td>60</td><td>72</td><td>Fierce general</td></tr>
+    <tr><td>Maeda Toshiie*</td><td>82</td><td>86</td><td>70</td><td>65</td><td>78</td><td>Loyalty check</td></tr>
+  </tbody>
+</table>
+</div>
+
+<h3>🟨 Tokugawa Faction</h3>
+<div class="table-wrap">
+<table>
+  <thead>
+    <tr><th>Name</th><th>Lead</th><th>Val</th><th>Int</th><th>Pol</th><th>Cha</th><th>Notes</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Tokugawa Ieyasu</td><td>88</td><td>72</td><td>84</td><td>88</td><td>80</td><td>Supreme commander</td></tr>
+    <tr><td>Honda Tadakatsu</td><td>82</td><td>92</td><td>70</td><td>66</td><td>78</td><td>“The warrior without wounds”</td></tr>
+    <tr><td>Ii Naomasa (young)</td><td>74</td><td>82</td><td>68</td><td>64</td><td>72</td><td>Red Armor youth</td></tr>
+    <tr><td>Honda Masanobu</td><td>70</td><td>58</td><td>82</td><td>84</td><td>68</td><td>Schemer</td></tr>
+  </tbody>
+</table>
+</div>
+
+<h3>👑 Oichi Regency (IF)</h3>
+<div class="table-wrap">
+<table>
+  <thead>
+    <tr><th>Name</th><th>Lead</th><th>Val</th><th>Int</th><th>Pol</th><th>Cha</th><th>Notes</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Oichi no Kata</td><td>75</td><td>40</td><td>82</td><td>88</td><td>95</td><td>Female regent</td></tr>
+    <tr><td>Maeda Toshiie*</td><td>84</td><td>82</td><td>75</td><td>72</td><td>80</td><td>Pivotal</td></tr>
+    <tr><td>Chacha (Yodo)</td><td>60</td><td>40</td><td>72</td><td>70</td><td>78</td><td>Marriage diplomacy</td></tr>
+    <tr><td>Hatsu</td><td>58</td><td>38</td><td>68</td><td>68</td><td>72</td><td>Marriage diplomacy</td></tr>
+    <tr><td>Gō</td><td>60</td><td>40</td><td>70</td><td>72</td><td>80</td><td>Marriage diplomacy</td></tr>
+  </tbody>
+</table>
+</div>
+
 ---
 
 # 🎮 Player Templates — Multi-Phase Gameplay
