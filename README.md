@@ -70,7 +70,8 @@ making **_what-if_ choices** and experiencing **alternative outcomes**.
 
 ---
 
-## Three Kingdoms / 三國演義
+## 📜 Three Kingdoms / 三國演義  
+*A Literary Chronicle of Heroes and Stratagems*
 
 | Year | Title (English / 繁體中文) | Description | Link |
 |------|----------------------------|-------------|------|
