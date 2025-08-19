@@ -234,3 +234,4 @@ experiences the history of maintaining, expanding, or collapsing the alliance.
 🎯 Initial Choices
 - [ ] Oppose the Alliance, invade Shinano (aggressive route)
 - [ ] Defensive stance, seek new alliances (diplomatic route)
+```
