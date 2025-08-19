@@ -75,6 +75,11 @@ making **_what-if_ choices** and experiencing **alternative outcomes**.
 *A literary scenario in Traditional Chinese & English — experience the Battle of Red Cliffs without gameplay.*  
 👉 **[Three Kingdoms](./three_kingdoms/red_cliffs_en.md)**
 
+
+## 🔗 Related Scenarios 關聯篇章
+- [The Sleeping Dragon Awakens – 赤壁之戰](https://github.com/Samizo-AITL/Rekiden/blob/main/three_kingdoms/red_cliffs.md)
+- [The Dead Still Commands – 死諸葛走生仲達](https://github.com/Samizo-AITL/Rekiden/blob/main/three_kingdoms/dead_zhuge_liang.md)
+
 ---
 
 ## ✍️ **プレイログ例（対話記録）**
