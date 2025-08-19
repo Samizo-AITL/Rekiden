@@ -5,8 +5,7 @@ title: "The Dead Still Commands – Zhuge Liang at Wuzhang Plains"
 
 ---
 
-# The Dead Still Commands  
-*死せる孔明，生ける仲達を走らす*  
+# 死諸葛走生仲達  
 *A Rekiden Special Scenario – Bilingual Edition (English × 繁體中文)*
 
 > *A strategist whose death was not the end — but the last command.*  
@@ -14,8 +13,9 @@ title: "The Dead Still Commands – Zhuge Liang at Wuzhang Plains"
 
 <p align="center">
   <img src="https://github.com/Samizo-AITL/Rekiden/blob/main/three_kingdoms/images/sima_yi_strategist.PNG?raw=true" 
-       alt="Sima Yi strategist" width="70%">
+       alt="司馬懿仲達 驚懼" width="70%">
 </p>
+*諸葛亮木像的身影，令司馬懿心驚而退。*
 
 ---
 
