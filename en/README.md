@@ -78,16 +78,12 @@ The outcomes depend on your strategy and choices.
 
 ---
 
-## 🐉 The Sleeping Dragon Awakens (AD 208) / 赤壁之戰  
-繁體中文 × English 的文藝歷史劇本。  
-*A literary scenario in Traditional Chinese & English — experience the Battle of Red Cliffs without gameplay.*  
-👉 **[Read Scenario](../three_kingdoms/red_cliffs_en.md)**
+## Three Kingdoms / 三國演義
 
-
-## 🪶 The Dead Still Commands (AD 234) / 死諸葛走生仲達  
-繁體中文 × English 的文藝歷史劇本。  
-*A literary scenario in Traditional Chinese & English — the strategist whose death still commanded the living.*  
-👉 **[Read Scenario](../three_kingdoms/dead_zhuge_liang.md)**
+| Year | Title (English / 繁體中文) | Description | Link |
+|------|----------------------------|-------------|------|
+| AD 208 | 🐉 The Sleeping Dragon Awakens / 赤壁之戰 | 繁體中文 × English 的文藝歷史劇本。<br/>*A literary scenario in Traditional Chinese & English — experience the Battle of Red Cliffs without gameplay.* | 👉 [Read Scenario](./three_kingdoms/red_cliffs_en.md) |
+| AD 234 | 🪶 The Dead Still Commands / 死諸葛走生仲達 | 繁體中文 × English 的文藝歷史劇本。<br/>*A literary scenario in Traditional Chinese & English — the strategist whose death still commanded the living.* | 👉 [Read Scenario](./three_kingdoms/dead_zhuge_liang.md) |
 
 ---
 
