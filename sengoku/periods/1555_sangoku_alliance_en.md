@@ -52,8 +52,6 @@ experiences the history of maintaining, expanding, or collapsing the alliance.
 
 ## 🧠 Faction Information
 
----
-
 ### 🟥 Takeda Clan (Shingen Takeda)
 - Base: Tsutsujigasaki Residence (Kofu)  
 - Rice yield: 250,000 koku  
@@ -72,7 +70,6 @@ experiences the history of maintaining, expanding, or collapsing the alliance.
 | Kosaka Masanobu   | 80   | 78    | 75    | 70  | 78  | “Escape Strategist”   |
 | Sanada Yukitaka   | 77   | 76    | 78    | 72  | 80  | Master of intrigue    |
 
----
 
 ### 🟩 Imagawa Clan (Yoshimoto Imagawa)
 - Base: Sunpu Castle (Suruga)  
@@ -92,7 +89,6 @@ experiences the history of maintaining, expanding, or collapsing the alliance.
 | Udono Nagamoto    | 70   | 74    | 65    | 55  | 68  | Naval supporter          |
 | Iio Tameatsu      | 72   | 73    | 70    | 66  | 72  | Lord of Tanaka Castle    |
 
----
 
 ### 🟦 Hojo Clan (Ujiyasu Hojo)
 - Base: Odawara Castle (Sagami)  
@@ -112,7 +108,6 @@ experiences the history of maintaining, expanding, or collapsing the alliance.
 | Toyama Yasumitsu  | 70   | 72    | 66    | 65  | 68  | Domestic affairs         |
 | Matsuda Norihide  | 75   | 70    | 72    | 70  | 70  | Diplomatic adjuster      |
 
----
 
 ### 🟨 Uesugi Clan (Nagao Kagetora / later Kenshin)
 - Base: Kasugayama Castle (Echigo)  
