@@ -5,7 +5,7 @@ title: "The Dead Still Commands – Zhuge Liang at Wuzhang Plains"
 
 ---
 
-# 死諸葛走生仲達  
+# The Dead Still Commands  
 *A Rekiden Special Scenario – Bilingual Edition (English × 繁體中文)*
 
 > *A strategist whose death was not the end — but the last command.*  
