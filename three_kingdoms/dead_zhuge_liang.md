@@ -3,6 +3,8 @@ layout: default
 title: "The Dead Still Commands – Zhuge Liang at Wuzhang Plains"
 ---
 
+---
+
 # The Dead Still Commands  
 *死せる孔明，生ける仲達を走らす*  
 *A Rekiden Special Scenario – Bilingual Edition (English × 繁體中文)*
