@@ -52,67 +52,85 @@ experiences the history of maintaining, expanding, or collapsing the alliance.
 
 ## 🧠 Faction Information
 
+---
+
 ### 🟥 Takeda Clan (Shingen Takeda)
 - Base: Tsutsujigasaki Residence (Kofu)  
-- Rice yield: 250,000 koku | Troops: 15,000 | Provisions: 9,000 | Gold: 4,000 kanmon  
+- Rice yield: 250,000 koku  
+- Troops: 15,000  
+- Provisions: 9,000  
+- Gold: 4,000 kanmon  
 - Leadership: 92 | Valor: 84 | Intelligence: 88 | Politics: 86 | Charisma: 90  
 - Traits: **Cavalry Corps, Mountain Warfare Adaptation**  
 
 #### Key Retainers
-| Name             | Lead | Valor | Intel | Pol | Cha | Note                |
-|------------------|------|-------|-------|-----|-----|---------------------|
-| Yamagata Masakage| 88   | 84    | 72    | 60  | 75  | Red-armored unit     |
-| Baba Nobuharu    | 85   | 83    | 74    | 68  | 72  | Indestructible veteran|
-| Kosaka Masanobu  | 80   | 78    | 75    | 70  | 78  | “Escape Strategist” |
-| Sanada Yukitaka  | 77   | 76    | 78    | 72  | 80  | Master of intrigue  |
+
+| Name              | Lead | Valor | Intel | Pol | Cha | Note                  |
+|-------------------|------|-------|-------|-----|-----|-----------------------|
+| Yamagata Masakage | 88   | 84    | 72    | 60  | 75  | Red-armored unit      |
+| Baba Nobuharu     | 85   | 83    | 74    | 68  | 72  | Indestructible veteran|
+| Kosaka Masanobu   | 80   | 78    | 75    | 70  | 78  | “Escape Strategist”   |
+| Sanada Yukitaka   | 77   | 76    | 78    | 72  | 80  | Master of intrigue    |
 
 ---
 
 ### 🟩 Imagawa Clan (Yoshimoto Imagawa)
 - Base: Sunpu Castle (Suruga)  
-- Rice yield: 280,000 koku | Troops: 18,000 | Provisions: 11,000 | Gold: 4,500 kanmon  
+- Rice yield: 280,000 koku  
+- Troops: 18,000  
+- Provisions: 11,000  
+- Gold: 4,500 kanmon  
 - Leadership: 85 | Valor: 72 | Intelligence: 90 | Politics: 88 | Charisma: 82  
 - Traits: **Diplomacy, Tōkaidō dominance**  
 
 #### Key Retainers
-| Name             | Lead | Valor | Intel | Pol | Cha | Note                |
-|------------------|------|-------|-------|-----|-----|---------------------|
-| Taigen Sessai    | 82   | 70    | 92    | 88  | 78  | Monk-statesman, diplomacy |
-| Asahina Yasutomo | 75   | 76    | 68    | 60  | 70  | Eastern Tōtōmi vassal |
-| Udono Nagamoto   | 70   | 74    | 65    | 55  | 68  | Naval supporter     |
-| Iio Tameatsu     | 72   | 73    | 70    | 66  | 72  | Lord of Tanaka Castle |
+
+| Name              | Lead | Valor | Intel | Pol | Cha | Note                     |
+|-------------------|------|-------|-------|-----|-----|--------------------------|
+| Taigen Sessai     | 82   | 70    | 92    | 88  | 78  | Monk-statesman, diplomacy|
+| Asahina Yasutomo  | 75   | 76    | 68    | 60  | 70  | Eastern Tōtōmi vassal    |
+| Udono Nagamoto    | 70   | 74    | 65    | 55  | 68  | Naval supporter          |
+| Iio Tameatsu      | 72   | 73    | 70    | 66  | 72  | Lord of Tanaka Castle    |
 
 ---
 
 ### 🟦 Hojo Clan (Ujiyasu Hojo)
 - Base: Odawara Castle (Sagami)  
-- Rice yield: 300,000 koku | Troops: 20,000 | Provisions: 13,000 | Gold: 5,000 kanmon  
+- Rice yield: 300,000 koku  
+- Troops: 20,000  
+- Provisions: 13,000  
+- Gold: 5,000 kanmon  
 - Leadership: 90 | Valor: 80 | Intelligence: 85 | Politics: 88 | Charisma: 85  
 - Traits: **Fortifications, Stable Supply Lines**  
 
 #### Key Retainers
-| Name             | Lead | Valor | Intel | Pol | Cha | Note              |
-|------------------|------|-------|-------|-----|-----|-------------------|
-| Hojo Tsunashige  | 82   | 78    | 70    | 68  | 74  | Yellow Banner Warrior |
-| Fūma Kotarō      | 78   | 80    | 72    | 60  | 76  | Ninja leader, disruption |
-| Toyama Yasumitsu | 70   | 72    | 66    | 65  | 68  | Domestic affairs   |
-| Matsuda Norihide | 75   | 70    | 72    | 70  | 70  | Diplomatic adjuster|
+
+| Name              | Lead | Valor | Intel | Pol | Cha | Note                     |
+|-------------------|------|-------|-------|-----|-----|--------------------------|
+| Hojo Tsunashige   | 82   | 78    | 70    | 68  | 74  | Yellow Banner Warrior    |
+| Fūma Kotarō       | 78   | 80    | 72    | 60  | 76  | Ninja leader, disruption |
+| Toyama Yasumitsu  | 70   | 72    | 66    | 65  | 68  | Domestic affairs         |
+| Matsuda Norihide  | 75   | 70    | 72    | 70  | 70  | Diplomatic adjuster      |
 
 ---
 
 ### 🟨 Uesugi Clan (Nagao Kagetora / later Kenshin)
 - Base: Kasugayama Castle (Echigo)  
-- Rice yield: 220,000 koku | Troops: 12,000 | Provisions: 8,000 | Gold: 3,500 kanmon  
+- Rice yield: 220,000 koku  
+- Troops: 12,000  
+- Provisions: 8,000  
+- Gold: 3,500 kanmon  
 - Leadership: 90 | Valor: 86 | Intelligence: 84 | Politics: 80 | Charisma: 88  
 - Traits: **Righteous General, High Morale**  
 
 #### Key Retainers
-| Name             | Lead | Valor | Intel | Pol | Cha | Note       |
-|------------------|------|-------|-------|-----|-----|------------|
-| Honjo Shigenaga  | 76   | 78    | 70    | 66  | 70  | Local lord |
-| Amakasu Kagemochi| 75   | 76    | 68    | 65  | 66  | Defender   |
-| Kakizaki Kageie  | 78   | 80    | 70    | 68  | 72  | Fierce warrior |
-| Naoe Kagetsuna   | 80   | 74    | 75    | 70  | 78  | Domestic administrator |
+
+| Name              | Lead | Valor | Intel | Pol | Cha | Note             |
+|-------------------|------|-------|-------|-----|-----|------------------|
+| Honjo Shigenaga   | 76   | 78    | 70    | 66  | 70  | Local lord       |
+| Amakasu Kagemochi | 75   | 76    | 68    | 65  | 66  | Defender         |
+| Kakizaki Kageie   | 78   | 80    | 70    | 68  | 72  | Fierce warrior   |
+| Naoe Kagetsuna    | 80   | 74    | 75    | 70  | 78  | Domestic administrator |
 
 ---
 
