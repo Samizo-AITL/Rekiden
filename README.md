@@ -70,15 +70,16 @@ making **_what-if_ choices** and experiencing **alternative outcomes**.
 
 ---
 
-## 🐉 **諸葛亮と赤壁の戦い / The Sleeping Dragon Awakens (AD 208)**
-繁體字と英語で綴る文藝歴史シナリオ。  
+## 🐉 The Sleeping Dragon Awakens (AD 208) / 赤壁之戰  
+繁體中文 × English 的文藝歷史劇本。  
 *A literary scenario in Traditional Chinese & English — experience the Battle of Red Cliffs without gameplay.*  
-👉 **[Three Kingdoms](./three_kingdoms/red_cliffs_en.md)**
+👉 **[Read Scenario](./three_kingdoms/red_cliffs_en.md)**
 
 
-## 🔗 Related Scenarios 關聯篇章
-- [The Sleeping Dragon Awakens – 赤壁之戰](https://github.com/Samizo-AITL/Rekiden/blob/main/three_kingdoms/red_cliffs.md)
-- [The Dead Still Commands – 死諸葛走生仲達](https://github.com/Samizo-AITL/Rekiden/blob/main/three_kingdoms/dead_zhuge_liang.md)
+## 🪶 The Dead Still Commands (AD 234) / 死諸葛走生仲達  
+繁體中文 × English 的文藝歷史劇本。  
+*A literary scenario in Traditional Chinese & English — the strategist whose death still commanded the living.*  
+👉 **[Read Scenario](./three_kingdoms/dead_zhuge_liang.md)**
 
 ---
 
