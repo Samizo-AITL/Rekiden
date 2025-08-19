@@ -25,36 +25,43 @@ These opposing strategies clashed in a chaotic and intense battle that would be 
 ### 🟥 Takeda Clan (Takeda Shingen)
 
 - Headquarters: Tsutsujigasaki Residence (Kai)  
-- Kokudaka: 220,000 koku　Troops: 20,000　Supplies: 12,000 koku rice　Funds: 3,000 kanmon  
+- Kokudaka: 220,000 koku  
+- Troops: 20,000  
+- Supplies: 12,000 koku rice  
+- Funds: 3,000 kanmon  
 - Leadership: 92　Valor: 85　Intelligence: 88　Politics: 86　Charisma: 94  
 - Trait: **Cavalry Corps, Mountain Adaptability**
 
 #### Key Retainers
-| Name        | Leadership | Valor | Intelligence | Politics | Charisma | Notes |
-|-------------|------------|-------|--------------|----------|----------|-------|
-| Yamagata Masakage | 85 | 88 | 70 | 65 | 75 | "Red Armored Troops" |
-| Baba Nobuharu    | 88 | 86 | 78 | 70 | 80 | Veteran General |
-| Naitō Masatoyo   | 82 | 82 | 72 | 68 | 74 | Loyal retainer |
-| Kōsaka Masanobu  | 80 | 80 | 80 | 72 | 78 | "Escape Expert" |
-| Sanada Yukitaka  | 78 | 76 | 85 | 74 | 76 | Strategist |
 
----
+| Name              | Leadership | Valor | Intelligence | Politics | Charisma | Notes                 |
+|-------------------|------------|-------|--------------|----------|----------|-----------------------|
+| Yamagata Masakage | 85         | 88    | 70           | 65       | 75       | "Red Armored Troops"  |
+| Baba Nobuharu     | 88         | 86    | 78           | 70       | 80       | Veteran General       |
+| Naitō Masatoyo    | 82         | 82    | 72           | 68       | 74       | Loyal retainer        |
+| Kōsaka Masanobu   | 80         | 80    | 80           | 72       | 78       | "Escape Expert"       |
+| Sanada Yukitaka   | 78         | 76    | 85           | 74       | 76       | Strategist            |
+
 
 ### 🟦 Uesugi Clan (Uesugi Kenshin)
 
 - Headquarters: Kasugayama Castle (Echigo)  
-- Kokudaka: 180,000 koku　Troops: 18,000　Supplies: 10,000 koku rice　Funds: 2,800 kanmon  
+- Kokudaka: 180,000 koku  
+- Troops: 18,000  
+- Supplies: 10,000 koku rice  
+- Funds: 2,800 kanmon  
 - Leadership: 94　Valor: 90　Intelligence: 86　Politics: 82　Charisma: 96  
 - Trait: **Holy General, Morale Boost**
 
 #### Key Retainers
-| Name            | Leadership | Valor | Intelligence | Politics | Charisma | Notes |
-|-----------------|------------|-------|--------------|----------|----------|-------|
-| Naoe Kagekatsu  | 80 | 70 | 78 | 76 | 72 | Domestic advisor |
-| Kakizaki Kageie | 82 | 84 | 75 | 70 | 74 | Fierce warrior |
-| Amakasu Kagemochi | 75 | 72 | 70 | 68 | 70 | Defensive specialist |
-| Honjō Shigenaga | 78 | 80 | 72 | 72 | 76 | Influential retainer |
-| Oni Kojima Yatarō | 70 | 90 | 65 | 60 | 68 | Brave warrior |
+
+| Name               | Leadership | Valor | Intelligence | Politics | Charisma | Notes                  |
+|--------------------|------------|-------|--------------|----------|----------|------------------------|
+| Naoe Kagekatsu     | 80         | 70    | 78           | 76       | 72       | Domestic advisor       |
+| Kakizaki Kageie    | 82         | 84    | 75           | 70       | 74       | Fierce warrior         |
+| Amakasu Kagemochi  | 75         | 72    | 70           | 68       | 70       | Defensive specialist   |
+| Honjō Shigenaga    | 78         | 80    | 72           | 72       | 76       | Influential retainer   |
+| Oni Kojima Yatarō  | 70         | 90    | 65           | 60       | 68       | Brave warrior          |
 
 ---
 
