@@ -16,6 +16,7 @@ title: "The Dead Still Commands – Zhuge Liang at Wuzhang Plains"
   <img src="https://github.com/Samizo-AITL/Rekiden/blob/main/three_kingdoms/images/sima_yi_strategist.PNG?raw=true" 
        alt="Sima Yi strategist" width="70%">
 </p>
+
 ---
 
 ## 📖 Table of Contents 目錄
