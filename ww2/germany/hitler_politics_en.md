@@ -28,7 +28,7 @@ Rather than glorifying the dictator, this composition highlights the **dark shad
 
 <a href="https://samizo-aitl.github.io/Rekiden/ww2/germany/eiffel_shadow.PNG">
   <img src="https://samizo-aitl.github.io/Rekiden/ww2/germany/eiffel_shadow.PNG"
-       alt="Eiffel Tower under shadow" width="720" style="max-width:60%;height:auto;">
+       alt="Eiffel Tower under shadow" width="500" style="max-width:60%;height:auto;">
 </a>
 
 ---
