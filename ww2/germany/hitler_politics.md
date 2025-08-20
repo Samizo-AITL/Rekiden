@@ -29,6 +29,12 @@ title: アドルフ・ヒトラー – 独裁者の選択
        alt="Eiffel Tower under shadow" width="720" style="max-width:60%;height:auto;">
 </a>
 
+<a href="/Rekiden/ww2/germany/eiffel_shadow.PNG">
+  <img src="/Rekiden/ww2/germany/eiffel_shadow.PNG"
+       alt="Eiffel Tower under shadow" width="720" style="max-width:60%;height:auto;">
+</a>
+
+
 ---
 
 ## 📜 プロローグ：1939年、欧州危機の夜明け
