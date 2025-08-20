@@ -24,19 +24,9 @@ title: アドルフ・ヒトラー – 独裁者の選択
 
 この構図は偶像化ではなく、むしろ **独裁者が歴史に残した暗い影**を強調する批判的な視点である。 
 
-<a href="{{ '/ww2/germany/eiffel_shadow.PNG' | relative_url }}">
-  <img src="{{ '/ww2/germany/eiffel_shadow.PNG' | relative_url }}"
-       alt="Eiffel Tower under shadow" width="720" style="max-width:60%;height:auto;">
-</a>
-
-<a href="/Rekiden/ww2/germany/eiffel_shadow.PNG">
-  <img src="/Rekiden/ww2/germany/eiffel_shadow.PNG"
-       alt="Eiffel Tower under shadow" width="720" style="max-width:60%;height:auto;">
-</a>
-
 <a href="https://samizo-aitl.github.io/Rekiden/ww2/germany/eiffel_shadow.PNG">
   <img src="https://samizo-aitl.github.io/Rekiden/ww2/germany/eiffel_shadow.PNG"
-       alt="Eiffel Tower under shadow" width="720" style="max-width:60%;height:auto;">
+       alt="Eiffel Tower under shadow" width="500" style="max-width:60%;height:auto;">
 </a>
 
 ---
