@@ -26,10 +26,9 @@ The dark, overcast atmosphere emphasizes the contrast between:
 
 Rather than glorifying the dictator, this composition highlights the **dark shadow cast over history**, encouraging reflection on the consequences of tyranny and war.  
 
-<a href="/ww2/germany/eiffel_shadow.PNG">
-  <img src="/ww2/germany/eiffel_shadow.PNG"
-       alt="Eiffel Tower under shadow"
-       width="500" style="max-width100%;height:auto;">
+<a href="https://samizo-aitl.github.io/Rekiden/ww2/germany/eiffel_shadow.PNG">
+  <img src="https://samizo-aitl.github.io/Rekiden/ww2/germany/eiffel_shadow.PNG"
+       alt="Eiffel Tower under shadow" width="720" style="max-width:60%;height:auto;">
 </a>
 
 ---
