@@ -11,7 +11,7 @@ title: アドルフ・ヒトラー – 独裁者の選択
 <a href="/ww2/germany/eiffel_shadow.PNG">
   <img src="/ww2/germany/eiffel_shadow.PNG"
        alt="Eiffel Tower under shadow"
-       width="720" style="max-width:60%;height:auto;">
+       width="720" style="max-width40%;height:auto;">
 </a>
 
 ---
