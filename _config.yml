@@ -2,6 +2,10 @@ theme: minima
 sass:
   style: compressed
 
+# GitHub Pages の公開URLに合わせる
+url: "https://samizo-aitl.github.io"
+baseurl: "/Rekiden"   # ← これを追加
+
 # これで表が正しくGFM形式で処理される
 markdown: kramdown
 kramdown:
