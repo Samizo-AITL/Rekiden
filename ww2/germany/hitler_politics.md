@@ -34,6 +34,10 @@ title: アドルフ・ヒトラー – 独裁者の選択
        alt="Eiffel Tower under shadow" width="720" style="max-width:60%;height:auto;">
 </a>
 
+<a href="https://samizo-aitl.github.io/Rekiden/ww2/germany/eiffel_shadow.PNG">
+  <img src="https://samizo-aitl.github.io/Rekiden/ww2/germany/eiffel_shadow.PNG"
+       alt="Eiffel Tower under shadow" width="720" style="max-width:60%;height:auto;">
+</a>
 
 ---
 
