@@ -8,6 +8,12 @@ title: ""
 # 🇩🇪 アドルフ・ヒトラー – 独裁者の選択  
 **Rekiden – WW2 Scenario: Germany / Political Leadership Route**
 
+<a href="{{ '/ww2/germany/eiffel_shadow.PNG' | relative_url }}">
+  <img src="{{ '/ww2/germany/eiffel_shadow.PNG' | relative_url }}"
+       alt="Eiffel Tower under shadow"
+       width="720" style="max-width:60%;height:auto;">
+</a>
+
 ---
 
 ## 📜 プロローグ：1939年、欧州危機の夜明け
