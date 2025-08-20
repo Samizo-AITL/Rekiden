@@ -23,10 +23,11 @@ title: アドルフ・ヒトラー – 独裁者の選択
 を意味している。  
 
 この構図は偶像化ではなく、むしろ **独裁者が歴史に残した暗い影**を強調する批判的な視点である。 
-<a href="/ww2/germany/eiffel_shadow.PNG">
-  <img src="/ww2/germany/eiffel_shadow.PNG"
+
+<a href="/Rekiden/ww2/germany/eiffel_shadow.PNG">
+  <img src="/Rekiden/ww2/germany/eiffel_shadow.PNG"
        alt="Eiffel Tower under shadow"
-       width="500" style="max-width100%;height:auto;">
+       width="500" style="max-width:60%;height:auto;">
 </a>
 
 ---
