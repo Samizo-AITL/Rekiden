@@ -14,6 +14,26 @@ title: ""
 
 ---
 
+### 🇫🇷 1940 – Paris Falls to Shadow  
+
+This illustration symbolically depicts the fall of Paris in 1940 during World War II.  
+The central figure is shown only as a **silhouette**, facing away from the viewer.  
+Before him stands the **Eiffel Tower**, a lasting emblem of European culture and liberty.  
+
+The dark, overcast atmosphere emphasizes the contrast between:  
+- **Oppression and freedom**  
+- **An occupied city and a cultural landmark that endures**  
+
+Rather than glorifying the dictator, this composition highlights the **dark shadow cast over history**, encouraging reflection on the consequences of tyranny and war.  
+
+<a href="/ww2/germany/eiffel_shadow.PNG">
+  <img src="/ww2/germany/eiffel_shadow.PNG"
+       alt="Eiffel Tower under shadow"
+       width="500" style="max-width100%;height:auto;">
+</a>
+
+---
+
 ## ⚠️ Content Notice
 
 This scenario addresses the actions and decisions of Adolf Hitler, including the invasion of Poland and the breakdown of diplomacy leading to WW2.  
