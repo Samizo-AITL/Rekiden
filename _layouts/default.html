@@ -14,15 +14,14 @@
     </main>
     {%- include footer.html -%}
 
-    <!-- ここで自動的に theme クラスを付与（フロントマター不要） -->
+    <!-- ページパスでテーマを強制切替（フロントマター不要） -->
     <script>
       (function () {
         var p = location.pathname.toLowerCase();
-        var b = document.body;
         if (p.indexOf('/rekiden/') !== -1) {
-          b.classList.add('theme-rekiden');   // Rekiden 専用テーマ
+          document.body.className = 'theme-rekiden';   // ← 置き換え
         } else {
-          b.classList.add('theme-sepia');     // それ以外はポータル統一
+          document.body.className = 'theme-sepia';     // ← 置き換え
         }
       })();
     </script>
