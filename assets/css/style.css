@@ -217,3 +217,33 @@ body.theme-rekiden table thead th{
 body.theme-rekiden table tbody tr:hover{
   background-color: rgba(180,138,96,.34) !important;
 }
+
+/* ===== Rekiden Table – 強制オーバーライド ===== */
+body.theme-rekiden table,
+body.theme-rekiden table th,
+body.theme-rekiden table td {
+  background: transparent !important;
+  background-color: transparent !important;
+  color: var(--rk-ink) !important;
+  border: 1px solid rgba(255,255,255,.16) !important;
+}
+
+/* 行ごとのゼブラ（白は一切使わない） */
+body.theme-rekiden table tbody tr:nth-child(odd) {
+  background-color: rgba(180,138,96,.16) !important;
+}
+body.theme-rekiden table tbody tr:nth-child(even) {
+  background-color: rgba(120,90,60,.26) !important;
+}
+
+/* ヘッダー */
+body.theme-rekiden table thead th {
+  background-color: rgba(255,220,160,.18) !important;
+  color: #fff5dc !important;
+  font-weight: 700;
+}
+
+/* hover時 */
+body.theme-rekiden table tbody tr:hover {
+  background-color: rgba(180,138,96,.34) !important;
+}
