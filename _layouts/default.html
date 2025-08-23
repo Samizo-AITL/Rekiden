@@ -1,16 +1,30 @@
 <!DOCTYPE html>
 <html lang="ja">
   <head>
-    {% include head.html %}
-    <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}?v={{ site.time | date: '%s' }}">
+    {%- include head.html -%}
     <meta name="color-scheme" content="light">
+    <link rel="stylesheet"
+          href="{{ '/assets/css/style.css' | relative_url }}?v={{ site.time | date: '%s' }}">
   </head>
-  <body class="theme-rekiden"><!-- 木目を常時適用 -->
+  <body>
     <main class="page-content" aria-label="Content">
       <div class="wrapper" style="max-width:980px;margin:0;padding:1.5rem 1rem;">
         {{ content }}
       </div>
     </main>
-    {% include footer.html %}
+    {%- include footer.html -%}
+
+    <!-- ここで自動的に theme クラスを付与（フロントマター不要） -->
+    <script>
+      (function () {
+        var p = location.pathname.toLowerCase();
+        var b = document.body;
+        if (p.indexOf('/rekiden/') !== -1) {
+          b.classList.add('theme-rekiden');   // Rekiden 専用テーマ
+        } else {
+          b.classList.add('theme-sepia');     // それ以外はポータル統一
+        }
+      })();
+    </script>
   </body>
 </html>
