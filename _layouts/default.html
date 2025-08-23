@@ -1,19 +1,16 @@
 <!DOCTYPE html>
 <html lang="ja">
   <head>
-    {%- include head.html -%}
-    <link rel="stylesheet"
-          href="{{ '/assets/css/style.css' | relative_url }}?v={{ site.time | date: '%s' }}">
+    {% include head.html %}
+    <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}?v={{ site.time | date: '%s' }}">
     <meta name="color-scheme" content="light">
   </head>
-
-  <!-- ★ 全ページ：Rekiden 木目テーマを固定適用 -->
-  <body class="theme-rekiden">
+  <body class="theme-rekiden"><!-- 木目を常時適用 -->
     <main class="page-content" aria-label="Content">
       <div class="wrapper" style="max-width:980px;margin:0;padding:1.5rem 1rem;">
         {{ content }}
       </div>
     </main>
-    {%- include footer.html -%}
+    {% include footer.html %}
   </body>
 </html>
