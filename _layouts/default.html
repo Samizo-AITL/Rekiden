@@ -2,17 +2,16 @@
 <html lang="ja">
   <head>
     {%- include head.html -%}
-    <!-- 常に最新のCSSを読む（キャッシュバスター） -->
+    <!-- 常に最新CSSを読む -->
     <link rel="stylesheet"
           href="{{ '/assets/css/style.css' | relative_url }}?v={{ site.time | date: '%s' }}">
-    <meta name="color-scheme" content="light"><!-- 端末ダーク強制を無効化 -->
+    <meta name="color-scheme" content="light"><!-- ダーク端末でもライト固定 -->
   </head>
 
-  <!-- ★ 全ページ固定で Rekiden テーマを適用（ここが肝） -->
+  <!-- ★ ここを固定：全ページ theme-rekiden -->
   <body class="theme-rekiden">
     <main class="page-content" aria-label="Content">
-      <!-- どのテーマでも幅・余白が揃うよう wrapper を用意 -->
-      <div class="wrapper" style="max-width:1200px;margin:0 auto;padding:12px 16px;">
+      <div class="wrapper" style="max-width:980px;margin:0;padding:1.5rem 1rem;">
         {{ content }}
       </div>
     </main>
