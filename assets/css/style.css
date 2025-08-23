@@ -25,35 +25,28 @@ h3 { font-size:1.25rem; }
 /* ===============================
    Portal Unified Theme (Sepia)
    =============================== */
-body.theme-sepia main.page {
-  background:#fdf6e3;
-  color:#3b2f2f;
-}
-body.theme-sepia h1,
-body.theme-sepia h2,
-body.theme-sepia h3 {
-  color:#003366;
-  border-bottom:none;
-  font-weight:700;
+body.theme-sepia main.page { background:#fdf6e3; color:#3b2f2f; }
+body.theme-sepia h1, body.theme-sepia h2, body.theme-sepia h3 {
+  color:#003366; border-bottom:none; font-weight:700;
 }
 body.theme-sepia h1 { font-size:2rem; text-align:left; margin-bottom:.8em; }
-body.theme-sepia a {
-  color:#0066cc; font-weight:600; font-size:.95em; text-decoration:underline;
-}
+body.theme-sepia a { color:#0066cc; font-weight:600; font-size:.95em; text-decoration:underline; }
 body.theme-sepia a:hover { color:#004c99; }
+
 body.theme-sepia table {
   border:2px solid #999; border-collapse:collapse; width:100%; margin:1em 0;
 }
 body.theme-sepia th {
   background:#e9ddc9; color:#2b2b2b;
-  border:2px solid #999; font-weight:700; padding:.8em 1em;
+  border:2px solid #999; font-weight:700; padding:.8em 1em; text-align:left;
 }
 body.theme-sepia td {
   border:1.5px solid #bbb; color:#2b2b2b; padding:.8em 1em;
 }
-body.theme-sepia tr:nth-child(odd) td { background:#ffffff; }
-body.theme-sepia tr:nth-child(even) td { background:#f3efe6; }
-body.theme-sepia blockquote {
+body.theme-sepia tbody tr:nth-child(odd)  td { background:#ffffff; }
+body.theme-sepia tbody tr:nth-child(even) td { background:#f3efe6; }
+
+body.theme-sepia blockquote{
   background:#fbf6eb; border-left:4px solid #007acc; color:#3a3028;
   margin:.9em 0; padding:.7em 1em;
 }
@@ -61,67 +54,71 @@ body.theme-sepia blockquote {
 /* ===============================
    Rekiden Original Theme (Dark Wood)
    =============================== */
-body.theme-rekiden {
-  --rk-ink: #f4f1e6;
-  --rk-head: #f0d090;
-  --rk-accent: #b48a60;
+body.theme-rekiden{
+  --rk-ink:#f4f1e6;        /* 本文 */
+  --rk-head:#f0d090;       /* 見出し */
+  --rk-accent:#b48a60;     /* 境界/ライン */
 
-  font-family:"Noto Serif JP","Hiragino Mincho ProN","Yu Mincho",
-              "Times New Roman",serif;
-  line-height:1.85;
-  font-size:17px;
-  color:var(--rk-ink);
+  font-family:"Noto Serif JP","Hiragino Mincho ProN","Yu Mincho","Times New Roman",serif;
+  font-feature-settings:"palt" 1,"pkna" 1; /* 和文のプロポーショナル系 */
+  line-height:1.85; font-size:17px; color:var(--rk-ink);
 
-  background:url("{{ '/assets/bg/wood-dark.jpg' | relative_url }}") center/cover fixed;
-  background-color:#3b2a1a;
+  /* 画像あり：木目、無ければダークブラウン単色 */
+  background:#3b2a1a url("{{ '/assets/bg/wood-dark.jpg' | relative_url }}") center/cover fixed no-repeat;
 }
-body.theme-rekiden .wrapper {
-  background:rgba(60,40,25,0.85);
-  border:1px solid rgba(255,255,255,0.14);
+
+/* Rekiden：本文領域は半透明パネルに（main.pageでもwrapperでもOK） */
+body.theme-rekiden main.page,
+body.theme-rekiden .wrapper{
+  background:rgba(60,40,25,.85);
+  color:var(--rk-ink);
+  border:1px solid rgba(255,255,255,.14);
   border-radius:10px;
   box-shadow:0 4px 12px rgba(0,0,0,.6);
-  padding:24px 20px;
 }
-body.theme-rekiden h1,
-body.theme-rekiden h2,
-body.theme-rekiden h3 {
-  color:var(--rk-head);
-  font-weight:700;
-  border-bottom:2px solid var(--rk-accent);
-  padding-bottom:4px;
-  margin:1.1em 0 .6em;
+body.theme-rekiden .wrapper{ padding:24px 20px; }
+
+/* 見出し */
+body.theme-rekiden h1, body.theme-rekiden h2, body.theme-rekiden h3{
+  color:var(--rk-head); font-weight:700;
+  border-bottom:2px solid var(--rk-accent); padding-bottom:4px; margin:1.1em 0 .6em;
 }
-body.theme-rekiden h1 { font-size:2rem; }
-body.theme-rekiden h2 { font-size:1.6rem; }
-body.theme-rekiden h3 { font-size:1.3rem; }
-body.theme-rekiden a {
-  color:#f0c060; font-weight:600; text-decoration:none;
-}
-body.theme-rekiden a:hover { color:#dba84f; text-decoration:underline; }
-body.theme-rekiden table {
+body.theme-rekiden h1{ font-size:2rem; } 
+body.theme-rekiden h2{ font-size:1.6rem; } 
+body.theme-rekiden h3{ font-size:1.3rem; }
+
+/* リンク */
+body.theme-rekiden a{ color:#f0c060; font-weight:600; text-decoration:none; }
+body.theme-rekiden a:hover{ color:#dba84f; text-decoration:underline; }
+
+/* 表：ヘッダー濃いめ／tbodyストライプ */
+body.theme-rekiden table{
   width:100%; border-collapse:collapse; margin:1em 0;
-  border:1.5px solid rgba(255,255,255,0.16);
-  background:rgba(255,255,255,0.06);
+  border:1.5px solid rgba(255,255,255,.16); background:rgba(255,255,255,.06);
 }
-body.theme-rekiden th {
-  background:rgba(255,255,255,0.12);
-  color:#fff5dc; font-weight:700; text-align:left;
-  border:1.5px solid rgba(255,255,255,0.16);
-  padding:.7em .9em;
+body.theme-rekiden th{
+  background:rgba(255,255,255,.12); color:#fff5dc; font-weight:700; text-align:left;
+  border:1.5px solid rgba(255,255,255,.16); padding:.7em .9em;
 }
-body.theme-rekiden td {
-  border:1px solid rgba(255,255,255,0.16);
-  color:var(--rk-ink);
-  padding:.7em .9em;
+body.theme-rekiden td{
+  border:1px solid rgba(255,255,255,.16); color:var(--rk-ink); padding:.7em .9em;
 }
-body.theme-rekiden tr:nth-child(even) td {
-  background:rgba(255,255,255,0.04);
+body.theme-rekiden tbody tr:nth-child(even) td{ background:rgba(255,255,255,.04); }
+
+/* 引用 */
+body.theme-rekiden blockquote{
+  margin:.9em 0; padding:.7em 1em; color:#fff1d8;
+  background:rgba(255,255,255,.08); border-left:6px solid var(--rk-accent); border-radius:6px;
 }
-body.theme-rekiden blockquote {
-  margin:.9em 0;
-  padding:.7em 1em;
-  background:rgba(255,255,255,0.08);
-  border-left:6px solid var(--rk-accent);
-  color:#fff1d8;
-  border-radius:6px;
+
+/* モバイル細部 */
+@media (max-width:640px){
+  body.theme-rekiden .wrapper{ padding:16px 12px; }
+  body.theme-rekiden h1{ font-size:1.7rem; }
+  body.theme-rekiden h2{ font-size:1.35rem; }
+}
+
+/* 軽量化：動きを抑える端末で固定背景を解除 */
+@media (prefers-reduced-motion: reduce){
+  body.theme-rekiden{ background-attachment:scroll; }
 }
