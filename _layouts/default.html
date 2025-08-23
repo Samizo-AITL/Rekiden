@@ -2,14 +2,13 @@
 <html lang="ja">
   <head>
     {%- include head.html -%}
-    <!-- 常に最新のCSSを読む（キャッシュバスター） -->
     <link rel="stylesheet"
           href="{{ '/assets/css/style.css' | relative_url }}?v={{ site.time | date: '%s' }}">
-    <meta name="color-scheme" content="light"><!-- ダーク強制回避 -->
+    <meta name="color-scheme" content="light">
   </head>
 
-  <!-- ★ 全ページ 固定で theme-sepia を適用（フロントマター不要） -->
-  <body class="theme-sepia">
+  <!-- ★ 全ページ：Rekiden 木目テーマを固定適用 -->
+  <body class="theme-rekiden">
     <main class="page-content" aria-label="Content">
       <div class="wrapper" style="max-width:980px;margin:0;padding:1.5rem 1rem;">
         {{ content }}
