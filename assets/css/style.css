@@ -149,3 +149,39 @@ body.theme-rekiden blockquote {
 @media (prefers-reduced-motion:reduce) {
   body.theme-rekiden { background-attachment:scroll; }
 }
+
+/* ==== Rekiden table stripe hard override (fix white cells) ==== */
+body.theme-rekiden table,
+body.theme-rekiden th,
+body.theme-rekiden td {
+  background: transparent !important;              /* まず全部リセット */
+}
+
+body.theme-rekiden tbody tr > td {
+  background-color: rgba(255,255,255,.03) !important; /* 奇数行基準 */
+}
+
+body.theme-rekiden tbody tr:nth-of-type(even) > td {
+  background-color: rgba(255,255,255,.06) !important; /* 偶数行 */
+}
+
+/* 他テーマや Primer/Minima のテーブル交互色を無効化 */
+.markdown-body table tr:nth-child(2n),
+table tr:nth-child(2n) {
+  background: transparent !important;
+}
+
+/* ==== Rekiden background hard pin ==== */
+body.theme-rekiden {
+  background:
+    url("{{ '/assets/bg/wood-dark.PNG' | relative_url }}") repeat,
+    radial-gradient(ellipse at 20% 30%, rgba(255,255,255,.06) 0 40%, transparent 45%),
+    radial-gradient(ellipse at 70% 60%, rgba(255,255,255,.05) 0 35%, transparent 40%),
+    repeating-linear-gradient(90deg, rgba(255,255,255,.035) 0 2px, transparent 2px 6px),
+    repeating-linear-gradient(0deg,  rgba(0,0,0,.06) 0 1px,  transparent 1px 4px) !important;
+  background-size:auto, 340px 340px, 340px 340px, 12px 100%, 100% 6px !important;
+  background-position:center center !important;
+  background-attachment:fixed !important;
+  background-color:#3b2a1a !important;
+}
+
