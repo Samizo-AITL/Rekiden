@@ -123,3 +123,46 @@ body.theme-rekiden::before{
 @media (prefers-reduced-motion:reduce){
   body.theme-rekiden{ background-attachment:scroll; }
 }
+
+/* ===============================
+   Rekiden Theme (Dark Wood) – 背景を木目固定
+   =============================== */
+body.theme-rekiden{
+  /* 文字色など */
+  --rk-ink:#f4f1e6;
+  --rk-head:#f0d090;
+  --rk-accent:#b48a60;
+  font-family:"Noto Serif JP","Hiragino Mincho ProN","Yu Mincho","Times New Roman",serif;
+  font-feature-settings:"palt" 1,"pkna" 1;
+  line-height:1.85; font-size:17px; color:var(--rk-ink);
+
+  /* 木目背景：画像 + ほんのり擬似木目（画像は拡張子 PNG 大文字に合わせる） */
+  background-image:
+    url("{{ '/assets/bg/wood-dark.PNG' | relative_url }}?v={{ site.time | date: '%s' }}"),
+    radial-gradient(ellipse at 28% 22%, rgba(255,255,255,.08) 0 40%, transparent 60%),
+    repeating-linear-gradient(90deg, rgba(255,255,255,.06) 0 2px, transparent 2px 7px),
+    repeating-linear-gradient(0deg,  rgba(0,0,0,.08) 0 1px,  transparent 1px 5px);
+  background-size: 840px auto, 360px 360px, 12px 100%, 100% 6px;
+  background-position: center top, center, left top, left top;
+  background-repeat: repeat, repeat, repeat, repeat;
+  background-attachment: fixed, fixed, fixed, fixed; /* スクロールで木目を固定 */
+  background-color:#342419;                       /* 画像読み込み前の色 */
+  background-blend-mode: multiply, normal, normal, normal; /* 画像だけ濃く */
+}
+
+/* 中身のパネルは半透明で木目を透かす */
+body.theme-rekiden main.page,
+body.theme-rekiden .page-content > .wrapper{
+  background:rgba(60,40,25,.80);
+  color:var(--rk-ink);
+  border:1px solid rgba(255,255,255,.14);
+  border-radius:10px;
+  box-shadow:0 4px 12px rgba(0,0,0,.6);
+}
+
+/*（以下は任意：見出し/リンク/表など。前に渡した版を使ってOK）*/
+
+/* 省エネ：動きを減らす設定の人には固定を解除 */
+@media (prefers-reduced-motion:reduce){
+  body.theme-rekiden{ background-attachment:scroll; }
+}
