@@ -50,26 +50,48 @@ body.theme-rekiden h3{ font-size:1.3rem; }
 body.theme-rekiden a{ color:#f0c060; font-weight:600; text-decoration:none; }
 body.theme-rekiden a:hover{ color:#dba84f; text-decoration:underline; }
 
-/* 表：白抜けを完全排除したストライプ */
+/* ============================================================
+   表（白浮きを除去・暖色ゼブラ） ★ここ置き換え
+   ============================================================ */
 body.theme-rekiden table{
-  width:100%; border-collapse:collapse; margin:1em 0;
-  border:1.5px solid rgba(255,255,255,.16);
-  background:none;                          /* 透過ベースをやめる */
+  width:100%;
+  border-collapse:collapse;
+  margin:1em 0;
+  border:1.5px solid rgba(255,255,255,.14);
+  background:none;
 }
-body.theme-rekiden th{
-  background:rgba(255,255,255,.12);
-  color:#fff5dc; font-weight:700; text-align:left;
+
+/* 行ベース色の変数（白は使わない） */
+body.theme-rekiden{
+  --rk-row-odd:  rgba(180,138,96,.16);  /* 薄茶 */
+  --rk-row-even: rgba(120, 90,60,.26);  /* さらに濃い */
+}
+
+body.theme-rekiden thead th{
+  background:rgba(255,220,160,.18);
+  color:#fff5dc;
+  font-weight:700;
+  text-align:left;
   border:1.5px solid rgba(255,255,255,.16);
   padding:.7em .9em;
 }
-body.theme-rekiden td{
-  border:1px solid rgba(255,255,255,.16);
+
+/* 行ごとに色を付ける。セルは透過 */
+body.theme-rekiden tbody tr:nth-child(odd){  background-color: var(--rk-row-odd); }
+body.theme-rekiden tbody tr:nth-child(even){ background-color: var(--rk-row-even); }
+
+body.theme-rekiden tbody td,
+body.theme-rekiden tbody th{
+  background:transparent;
   color:var(--rk-ink);
+  border:1px solid rgba(255,255,255,.16);
   padding:.7em .9em;
 }
-/* 奇数・偶数どちらにも色を与える（白は使わない） */
-body.theme-rekiden tbody tr:nth-child(odd)  td{ background:rgba(255,255,255,.06) !important; }
-body.theme-rekiden tbody tr:nth-child(even) td{ background:rgba(255,255,255,.12) !important; }
+
+/* hoverで軽く強調 */
+body.theme-rekiden tbody tr:hover{
+  background-color: rgba(180,138,96,.34);
+}
 
 /* 引用 */
 body.theme-rekiden blockquote{
