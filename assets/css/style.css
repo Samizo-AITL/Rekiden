@@ -166,3 +166,54 @@ body.theme-rekiden .page-content > .wrapper{
 @media (prefers-reduced-motion:reduce){
   body.theme-rekiden{ background-attachment:scroll; }
 }
+
+/* ===== Rekiden table override (force) ===== */
+/* 行カラー（白は使わない） */
+body.theme-rekiden{
+  --rk-row-odd:  rgba(180,138,96,.16);
+  --rk-row-even: rgba(120, 90,60,.26);
+}
+
+/* まず既存の白背景を“全部”打ち消す */
+body.theme-rekiden table,
+body.theme-rekiden table *,
+body.theme-rekiden table tbody tr:nth-child(odd) td,
+body.theme-rekiden table tbody tr:nth-child(even) td,
+body.theme-rekiden table tbody td,
+body.theme-rekiden table thead th{
+  background: transparent !important;
+  background-color: transparent !important;
+}
+
+/* 行にだけ色を付ける（ゼブラ）。td/thは透過のまま */
+body.theme-rekiden table tbody tr:nth-child(odd){
+  background-color: var(--rk-row-odd) !important;
+}
+body.theme-rekiden table tbody tr:nth-child(even){
+  background-color: var(--rk-row-even) !important;
+}
+
+/* 枠線・文字色を再設定 */
+body.theme-rekiden table{
+  width:100%;
+  border-collapse: collapse;
+  margin:1em 0;
+  border:1.5px solid rgba(255,255,255,.14);
+}
+body.theme-rekiden table td,
+body.theme-rekiden table th{
+  color: var(--rk-ink);
+  border:1px solid rgba(255,255,255,.16);
+  padding:.7em .9em;
+}
+body.theme-rekiden table thead th{
+  color:#fff5dc;
+  font-weight:700;
+  text-align:left;
+  border:1.5px solid rgba(255,255,255,.16);
+}
+
+/* 触感強調（任意） */
+body.theme-rekiden table tbody tr:hover{
+  background-color: rgba(180,138,96,.34) !important;
+}
