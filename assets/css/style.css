@@ -1,7 +1,7 @@
 ---
 ---
 /* ===============================
-   Rekiden Theme (Dark Wood, Gloss Maple) — one-sheet background
+   Rekiden Theme (Glossy Light Walnut)
    using /assets/bg/rekiden-wood-gloss.png
    =============================== */
 
@@ -22,62 +22,26 @@ body.theme-rekiden {
   font-size: 17px;
   line-height: 1.85;
 
-  /* === Background: glossy light-walnut (one-sheet, no tile) === */
-  /* tweak these 3 for framing the knot/highlight */
+  /* === Background: glossy walnut one-sheet === */
   --rk-wood-width: 1500px;  /* 1200–1800px で調整 */
-  --rk-wood-pos-x: 55%;     /* 0% left – 100% right */
-  --rk-wood-pos-y: 20%;     /* 15–30%: upper highlight/knot */
+  --rk-wood-pos-x: 55%;     
+  --rk-wood-pos-y: 20%;     
 
-  background-color: #d6a762; /* prepaint base while image loads */
-  background-image: url("{{ '/assets/bg/rekiden-wood-gloss.png' | relative_url }}?v={{ site.time | date: '%s' }}");
-  background-repeat: no-repeat;
-  background-size: var(--rk-wood-width) auto;             /* cover→固定幅で見せる */
-  background-position: var(--rk-wood-pos-x) var(--rk-wood-pos-y);
-  background-attachment: scroll;                          /* iPad/Safari 安定優先 */
-  background-blend-mode: normal;
+  background-color:#b67f3a; 
+  background-image:url("/Rekiden/assets/bg/rekiden-wood-gloss.png");
+  background-repeat:no-repeat;
+  background-size:var(--rk-wood-width) auto;
+  background-position:var(--rk-wood-pos-x) var(--rk-wood-pos-y);
+  background-attachment:scroll;
+  background-blend-mode:normal;
 }
 
-/* Responsive wood sizing (optional) */
+/* Responsive wood sizing */
 @media (max-width: 900px){
   body.theme-rekiden{ --rk-wood-width: 1180px; --rk-wood-pos-y: 20%; }
 }
 @media (min-width: 1600px){
   body.theme-rekiden{ --rk-wood-width: 1750px; --rk-wood-pos-y: 22%; }
-}
-
-/* ---- Content panel (semi-transparent to show wood) ---- */
-body.theme-rekiden main.page,
-body.theme-rekiden .page-content > .wrapper {
-  background: rgba(60, 40, 25, .60); /* 0.58–0.66 で好み調整 */
-  color: var(--rk-ink);
-  border: 1px solid rgba(255,255,255,.14);
-  border-radius: 10px;
-  box-shadow: 0 4px 12px rgba(0,0,0,.6);
-  padding: min(2.0vw, 1.5rem);
-}
-
-/* ---- Optional: subtle gloss highlight overlay ---- */
-/* 艶感を少しだけ足したい場合は opacity を 0.12–0.22 で調整 */
-body.theme-rekiden::after{
-  content:"";
-  position:fixed; inset:0; pointer-events:none; z-index:-1;
-  background:
-    linear-gradient( 18deg, rgba(255,255,255,.22) 0%, rgba(255,255,255,0) 28%),
-    radial-gradient(ellipse at 42% 12%, rgba(255,255,255,.10), rgba(255,255,255,0) 55%);
-  mix-blend-mode: screen;
-  opacity:.18;
-}
-
-/* ---- Vignette (very light edge falloff) ---- */
-body.theme-rekiden::before {
-  content: "";
-  position: fixed; inset: 0;
-  pointer-events: none; z-index: -1;
-  background:
-    radial-gradient(ellipse at 50% 30%, rgba(0,0,0,.05), transparent 60%),
-    linear-gradient(to bottom, rgba(0,0,0,.06), rgba(0,0,0,.10));
-  mix-blend-mode: normal;
-  opacity: .30;
 }
 
 /* ---- Headings ---- */
@@ -115,7 +79,7 @@ body.theme-rekiden blockquote {
   border-radius: 6px;
 }
 
-/* ---- Tables (no white float; warm stripes) ---- */
+/* ---- Tables ---- */
 body.theme-rekiden .table-wrap { overflow: auto; border-radius: 8px; }
 
 body.theme-rekiden table {
@@ -156,146 +120,18 @@ body.theme-rekiden tbody tr:hover {
 @media (max-width: 640px) {
   body.theme-rekiden h1 { font-size: 1.7rem; }
   body.theme-rekiden h2 { font-size: 1.35rem; }
-  body.theme-rekiden main.page,
-  body.theme-rekiden .page-content > .wrapper { padding: 16px 12px; }
 }
 
 /* ---- Motion/Perf friendly ---- */
 @media (prefers-reduced-motion: reduce) {
-  /* 背景はすでに scroll だが、今後の演出追加に備え */
   * { transition: none !important; animation: none !important; }
 }
 
-/* ===== DEBUG: 木目を強制表示（上物を全部オフ） ===== */
-body.theme-rekiden {
-  background-image: url("/Rekiden/assets/bg/rekiden-wood-gloss.png") !important;
-  background-repeat: no-repeat !important;
-  background-size: 1500px auto !important;  /* 好みで 1200–1800px */
-  background-position: 55% 20% !important;  /* 節の位置調整 */
-  background-attachment: scroll !important;
-}
-
-/* body のオーバーレイを完全無効化 */
-body.theme-rekiden::before,
-body.theme-rekiden::after { content: none !important; }
-
-/* パネルの不透明色を一旦オフ */
-body.theme-rekiden main.page,
-body.theme-rekiden .page-content > .wrapper {
-  background: transparent !important;
-}
-
-/* もし wrapper に木目を敷いていたら、それも一旦オフ */
-body.theme-rekiden .page-content > .wrapper::before { content: none !important; }
-
-/* ===== Rekiden: WOOD PASSTHROUGH / no-block mode ===== */
-/* 1) 本文パネル・ヘッダ/フッタ・カード等の背景を強制透明化 */
-body.theme-rekiden :where(
-  main.page,
-  .page-content,
-  .page-content > .wrapper,
-  header, .site-header,
-  footer, .site-footer,
-  .card, .panel, .box, .section, .hero, .masthead
-){
-  background: transparent !important;
-  backdrop-filter: none !important;
-}
-
-/* 2) これまで追加したオーバーレイ類を無効化（木目に何も乗せない） */
-body.theme-rekiden::before,
-body.theme-rekiden::after,
-body.theme-rekiden .page-content > .wrapper::before {
-  content: none !important;
-  background: none !important;
-  opacity: 0 !important;
-  mix-blend-mode: normal !important;
-}
-
-/* 3) 影・枠だけでメリハリを出す（背景は透明のまま） */
-body.theme-rekiden :where(
-  .page-content > .wrapper,
-  .card, .panel, .box
-){
-  border: 1px solid rgba(0,0,0,.25) !important;
-  box-shadow: 0 6px 18px rgba(0,0,0,.35) !important;
-  border-radius: 10px !important;
-}
-
-/* 4) テーブル/見出しはもともと半透明指定だが、念のため完全透明に揃える */
-body.theme-rekiden table,
-body.theme-rekiden table th,
-body.theme-rekiden table td,
-body.theme-rekiden thead th {
-  background: transparent !important;
-}
-
-/* 5) ヒーロー帯や区切り帯で背景色を使っているクラス名の保険 */
-body.theme-rekiden [class*="bg-"],
-body.theme-rekiden [class*="band"],
-body.theme-rekiden [class*="banner"]{
-  background: transparent !important;
-}
-
-/* 6) 余白は維持（読みやすさ用） */
-body.theme-rekiden .page-content > .wrapper { padding: min(2vw, 1.5rem) !important; }
-
-/* ===== N U K E 版：木目を塞ぐ背景を全消し（一時的） ===== */
-
-/* 1) body直下～本文内のすべての背景を透明化（画像/グラデも含む） */
-body.theme-rekiden *:not(img):not(svg):not(canvas) {
-  background: transparent !important;
-  background-image: none !important;
-  backdrop-filter: none !important;
-}
-
-/* 2) 擬似要素の背景も完全OFF（帯やマスクの犯人になりがち） */
-body.theme-rekiden *::before,
-body.theme-rekiden *::after {
-  content: none !important;
-  background: none !important;
-  opacity: 0 !important;
-  mix-blend-mode: normal !important;
-}
-
-/* 3) ページの主要コンテナやヘッダ/フッタも明示で透明に */
-body.theme-rekiden :where(
-  html, body, main, header, footer, nav, aside,
-  .site-header, .site-footer, .page-content, .wrapper,
-  .hero, .band, .banner, .section, .container, .panel, .card, .box
-) {
-  background: transparent !important;
-  background-image: none !important;
-}
-
-/* 4) 影・枠だけは残して読みやすさ確保（必要に応じて消してOK） */
-body.theme-rekiden :where(.wrapper, .panel, .card, .box) {
-  border: 1px solid rgba(0,0,0,.25) !important;
-  box-shadow: 0 6px 18px rgba(0,0,0,.35) !important;
-  border-radius: 10px !important;
-}
-
 /* =========================================
-   Rekiden: wood background + unblock patch
+   Force passthrough: remove blocking layers
    ========================================= */
 
-/* 1) BODY に木目を一枚貼り（パスは確定値。baseurl不要の直書きで安全） */
-body.theme-rekiden{
-  /* 好みで調整する3つ */
-  --rk-wood-width: 1500px;  /* 1200–1800pxで調整 */
-  --rk-wood-pos-x: 55%;
-  --rk-wood-pos-y: 20%;
-
-  background-color:#b67f3a !important; /* 画像ロード前の地色 */
-  background-image:url("/Rekiden/assets/bg/rekiden-wood-gloss.png") !important;
-  background-repeat:no-repeat !important;
-  background-size:var(--rk-wood-width) auto !important;
-  background-position:var(--rk-wood-pos-x) var(--rk-wood-pos-y) !important;
-  background-attachment:scroll !important;  /* iPad安定 */
-  background-blend-mode:normal !important;
-}
-
-/* 2) BODY上のオーバーレイ（光沢/ビネットなど）を無効化 */
+/* Body overlays off */
 body.theme-rekiden::before,
 body.theme-rekiden::after{
   content:none !important;
@@ -304,7 +140,7 @@ body.theme-rekiden::after{
   mix-blend-mode:normal !important;
 }
 
-/* 3) 木目を遮断する背景を“帯ごと”透明化（疑似要素も） */
+/* Blocking backgrounds transparent */
 body.theme-rekiden :where(
   header, .site-header, .page-header, .masthead,
   nav, .navbar, .banner, .band, .hero, .hero-banner,
@@ -316,6 +152,8 @@ body.theme-rekiden :where(
   background-image: none !important;
   backdrop-filter: none !important;
 }
+
+/* Pseudo-elements off */
 body.theme-rekiden :where(
   .site-header, .page-header, .masthead,
   .banner, .band, .hero, .hero-banner,
@@ -332,15 +170,7 @@ body.theme-rekiden :where(
   mix-blend-mode: normal !important;
 }
 
-/* 4) テーブル/見出しの帯も完全透明（必要になったら後で戻す） */
-body.theme-rekiden table,
-body.theme-rekiden thead th,
-body.theme-rekiden td,
-body.theme-rekiden th{
-  background: transparent !important;
-}
-
-/* 5) 読みやすさ用に“枠と影だけ”残す（背景は透明のまま） */
+/* Keep borders/shadows for readability */
 body.theme-rekiden :where(.wrapper, .panel, .card, .box){
   border: 1px solid rgba(0,0,0,.25) !important;
   box-shadow: 0 6px 18px rgba(0,0,0,.35) !important;
