@@ -217,3 +217,33 @@ body.theme-rekiden kbd {
   font-family: "Courier New", monospace;
 }
 
+/* === Code blocks (fenced) の白背景を無効化して木目になじませる === */
+body.theme-rekiden pre,
+body.theme-rekiden pre code,
+body.theme-rekiden figure.highlight,
+body.theme-rekiden .highlight,
+body.theme-rekiden .highlight pre,
+body.theme-rekiden .highlight code,
+body.theme-rekiden .highlighter-rouge,
+body.theme-rekiden .language-plaintext {
+  background: rgba(0,0,0,0.35) !important;  /* 落ち着いた半透明ダーク */
+  color: #f6efe0 !important;                 /* 明るすぎない生成色 */
+  border: 1px solid rgba(255,255,255,.12) !important;
+  border-radius: 8px !important;
+  box-shadow: none !important;
+}
+
+/* コードブロック内の行番号や表も白くならないように */
+body.theme-rekiden .highlight table,
+body.theme-rekiden .highlight td,
+body.theme-rekiden .highlight th {
+  background: transparent !important;
+  border-color: rgba(255,255,255,.12) !important;
+}
+
+/* 余白を少し詰める（お好みで） */
+body.theme-rekiden pre,
+body.theme-rekiden .highlight pre {
+  padding: 0.9em 1.1em !important;
+  margin: 0.8em 0 !important;
+}
