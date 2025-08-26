@@ -1,15 +1,18 @@
+---
+---
 /* ===============================
-   Rekiden Theme (Dark Wood) — one-sheet background
+   Rekiden Theme (Dark Wood, Gloss Maple) — one-sheet background
+   using /assets/bg/rekiden-wood-gloss.png
    =============================== */
 
-/* ---- Global scope for the theme ---- */
+/* ---- Global scope ---- */
 body.theme-rekiden {
   /* Colors & typography */
   --rk-ink:    #f4f1e6;  /* body text */
   --rk-head:   #f0d090;  /* headings */
   --rk-accent: #b48a60;  /* borders / accents */
 
-  /* Row colors for tables (non-white) */
+  /* Table stripe colors (never white) */
   --rk-row-odd:  rgba(180,138,96,.16);
   --rk-row-even: rgba(120, 90,60,.26);
 
@@ -19,37 +22,62 @@ body.theme-rekiden {
   font-size: 17px;
   line-height: 1.85;
 
-  /* === 背景は wood-dark.PNG を一枚貼り === */
-  --rk-wood-width: 1400px;  /* 画像の表示幅（1200〜1800pxで調整） */
-  --rk-wood-pos-x: 58%;     /* 横位置（0%左, 50%中央, 100%右） */
-  --rk-wood-pos-y: 20%;     /* 縦位置（15〜30%で節を見せやすい） */
+  /* === Background: glossy light-walnut (one-sheet, no tile) === */
+  /* tweak these 3 for framing the knot/highlight */
+  --rk-wood-width: 1500px;  /* 1200–1800px で調整 */
+  --rk-wood-pos-x: 55%;     /* 0% left – 100% right */
+  --rk-wood-pos-y: 20%;     /* 15–30%: upper highlight/knot */
 
-  background-color: #342419;
-  background-image: url("{{ '/assets/bg/wood-dark.PNG' | relative_url }}?v={{ site.time | date: '%s' }}");
+  background-color: #d6a762; /* prepaint base while image loads */
+  background-image: url("{{ '/assets/bg/rekiden-wood-gloss.png' | relative_url }}?v={{ site.time | date: '%s' }}");
   background-repeat: no-repeat;
-  background-size: var(--rk-wood-width) auto;
+  background-size: var(--rk-wood-width) auto;             /* cover→固定幅で見せる */
   background-position: var(--rk-wood-pos-x) var(--rk-wood-pos-y);
-  background-attachment: scroll;  /* iPad/Safari 安定優先 */
+  background-attachment: scroll;                          /* iPad/Safari 安定優先 */
   background-blend-mode: normal;
 }
 
-/* 画面幅に応じて木目スケールを調整 */
+/* Responsive wood sizing (optional) */
 @media (max-width: 900px){
-  body.theme-rekiden{ --rk-wood-width: 1100px; --rk-wood-pos-y: 18%; }
+  body.theme-rekiden{ --rk-wood-width: 1180px; --rk-wood-pos-y: 20%; }
 }
 @media (min-width: 1600px){
-  body.theme-rekiden{ --rk-wood-width: 1700px; --rk-wood-pos-y: 22%; }
+  body.theme-rekiden{ --rk-wood-width: 1750px; --rk-wood-pos-y: 22%; }
 }
 
-/* ---- Content panel (透けパネル) ---- */
+/* ---- Content panel (semi-transparent to show wood) ---- */
 body.theme-rekiden main.page,
 body.theme-rekiden .page-content > .wrapper {
-  background: rgba(60, 40, 25, .64); /* 0.64 で木目を透かす */
+  background: rgba(60, 40, 25, .60); /* 0.58–0.66 で好み調整 */
   color: var(--rk-ink);
   border: 1px solid rgba(255,255,255,.14);
   border-radius: 10px;
   box-shadow: 0 4px 12px rgba(0,0,0,.6);
   padding: min(2.0vw, 1.5rem);
+}
+
+/* ---- Optional: subtle gloss highlight overlay ---- */
+/* 艶感を少しだけ足したい場合は opacity を 0.12–0.22 で調整 */
+body.theme-rekiden::after{
+  content:"";
+  position:fixed; inset:0; pointer-events:none; z-index:-1;
+  background:
+    linear-gradient( 18deg, rgba(255,255,255,.22) 0%, rgba(255,255,255,0) 28%),
+    radial-gradient(ellipse at 42% 12%, rgba(255,255,255,.10), rgba(255,255,255,0) 55%);
+  mix-blend-mode: screen;
+  opacity:.18;
+}
+
+/* ---- Vignette (very light edge falloff) ---- */
+body.theme-rekiden::before {
+  content: "";
+  position: fixed; inset: 0;
+  pointer-events: none; z-index: -1;
+  background:
+    radial-gradient(ellipse at 50% 30%, rgba(0,0,0,.05), transparent 60%),
+    linear-gradient(to bottom, rgba(0,0,0,.06), rgba(0,0,0,.10));
+  mix-blend-mode: normal;
+  opacity: .30;
 }
 
 /* ---- Headings ---- */
@@ -87,19 +115,7 @@ body.theme-rekiden blockquote {
   border-radius: 6px;
 }
 
-/* ---- Vignette（縁の落ち影） ---- */
-body.theme-rekiden::before {
-  content: "";
-  position: fixed; inset: 0;
-  pointer-events: none; z-index: -1;
-  background:
-    radial-gradient(ellipse at 50% 30%, rgba(0,0,0,.06), transparent 60%),
-    linear-gradient(to bottom, rgba(0,0,0,.06), rgba(0,0,0,.12));
-  mix-blend-mode: normal;
-  opacity: .38;   /* 控えめに */
-}
-
-/* ---- Tables (白浮き除去・暖色ゼブラ) ---- */
+/* ---- Tables (no white float; warm stripes) ---- */
 body.theme-rekiden .table-wrap { overflow: auto; border-radius: 8px; }
 
 body.theme-rekiden table {
@@ -142,4 +158,10 @@ body.theme-rekiden tbody tr:hover {
   body.theme-rekiden h2 { font-size: 1.35rem; }
   body.theme-rekiden main.page,
   body.theme-rekiden .page-content > .wrapper { padding: 16px 12px; }
+}
+
+/* ---- Motion/Perf friendly ---- */
+@media (prefers-reduced-motion: reduce) {
+  /* 背景はすでに scroll だが、今後の演出追加に備え */
+  * { transition: none !important; animation: none !important; }
 }
