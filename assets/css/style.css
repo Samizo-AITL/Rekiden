@@ -187,3 +187,56 @@ body.theme-rekiden .page-content > .wrapper {
 
 /* もし wrapper に木目を敷いていたら、それも一旦オフ */
 body.theme-rekiden .page-content > .wrapper::before { content: none !important; }
+
+/* ===== Rekiden: WOOD PASSTHROUGH / no-block mode ===== */
+/* 1) 本文パネル・ヘッダ/フッタ・カード等の背景を強制透明化 */
+body.theme-rekiden :where(
+  main.page,
+  .page-content,
+  .page-content > .wrapper,
+  header, .site-header,
+  footer, .site-footer,
+  .card, .panel, .box, .section, .hero, .masthead
+){
+  background: transparent !important;
+  backdrop-filter: none !important;
+}
+
+/* 2) これまで追加したオーバーレイ類を無効化（木目に何も乗せない） */
+body.theme-rekiden::before,
+body.theme-rekiden::after,
+body.theme-rekiden .page-content > .wrapper::before {
+  content: none !important;
+  background: none !important;
+  opacity: 0 !important;
+  mix-blend-mode: normal !important;
+}
+
+/* 3) 影・枠だけでメリハリを出す（背景は透明のまま） */
+body.theme-rekiden :where(
+  .page-content > .wrapper,
+  .card, .panel, .box
+){
+  border: 1px solid rgba(0,0,0,.25) !important;
+  box-shadow: 0 6px 18px rgba(0,0,0,.35) !important;
+  border-radius: 10px !important;
+}
+
+/* 4) テーブル/見出しはもともと半透明指定だが、念のため完全透明に揃える */
+body.theme-rekiden table,
+body.theme-rekiden table th,
+body.theme-rekiden table td,
+body.theme-rekiden thead th {
+  background: transparent !important;
+}
+
+/* 5) ヒーロー帯や区切り帯で背景色を使っているクラス名の保険 */
+body.theme-rekiden [class*="bg-"],
+body.theme-rekiden [class*="band"],
+body.theme-rekiden [class*="banner"]{
+  background: transparent !important;
+}
+
+/* 6) 余白は維持（読みやすさ用） */
+body.theme-rekiden .page-content > .wrapper { padding: min(2vw, 1.5rem) !important; }
+
