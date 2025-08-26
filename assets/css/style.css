@@ -1,5 +1,5 @@
 /* ===============================
-   Rekiden Theme (Dark Wood) — compact v1.0
+   Rekiden Theme (Dark Wood) — compact v1.0 (fixed)
    =============================== */
 
 /* ---- Global scope for the theme ---- */
@@ -19,35 +19,30 @@ body.theme-rekiden {
   font-size: 17px;
   line-height: 1.85;
 
-  /* Background: wood image + subtle overlays
-     NOTE: 拡張子の大小は実ファイルに合わせて。 */
-  background-image:
-    url("{{ '/assets/bg/wood-dark.PNG' | relative_url }}?v={{ site.time | date: '%s' }}"),
-    radial-gradient(ellipse at 28% 22%, rgba(255,255,255,.08) 0 40%, transparent 60%),
-    repeating-linear-gradient(90deg, rgba(255,255,255,.06) 0 2px, transparent 2px 7px),
-    repeating-linear-gradient(0deg,  rgba(0,0,0,.08) 0 1px,  transparent 1px 5px);
-  background-size: 840px auto, 360px 360px, 12px 100%, 100% 6px;
-  background-position: center top, center, left top, left top;
-  background-repeat: repeat, repeat, repeat, repeat;
-  background-attachment: fixed, fixed, fixed, fixed; /* 木目を固定 */
-  background-color: #342419;                          /* 画像ロード前の色 */
-  background-blend-mode: multiply, normal, normal, normal;
+  /* === 背景は wood-dark.PNG のみ === */
+  background-color: #342419; /* 画像ロード前の下地 */
+  background-image: url("{{ '/assets/bg/wood-dark.PNG' | relative_url }}?v={{ site.time | date: '%s' }}");
+  background-repeat: no-repeat;     /* タイルしない（継ぎ目を出さない） */
+  background-position: center top;  /* 中央寄せ */
+  background-size: cover;           /* 画面いっぱいにフィット */
+  background-attachment: fixed;     /* 木目を固定（iOSで不安定なら下のメディアクエリで解除） */
+  background-blend-mode: normal;    /* 画像そのまま表示 */
 }
 
-/* Battery / motion friendly: 固定解除（iOS等の負荷/チラつき回避） */
-@media (prefers-reduced-motion: reduce) {
+/* Battery / motion friendly: iOS 等で fixed が重い／チラつく場合は解除 */
+@media (prefers-reduced-motion: reduce), (pointer: coarse) {
   body.theme-rekiden { background-attachment: scroll; }
 }
 
 /* ---- Content panel (透けパネル) ---- */
+/* 木目を見せたいので少し薄め（.80 → .72 推奨） */
 body.theme-rekiden main.page,
 body.theme-rekiden .page-content > .wrapper {
-  background: rgba(60, 40, 25, .80);
+  background: rgba(60, 40, 25, .72);
   color: var(--rk-ink);
   border: 1px solid rgba(255,255,255,.14);
   border-radius: 10px;
   box-shadow: 0 4px 12px rgba(0,0,0,.6);
-  /* 既存 wrapper の内側余白は layout 側でも良いが、保険で軽く確保 */
   padding: min(2.0vw, 1.5rem);
 }
 
@@ -86,16 +81,17 @@ body.theme-rekiden blockquote {
   border-radius: 6px;
 }
 
-/* ---- Vignette (軽い重厚感) ---- */
+/* ---- Vignette（縁の落ち影） ---- */
+/* 木目を潰さないように控えめに調整 */
 body.theme-rekiden::before {
   content: "";
   position: fixed; inset: 0;
   pointer-events: none; z-index: -1;
   background:
-    radial-gradient(ellipse at 50% 30%, rgba(255,255,255,.06), transparent 60%),
-    linear-gradient(to bottom, rgba(0,0,0,.18), rgba(0,0,0,.28));
-  mix-blend-mode: overlay;
-  opacity: .35;
+    radial-gradient(ellipse at 50% 30%, rgba(0,0,0,.10), transparent 60%),
+    linear-gradient(to bottom, rgba(0,0,0,.10), rgba(0,0,0,.18));
+  mix-blend-mode: normal; /* overlay → normal にして木目色を保持 */
+  opacity: .55;           /* 輪郭だけ軽く締める */
 }
 
 /* ---- Tables (白浮き除去・暖色ゼブラ) ---- */
@@ -109,7 +105,7 @@ body.theme-rekiden table {
   background: transparent;
 }
 
-/* まず既存テーマの白背景をまとめて打ち消す（必要最低限の !important） */
+/* 既存テーマの白背景を打ち消す（必要最低限の !important） */
 body.theme-rekiden table,
 body.theme-rekiden table th,
 body.theme-rekiden table td {
