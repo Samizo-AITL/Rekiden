@@ -1,5 +1,5 @@
 /* ===============================
-   Rekiden Theme (Dark Wood) — compact v1.0 (fixed)
+   Rekiden Theme (Dark Wood) — one-sheet background
    =============================== */
 
 /* ---- Global scope for the theme ---- */
@@ -19,26 +19,32 @@ body.theme-rekiden {
   font-size: 17px;
   line-height: 1.85;
 
-  /* === 背景は wood-dark.PNG のみ === */
-  background-color: #342419; /* 画像ロード前の下地 */
+  /* === 背景は wood-dark.PNG を一枚貼り === */
+  --rk-wood-width: 1400px;  /* 画像の表示幅（1200〜1800pxで調整） */
+  --rk-wood-pos-x: 58%;     /* 横位置（0%左, 50%中央, 100%右） */
+  --rk-wood-pos-y: 20%;     /* 縦位置（15〜30%で節を見せやすい） */
+
+  background-color: #342419;
   background-image: url("{{ '/assets/bg/wood-dark.PNG' | relative_url }}?v={{ site.time | date: '%s' }}");
-  background-repeat: no-repeat;     /* タイルしない（継ぎ目を出さない） */
-  background-position: center top;  /* 中央寄せ */
-  background-size: cover;           /* 画面いっぱいにフィット */
-  background-attachment: fixed;     /* 木目を固定（iOSで不安定なら下のメディアクエリで解除） */
-  background-blend-mode: normal;    /* 画像そのまま表示 */
+  background-repeat: no-repeat;
+  background-size: var(--rk-wood-width) auto;
+  background-position: var(--rk-wood-pos-x) var(--rk-wood-pos-y);
+  background-attachment: scroll;  /* iPad/Safari 安定優先 */
+  background-blend-mode: normal;
 }
 
-/* Battery / motion friendly: iOS 等で fixed が重い／チラつく場合は解除 */
-@media (prefers-reduced-motion: reduce), (pointer: coarse) {
-  body.theme-rekiden { background-attachment: scroll; }
+/* 画面幅に応じて木目スケールを調整 */
+@media (max-width: 900px){
+  body.theme-rekiden{ --rk-wood-width: 1100px; --rk-wood-pos-y: 18%; }
+}
+@media (min-width: 1600px){
+  body.theme-rekiden{ --rk-wood-width: 1700px; --rk-wood-pos-y: 22%; }
 }
 
 /* ---- Content panel (透けパネル) ---- */
-/* 木目を見せたいので少し薄め（.80 → .72 推奨） */
 body.theme-rekiden main.page,
 body.theme-rekiden .page-content > .wrapper {
-  background: rgba(60, 40, 25, .72);
+  background: rgba(60, 40, 25, .64); /* 0.64 で木目を透かす */
   color: var(--rk-ink);
   border: 1px solid rgba(255,255,255,.14);
   border-radius: 10px;
@@ -82,16 +88,15 @@ body.theme-rekiden blockquote {
 }
 
 /* ---- Vignette（縁の落ち影） ---- */
-/* 木目を潰さないように控えめに調整 */
 body.theme-rekiden::before {
   content: "";
   position: fixed; inset: 0;
   pointer-events: none; z-index: -1;
   background:
-    radial-gradient(ellipse at 50% 30%, rgba(0,0,0,.10), transparent 60%),
-    linear-gradient(to bottom, rgba(0,0,0,.10), rgba(0,0,0,.18));
-  mix-blend-mode: normal; /* overlay → normal にして木目色を保持 */
-  opacity: .55;           /* 輪郭だけ軽く締める */
+    radial-gradient(ellipse at 50% 30%, rgba(0,0,0,.06), transparent 60%),
+    linear-gradient(to bottom, rgba(0,0,0,.06), rgba(0,0,0,.12));
+  mix-blend-mode: normal;
+  opacity: .38;   /* 控えめに */
 }
 
 /* ---- Tables (白浮き除去・暖色ゼブラ) ---- */
@@ -105,7 +110,6 @@ body.theme-rekiden table {
   background: transparent;
 }
 
-/* 既存テーマの白背景を打ち消す（必要最低限の !important） */
 body.theme-rekiden table,
 body.theme-rekiden table th,
 body.theme-rekiden table td {
@@ -114,11 +118,9 @@ body.theme-rekiden table td {
   border: 1px solid rgba(255,255,255,.16);
 }
 
-/* ゼブラは tr にのみ背景色を適用（td/th は透過のまま） */
 body.theme-rekiden tbody tr:nth-child(odd)  { background-color: var(--rk-row-odd); }
 body.theme-rekiden tbody tr:nth-child(even) { background-color: var(--rk-row-even); }
 
-/* ヘッダー */
 body.theme-rekiden thead th {
   background-color: rgba(255,220,160,.18) !important;
   color: #fff5dc !important;
@@ -127,11 +129,9 @@ body.theme-rekiden thead th {
   border: 1.5px solid rgba(255,255,255,.16);
 }
 
-/* セル余白 */
 body.theme-rekiden td,
 body.theme-rekiden th { padding: .7em .9em; }
 
-/* Hover 強調（行単位） */
 body.theme-rekiden tbody tr:hover {
   background-color: rgba(180,138,96,.34) !important;
 }
