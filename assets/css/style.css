@@ -2,6 +2,7 @@
 ---
 /* ===============================
    Rekiden Theme (Glossy Light Walnut)
+   Background: coverで全面木目表示
    using /assets/bg/rekiden-wood-gloss.png
    =============================== */
 
@@ -12,7 +13,7 @@ body.theme-rekiden {
   --rk-head:   #f0d090;  /* headings */
   --rk-accent: #b48a60;  /* borders / accents */
 
-  /* Table stripe colors (never white) */
+  /* Table stripe colors */
   --rk-row-odd:  rgba(180,138,96,.16);
   --rk-row-even: rgba(120, 90,60,.26);
 
@@ -23,25 +24,13 @@ body.theme-rekiden {
   line-height: 1.85;
 
   /* === Background: glossy walnut one-sheet === */
-  --rk-wood-width: 1500px;  /* 1200–1800px で調整 */
-  --rk-wood-pos-x: 55%;     
-  --rk-wood-pos-y: 20%;     
-
-  background-color:#b67f3a; 
+  background-color:#a97939; /* 画像ロード前の下地を木目系に */
   background-image:url("/Rekiden/assets/bg/rekiden-wood-gloss.png");
   background-repeat:no-repeat;
-  background-size:var(--rk-wood-width) auto;
-  background-position:var(--rk-wood-pos-x) var(--rk-wood-pos-y);
-  background-attachment:scroll;
-  background-blend-mode:normal;
-}
-
-/* Responsive wood sizing */
-@media (max-width: 900px){
-  body.theme-rekiden{ --rk-wood-width: 1180px; --rk-wood-pos-y: 20%; }
-}
-@media (min-width: 1600px){
-  body.theme-rekiden{ --rk-wood-width: 1750px; --rk-wood-pos-y: 22%; }
+  background-position: 55% 20%;   /* 節や光沢の位置を微調整可能 */
+  background-size: cover;         /* ← 画面全体を木目で埋める */
+  background-attachment: scroll;  /* iPad/Safari 安定優先 */
+  background-blend-mode: normal;
 }
 
 /* ---- Headings ---- */
@@ -116,63 +105,27 @@ body.theme-rekiden tbody tr:hover {
   background-color: rgba(180,138,96,.34) !important;
 }
 
+/* ---- Wrapper / Panels ---- */
+/* 背景は透明にして木目を透過、枠と影で読みやすさ確保 */
+body.theme-rekiden .wrapper,
+body.theme-rekiden .panel,
+body.theme-rekiden .card,
+body.theme-rekiden .box {
+  background: transparent !important;
+  border: 1px solid rgba(0,0,0,.25) !important;
+  box-shadow: 0 6px 18px rgba(0,0,0,.35) !important;
+  border-radius: 10px !important;
+  padding: min(2.0vw, 1.5rem);
+}
+
 /* ---- Mobile tweaks ---- */
 @media (max-width: 640px) {
   body.theme-rekiden h1 { font-size: 1.7rem; }
   body.theme-rekiden h2 { font-size: 1.35rem; }
+  body.theme-rekiden .wrapper { padding: 16px 12px; }
 }
 
 /* ---- Motion/Perf friendly ---- */
 @media (prefers-reduced-motion: reduce) {
   * { transition: none !important; animation: none !important; }
-}
-
-/* =========================================
-   Force passthrough: remove blocking layers
-   ========================================= */
-
-/* Body overlays off */
-body.theme-rekiden::before,
-body.theme-rekiden::after{
-  content:none !important;
-  background:none !important;
-  opacity:0 !important;
-  mix-blend-mode:normal !important;
-}
-
-/* Blocking backgrounds transparent */
-body.theme-rekiden :where(
-  header, .site-header, .page-header, .masthead,
-  nav, .navbar, .banner, .band, .hero, .hero-banner,
-  main, .page-content, .container, .wrapper,
-  section, .section, .panel, .card, .box, .callout,
-  footer, .site-footer
-){
-  background: transparent !important;
-  background-image: none !important;
-  backdrop-filter: none !important;
-}
-
-/* Pseudo-elements off */
-body.theme-rekiden :where(
-  .site-header, .page-header, .masthead,
-  .banner, .band, .hero, .hero-banner,
-  .page-content, .container, .wrapper
-)::before,
-body.theme-rekiden :where(
-  .site-header, .page-header, .masthead,
-  .banner, .band, .hero, .hero-banner,
-  .page-content, .container, .wrapper
-)::after{
-  content: none !important;
-  background: none !important;
-  opacity: 0 !important;
-  mix-blend-mode: normal !important;
-}
-
-/* Keep borders/shadows for readability */
-body.theme-rekiden :where(.wrapper, .panel, .card, .box){
-  border: 1px solid rgba(0,0,0,.25) !important;
-  box-shadow: 0 6px 18px rgba(0,0,0,.35) !important;
-  border-radius: 10px !important;
 }
