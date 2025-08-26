@@ -274,3 +274,75 @@ body.theme-rekiden :where(.wrapper, .panel, .card, .box) {
   box-shadow: 0 6px 18px rgba(0,0,0,.35) !important;
   border-radius: 10px !important;
 }
+
+/* =========================================
+   Rekiden: wood background + unblock patch
+   ========================================= */
+
+/* 1) BODY に木目を一枚貼り（パスは確定値。baseurl不要の直書きで安全） */
+body.theme-rekiden{
+  /* 好みで調整する3つ */
+  --rk-wood-width: 1500px;  /* 1200–1800pxで調整 */
+  --rk-wood-pos-x: 55%;
+  --rk-wood-pos-y: 20%;
+
+  background-color:#b67f3a !important; /* 画像ロード前の地色 */
+  background-image:url("/Rekiden/assets/bg/rekiden-wood-gloss.png") !important;
+  background-repeat:no-repeat !important;
+  background-size:var(--rk-wood-width) auto !important;
+  background-position:var(--rk-wood-pos-x) var(--rk-wood-pos-y) !important;
+  background-attachment:scroll !important;  /* iPad安定 */
+  background-blend-mode:normal !important;
+}
+
+/* 2) BODY上のオーバーレイ（光沢/ビネットなど）を無効化 */
+body.theme-rekiden::before,
+body.theme-rekiden::after{
+  content:none !important;
+  background:none !important;
+  opacity:0 !important;
+  mix-blend-mode:normal !important;
+}
+
+/* 3) 木目を遮断する背景を“帯ごと”透明化（疑似要素も） */
+body.theme-rekiden :where(
+  header, .site-header, .page-header, .masthead,
+  nav, .navbar, .banner, .band, .hero, .hero-banner,
+  main, .page-content, .container, .wrapper,
+  section, .section, .panel, .card, .box, .callout,
+  footer, .site-footer
+){
+  background: transparent !important;
+  background-image: none !important;
+  backdrop-filter: none !important;
+}
+body.theme-rekiden :where(
+  .site-header, .page-header, .masthead,
+  .banner, .band, .hero, .hero-banner,
+  .page-content, .container, .wrapper
+)::before,
+body.theme-rekiden :where(
+  .site-header, .page-header, .masthead,
+  .banner, .band, .hero, .hero-banner,
+  .page-content, .container, .wrapper
+)::after{
+  content: none !important;
+  background: none !important;
+  opacity: 0 !important;
+  mix-blend-mode: normal !important;
+}
+
+/* 4) テーブル/見出しの帯も完全透明（必要になったら後で戻す） */
+body.theme-rekiden table,
+body.theme-rekiden thead th,
+body.theme-rekiden td,
+body.theme-rekiden th{
+  background: transparent !important;
+}
+
+/* 5) 読みやすさ用に“枠と影だけ”残す（背景は透明のまま） */
+body.theme-rekiden :where(.wrapper, .panel, .card, .box){
+  border: 1px solid rgba(0,0,0,.25) !important;
+  box-shadow: 0 6px 18px rgba(0,0,0,.35) !important;
+  border-radius: 10px !important;
+}
