@@ -129,3 +129,27 @@ body.theme-rekiden .box {
 @media (prefers-reduced-motion: reduce) {
   * { transition: none !important; animation: none !important; }
 }
+
+/* ===== Fix: page-content が木目を塞ぐのを完全解除 ===== */
+body.theme-rekiden .page-content,
+body.theme-rekiden main.page-content,
+body.theme-rekiden header,
+body.theme-rekiden footer,
+body.theme-rekiden .site-header,
+body.theme-rekiden .site-footer,
+body.theme-rekiden .container {
+  background: transparent !important;
+  background-image: none !important;
+  backdrop-filter: none !important;
+}
+
+/* 擬似要素の帯やマスクも無効化 */
+body.theme-rekiden .page-content::before,
+body.theme-rekiden .page-content::after,
+body.theme-rekiden header::before,
+body.theme-rekiden header::after {
+  content: none !important;
+  background: none !important;
+  opacity: 0 !important;
+  mix-blend-mode: normal !important;
+}
