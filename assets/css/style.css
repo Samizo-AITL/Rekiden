@@ -149,3 +149,46 @@ body.theme-rekiden footer::after {
   opacity: 0 !important;
   mix-blend-mode: normal !important;
 }
+
+/* ===== One-panel mode: 余分な層を撤去 ===== */
+
+/* 外側の層は完全透明＆影/枠/余白もオフ */
+body.theme-rekiden .page-content,
+body.theme-rekiden main.page-content,
+body.theme-rekiden .container {
+  background: transparent !important;
+  background-image: none !important;
+  box-shadow: none !important;
+  border: 0 !important;
+  padding: 0 !important;
+}
+
+/* 擬似要素の帯も撤去 */
+body.theme-rekiden .page-content::before,
+body.theme-rekiden .page-content::after,
+body.theme-rekiden .container::before,
+body.theme-rekiden .container::after {
+  content: none !important;
+  background: none !important;
+  opacity: 0 !important;
+  mix-blend-mode: normal !important;
+}
+
+/* パネルは wrapper だけに集約（背景0.50で読みやすさ維持） */
+body.theme-rekiden .wrapper {
+  background: rgba(60, 40, 25, 0.50) !important;  /* 透過率はお好みで */
+  border: 1px solid rgba(0,0,0,.25) !important;
+  box-shadow: 0 6px 18px rgba(0,0,0,.35) !important;
+  border-radius: 10px !important;
+  padding: min(2.0vw, 1.5rem) !important;
+  margin: 0 auto !important; /* 既定の中央寄せを維持 */
+}
+
+/* 内側カード系は全部透明（パネルを増やさない） */
+body.theme-rekiden .panel,
+body.theme-rekiden .card,
+body.theme-rekiden .box {
+  background: transparent !important;
+  box-shadow: none !important;
+  border: 0 !important;
+}
