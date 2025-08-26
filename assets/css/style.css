@@ -207,3 +207,13 @@ body.theme-rekiden kbd {
   padding: 0.1em 0.4em;
   font-family: "Courier New", monospace;
 }
+
+body.theme-rekiden code,
+body.theme-rekiden kbd {
+  background: rgba(0,0,0,0.25) !important;
+  color: #f4e2b8 !important; /* クリーム色 */
+  border-radius: 4px;
+  padding: 0.1em 0.4em;
+  font-family: "Courier New", monospace;
+}
+
