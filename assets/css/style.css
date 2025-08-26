@@ -176,7 +176,7 @@ body.theme-rekiden .container::after {
 
 /* パネルは wrapper だけに集約（背景0.50で読みやすさ維持） */
 body.theme-rekiden .wrapper {
-  background: rgba(60, 40, 25, 0.50) !important;  /* 透過率はお好みで */
+  background: rgba(60, 40, 25, 0.65) !important;  /* 透過率はお好みで */
   border: 1px solid rgba(0,0,0,.25) !important;
   box-shadow: 0 6px 18px rgba(0,0,0,.35) !important;
   border-radius: 10px !important;
