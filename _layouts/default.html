@@ -2,19 +2,63 @@
 <html lang="ja">
   <head>
     {%- include head.html -%}
-    <!-- 常に最新CSSを読む -->
+
+    <!-- ペイント前に配色クラスを決めて FOUC回避（light/dark/auto を localStorageに保存する想定） -->
+    <script>
+      (function () {
+        try {
+          var pref = localStorage.getItem('color-scheme') || 'auto';
+          var mql  = window.matchMedia('(prefers-color-scheme: dark)');
+          var dark = (pref === 'dark') || (pref === 'auto' && mql.matches);
+          document.documentElement.classList.add(dark ? 'scheme-dark' : 'scheme-light');
+        } catch(e) { /* 失敗時はデフォルト(light)で続行 */ }
+      })();
+    </script>
+
+    <!-- ユーザエージェントへの宣言（OSの配色ヒント） -->
+    <meta name="color-scheme" content="light dark">
+
+    <!-- 先に共通CSS、最後に Rekiden を読み込む（常に最新を読む） -->
     <link rel="stylesheet"
           href="{{ '/assets/css/style.css' | relative_url }}?v={{ site.time | date: '%s' }}">
-    <meta name="color-scheme" content="light"><!-- ダーク端末でもライト固定 -->
+    <link rel="preload"
+          as="image"
+          href="{{ '/assets/img/wood-grain.png' | relative_url }}">
+    <link rel="stylesheet"
+          href="{{ '/assets/css/rekiden.css' | relative_url }}?v={{ site.time | date: '%s' }}">
+
+    <!-- （任意）MathJax を使うサイトなら：site.mathjax が true のときだけ読込 -->
+    {%- if site.mathjax -%}
+    <script defer id="MathJax-script"
+      src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    {%- endif -%}
   </head>
 
-  <!-- ★ ここを固定：全ページ theme-rekiden -->
+  <!-- サイト全体のテーマ名を固定。配色は <html> の scheme-*** が担う -->
   <body class="theme-rekiden">
-    <main class="page-content" aria-label="Content">
-      <div class="wrapper" style="max-width:980px;margin:0;padding:1.5rem 1rem;">
+    <a class="visually-hidden" href="#content">本文へスキップ</a>
+
+    <main id="content" class="page-content" aria-label="Content">
+      <div class="container wrapper">
         {{ content }}
       </div>
     </main>
+
     {%- include footer.html -%}
+
+    <!-- （任意）アンカー位置ズレ対策：固定ヘッダを使う場合に有効化
+    <script>
+      (function(){
+        function offsetHash(){ if(location.hash){
+          var el=document.getElementById(location.hash.slice(1));
+          if(!el) return;
+          var y=el.getBoundingClientRect().top + window.pageYOffset - 80; // ヘッダ高に合わせる
+          window.scrollTo({top:y, behavior:'instant'});
+        }}
+        window.addEventListener('hashchange', offsetHash);
+        window.addEventListener('load', offsetHash);
+      })();
+    </script>
+    -->
   </body>
 </html>
