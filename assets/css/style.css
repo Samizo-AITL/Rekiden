@@ -165,3 +165,25 @@ body.theme-rekiden tbody tr:hover {
   /* 背景はすでに scroll だが、今後の演出追加に備え */
   * { transition: none !important; animation: none !important; }
 }
+
+/* ===== DEBUG: 木目を強制表示（上物を全部オフ） ===== */
+body.theme-rekiden {
+  background-image: url("/Rekiden/assets/bg/rekiden-wood-gloss.png") !important;
+  background-repeat: no-repeat !important;
+  background-size: 1500px auto !important;  /* 好みで 1200–1800px */
+  background-position: 55% 20% !important;  /* 節の位置調整 */
+  background-attachment: scroll !important;
+}
+
+/* body のオーバーレイを完全無効化 */
+body.theme-rekiden::before,
+body.theme-rekiden::after { content: none !important; }
+
+/* パネルの不透明色を一旦オフ */
+body.theme-rekiden main.page,
+body.theme-rekiden .page-content > .wrapper {
+  background: transparent !important;
+}
+
+/* もし wrapper に木目を敷いていたら、それも一旦オフ */
+body.theme-rekiden .page-content > .wrapper::before { content: none !important; }
