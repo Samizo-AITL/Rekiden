@@ -240,3 +240,37 @@ body.theme-rekiden [class*="banner"]{
 /* 6) 余白は維持（読みやすさ用） */
 body.theme-rekiden .page-content > .wrapper { padding: min(2vw, 1.5rem) !important; }
 
+/* ===== N U K E 版：木目を塞ぐ背景を全消し（一時的） ===== */
+
+/* 1) body直下～本文内のすべての背景を透明化（画像/グラデも含む） */
+body.theme-rekiden *:not(img):not(svg):not(canvas) {
+  background: transparent !important;
+  background-image: none !important;
+  backdrop-filter: none !important;
+}
+
+/* 2) 擬似要素の背景も完全OFF（帯やマスクの犯人になりがち） */
+body.theme-rekiden *::before,
+body.theme-rekiden *::after {
+  content: none !important;
+  background: none !important;
+  opacity: 0 !important;
+  mix-blend-mode: normal !important;
+}
+
+/* 3) ページの主要コンテナやヘッダ/フッタも明示で透明に */
+body.theme-rekiden :where(
+  html, body, main, header, footer, nav, aside,
+  .site-header, .site-footer, .page-content, .wrapper,
+  .hero, .band, .banner, .section, .container, .panel, .card, .box
+) {
+  background: transparent !important;
+  background-image: none !important;
+}
+
+/* 4) 影・枠だけは残して読みやすさ確保（必要に応じて消してOK） */
+body.theme-rekiden :where(.wrapper, .panel, .card, .box) {
+  border: 1px solid rgba(0,0,0,.25) !important;
+  box-shadow: 0 6px 18px rgba(0,0,0,.35) !important;
+  border-radius: 10px !important;
+}
