@@ -91,8 +91,6 @@ making **_what-if_ choices** and experiencing **alternative outcomes**.
 
 | **専門分野 / Expertise** | 半導体デバイス技術（CMOS Logic / Memory / Integration）<br>制御理論（ロバスト）<br>AI応用・教材設計<br>歴史シナリオ制作（戦国・WWII・三国志） |
 |---|---|
-| **Email** | [📧 shin3t72@gmail.com](mailto:shin3t72@gmail.com) |
-| **X (Twitter)** | [🐦 https://x.com/shin3t72](https://x.com/shin3t72) |
 | **Web** | [🌐 https://samizo-aitl.github.io/](https://samizo-aitl.github.io/) |
 
 💡 **Rekiden** は、歴史と技術の「if」を結びつけ、  
