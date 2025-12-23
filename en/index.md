@@ -122,8 +122,6 @@ See [**LICENSE**](../LICENSE) for details.
 
 | **Expertise** | Semiconductor Device Technology (CMOS Logic / Memory / Integration)<br>Control Theory (Robust)<br>AI Applications & Educational Design<br>Historical Scenario Creation (Sengoku, WWII, Three Kingdoms) |
 |---|---|
-| **Email** | [shin3t72@gmail.com](mailto:shin3t72@gmail.com) |
-| **X (Twitter)** | [https://x.com/shin3t72](https://x.com/shin3t72) |
 | **Web** | [https://samizo-aitl.github.io/](https://samizo-aitl.github.io/) |
 
 💡 **Rekiden** bridges the "what-if" of history and technology,  
